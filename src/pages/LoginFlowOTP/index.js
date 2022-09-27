@@ -6,9 +6,10 @@ import {
   Img,
   Text,
   Stack,
-  Button,
+  CheckBox,
   Line,
   Input,
+  Button,
   List,
 } from "components";
 import Header1 from "components/Header/Header1";
@@ -177,20 +178,14 @@ const LoginFlowOTPPage = () => {
             >
               <Column className="w-[76%]" compid="296" comptype="Column">
                 <Row className="items-end w-[83%]" compid="294" comptype="Row">
-                  <Button
-                    className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                  <CheckBox
+                    className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                    inputClassName="mr-[5px] w-[undefinedpx]"
                     compid="13:2794"
-                    comptype="IconButton"
-                    shape="icbRoundedBorder6"
-                    size="smIcn"
-                    variant="icbFillLightgreen800"
-                  >
-                    <Img
-                      src="images/img_vector.svg"
-                      className="flex items-center justify-center"
-                      alt="Vector"
-                    />
-                  </Button>
+                    comptype="CheckBox"
+                    name="Vector"
+                    label=""
+                  ></CheckBox>
                   <Text
                     className="price_Two1"
                     compid="13:2711"
@@ -253,20 +248,17 @@ const LoginFlowOTPPage = () => {
                   compid="284"
                   comptype="Row"
                 >
-                  <Column
-                    className="items-center rounded-radius6 w-[64%]"
-                    compid="13:2782"
-                    comptype="Column"
-                  >
-                    <Input
-                      className="placeholder:text-gray_500 Group104"
-                      wrapClassName="w-[100%]"
-                      compid="13:2783"
-                      comptype="EditText"
-                      name="Group104"
-                      placeholder="Coupon Code"
-                    ></Input>
-                  </Column>
+                  <Input
+                    className="placeholder:text-gray_500 Group104"
+                    wrapClassName="w-[64%]"
+                    compid="13:2783"
+                    comptype="EditText"
+                    name="Group104"
+                    placeholder="Coupon Code"
+                    shape="RoundedBorder8"
+                    size="md"
+                    variant="OutlineGray400"
+                  ></Input>
                   <Button
                     className="font-normal lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[28%]"
                     compid="62"
@@ -287,20 +279,14 @@ const LoginFlowOTPPage = () => {
               orientation="vertical"
             >
               <Row className="listvector_one" compid="285" comptype="Row">
-                <Button
-                  className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                <CheckBox
+                  className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                  inputClassName="mr-[5px] w-[undefinedpx]"
                   compid="13:2797"
-                  comptype="IconButton"
-                  shape="icbRoundedBorder6"
-                  size="smIcn"
-                  variant="icbFillLightgreen800"
-                >
-                  <Img
-                    src="images/img_vector.svg"
-                    className="flex items-center justify-center"
-                    alt="Vector One"
-                  />
-                </Button>
+                  comptype="CheckBox"
+                  name="Vector One"
+                  label=""
+                ></CheckBox>
                 <Img
                   src="images/img_rectangle745.png"
                   className="lg:h-[125px] xl:h-[143px] 2xl:h-[161px] 3xl:h-[193px] rounded-radius12 w-[9%]"
@@ -448,20 +434,14 @@ const LoginFlowOTPPage = () => {
                 compid="288"
                 comptype="Row"
               >
-                <Button
-                  className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                <CheckBox
+                  className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                  inputClassName="mr-[5px] w-[undefinedpx]"
                   compid="13:2800"
-                  comptype="IconButton"
-                  shape="icbRoundedBorder6"
-                  size="smIcn"
-                  variant="icbFillLightgreen800"
-                >
-                  <Img
-                    src="images/img_vector.svg"
-                    className="flex items-center justify-center"
-                    alt="Vector Two"
-                  />
-                </Button>
+                  comptype="CheckBox"
+                  name="Vector Two"
+                  label=""
+                ></CheckBox>
                 <Img
                   src="images/img_rectangle802.png"
                   className="Rectangle830"
@@ -592,20 +572,14 @@ const LoginFlowOTPPage = () => {
                 compid="290"
                 comptype="Row"
               >
-                <Button
-                  className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                <CheckBox
+                  className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                  inputClassName="mr-[5px] w-[undefinedpx]"
                   compid="13:2803"
-                  comptype="IconButton"
-                  shape="icbRoundedBorder6"
-                  size="smIcn"
-                  variant="icbFillLightgreen800"
-                >
-                  <Img
-                    src="images/img_vector.svg"
-                    className="flex items-center justify-center"
-                    alt="Vector Three"
-                  />
-                </Button>
+                  comptype="CheckBox"
+                  name="Vector Three"
+                  label=""
+                ></CheckBox>
                 <Img
                   src="images/img_group134.png"
                   className="Rectangle830"
@@ -778,7 +752,7 @@ const LoginFlowOTPPage = () => {
                 comptype="Row"
               >
                 <Text
-                  className="3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] text-gray_500 w-[auto]"
+                  className="rowninetyone"
                   compid="13:2834"
                   variant="body4"
                   comptype="Text"
@@ -790,14 +764,14 @@ const LoginFlowOTPPage = () => {
                   compid="13:2836"
                   comptype="Line"
                 />
-                <Text
-                  className="2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] text-gray_900 w-[auto]"
+                <Input
+                  className="font-semibold lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] placeholder:text-gray_900 text-gray_900 w-[100%]"
+                  wrapClassName="2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] w-[26%] xl:ml-[9px]"
                   compid="13:2835"
-                  variant="body4"
-                  comptype="Text"
-                >
-                  983-883-0000
-                </Text>
+                  comptype="EditText"
+                  name="9838830000"
+                  placeholder="983-883-0000"
+                ></Input>
                 <Img
                   src="images/img_close.svg"
                   className="lg:h-[16px] xl:h-[18px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[189px] xl:ml-[217px] 2xl:ml-[244px] 3xl:ml-[292px] lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px]"
@@ -834,36 +808,66 @@ const LoginFlowOTPPage = () => {
                       compid="312"
                       comptype="Row"
                     >
-                      <div
-                        className="bg-gray_101 border border-gray_400 border-solid lg:h-[39px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] rounded-radius6 w-[14%]"
+                      <Input
+                        className="rounded-radius6 w-[100%]"
+                        wrapClassName="2xl:h-[51px] 3xl:h-[61px] flex lg:h-[39px] w-[14%] xl:h-[45px]"
                         compid="13:2821"
-                        comptype="View"
-                      ></div>
-                      <div
-                        className="bg-gray_101 border border-gray_400 border-solid lg:h-[39px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] rounded-radius6 w-[14%]"
+                        comptype="EditText"
+                        name="Rectangle810"
+                        placeholder=""
+                        shape="RoundedBorder8"
+                        variant="OutlineGray4001_2"
+                      ></Input>
+                      <Input
+                        className="rounded-radius6 w-[100%]"
+                        wrapClassName="2xl:h-[51px] 3xl:h-[61px] flex lg:h-[39px] w-[14%] xl:h-[45px]"
                         compid="13:2822"
-                        comptype="View"
-                      ></div>
-                      <div
-                        className="bg-gray_101 border border-gray_400 border-solid lg:h-[39px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] rounded-radius6 w-[14%]"
+                        comptype="EditText"
+                        name="Rectangle821"
+                        placeholder=""
+                        shape="RoundedBorder8"
+                        variant="OutlineGray4001_2"
+                      ></Input>
+                      <Input
+                        className="rounded-radius6 w-[100%]"
+                        wrapClassName="2xl:h-[51px] 3xl:h-[61px] flex lg:h-[39px] w-[14%] xl:h-[45px]"
                         compid="13:2823"
-                        comptype="View"
-                      ></div>
-                      <div
-                        className="bg-gray_101 border border-gray_400 border-solid lg:h-[39px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] rounded-radius6 w-[14%]"
+                        comptype="EditText"
+                        name="Rectangle822"
+                        placeholder=""
+                        shape="RoundedBorder8"
+                        variant="OutlineGray4001_2"
+                      ></Input>
+                      <Input
+                        className="rounded-radius6 w-[100%]"
+                        wrapClassName="2xl:h-[51px] 3xl:h-[61px] flex lg:h-[39px] w-[14%] xl:h-[45px]"
                         compid="13:2824"
-                        comptype="View"
-                      ></div>
-                      <div
-                        className="bg-gray_101 border border-gray_400 border-solid lg:h-[39px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] rounded-radius6 w-[14%]"
+                        comptype="EditText"
+                        name="Rectangle823"
+                        placeholder=""
+                        shape="RoundedBorder8"
+                        variant="OutlineGray4001_2"
+                      ></Input>
+                      <Input
+                        className="rounded-radius6 w-[100%]"
+                        wrapClassName="2xl:h-[51px] 3xl:h-[61px] flex lg:h-[39px] w-[14%] xl:h-[45px]"
                         compid="13:2825"
-                        comptype="View"
-                      ></div>
-                      <div
-                        className="bg-gray_101 border border-gray_400 border-solid lg:h-[39px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] rounded-radius6 w-[14%]"
+                        comptype="EditText"
+                        name="Rectangle824"
+                        placeholder=""
+                        shape="RoundedBorder8"
+                        variant="OutlineGray4001_2"
+                      ></Input>
+                      <Input
+                        className="rounded-radius6 w-[100%]"
+                        wrapClassName="2xl:h-[51px] 3xl:h-[61px] flex lg:h-[39px] w-[14%] xl:h-[45px]"
                         compid="13:2826"
-                        comptype="View"
-                      ></div>
+                        comptype="EditText"
+                        name="Rectangle825"
+                        placeholder=""
+                        shape="RoundedBorder8"
+                        variant="OutlineGray4001_2"
+                      ></Input>
                     </Row>
                   </Column>
                   <Button

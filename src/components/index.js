@@ -10,6 +10,7 @@ import { Stack } from "./Stack";
 import { Text } from "./Text";
 import { Button } from "./Button";
 import { Input } from "./Input";
+import { CheckBox } from "./CheckBox";
 export {
   Column,
   Datepicker,
@@ -23,4 +24,5 @@ export {
   Text,
   Button,
   Input,
+  CheckBox,
 };

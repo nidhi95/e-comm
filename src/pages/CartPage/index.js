@@ -5,10 +5,10 @@ import {
   Row,
   Img,
   Text,
-  Button,
+  CheckBox,
   List,
   Line,
-  Stack,
+  Button,
   Input,
 } from "components";
 import Header1 from "components/Header/Header1";
@@ -150,20 +150,14 @@ const CartPagePage = () => {
               compid="255"
               comptype="Row"
             >
-              <Button
-                className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+              <CheckBox
+                className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                inputClassName="mr-[5px] w-[undefinedpx]"
                 compid="13:2690"
-                comptype="IconButton"
-                shape="icbRoundedBorder6"
-                size="smIcn"
-                variant="icbFillLightgreen800"
-              >
-                <Img
-                  src="images/img_vector.svg"
-                  className="flex items-center justify-center"
-                  alt="Vector"
-                />
-              </Button>
+                comptype="CheckBox"
+                name="Vector"
+                label=""
+              ></CheckBox>
               <Text
                 className="price_Two1"
                 compid="13:2607"
@@ -212,20 +206,14 @@ const CartPagePage = () => {
               orientation="vertical"
             >
               <Row className="listvector_one" compid="247" comptype="Row">
-                <Button
-                  className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                <CheckBox
+                  className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                  inputClassName="mr-[5px] w-[undefinedpx]"
                   compid="13:2693"
-                  comptype="IconButton"
-                  shape="icbRoundedBorder6"
-                  size="smIcn"
-                  variant="icbFillLightgreen800"
-                >
-                  <Img
-                    src="images/img_vector.svg"
-                    className="flex items-center justify-center"
-                    alt="Vector One"
-                  />
-                </Button>
+                  comptype="CheckBox"
+                  name="Vector One"
+                  label=""
+                ></CheckBox>
                 <Img
                   src="images/img_rectangle745.png"
                   className="Rectangle8271"
@@ -263,17 +251,13 @@ const CartPagePage = () => {
                     >
                       ₹1239.00
                     </Text>
-                    <Column
-                      className="bg-white_A700 border border-gray_400 border-solid items-center lg:ml-[50px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] 2xl:p-[11px] 3xl:p-[13px] lg:p-[8px] xl:p-[9px] w-[4%]"
+                    <Button
+                      className="lg:ml-[50px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] text-center w-[4%]"
                       compid="13:2624"
-                      comptype="Column"
-                    >
-                      <div
-                        className="bg-gray_400 xl:h-[1px] lg:h-[1px] 3xl:h-[2px] 2xl:h-[2px] mb-[1px] w-[88%]"
-                        compid="13:2626"
-                        comptype="View"
-                      ></div>
-                    </Column>
+                      comptype="Button"
+                      size="md"
+                      variant="OutlineGray4001_2"
+                    ></Button>
                     <Text
                       className="Group118"
                       compid="13:2621"
@@ -282,19 +266,13 @@ const CartPagePage = () => {
                     >
                       1
                     </Text>
-                    <Stack
-                      className="bg-white_A700 border border-gray_400 border-solid lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] lg:px-[5px] xl:px-[6px] 2xl:px-[7px] 3xl:px-[8px] w-[4%]"
+                    <Button
+                      className="text-center w-[4%]"
                       compid="13:2618"
-                      comptype="Stack"
-                    >
-                      <Img
-                        src="images/img_plus.svg"
-                        className="plus"
-                        compid="13:2620"
-                        comptype="Image"
-                        alt="plus"
-                      />
-                    </Stack>
+                      comptype="Button"
+                      size="sm"
+                      variant="OutlineGray4001_2"
+                    ></Button>
                     <Text
                       className="price_One2"
                       compid="13:2606"
@@ -348,20 +326,14 @@ const CartPagePage = () => {
                 comptype="Line"
               />
               <Row className="listvector_one" compid="249" comptype="Row">
-                <Button
-                  className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                <CheckBox
+                  className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                  inputClassName="mr-[5px] w-[undefinedpx]"
                   compid="13:2696"
-                  comptype="IconButton"
-                  shape="icbRoundedBorder6"
-                  size="smIcn"
-                  variant="icbFillLightgreen800"
-                >
-                  <Img
-                    src="images/img_vector.svg"
-                    className="flex items-center justify-center"
-                    alt="Vector Two"
-                  />
-                </Button>
+                  comptype="CheckBox"
+                  name="Vector Two"
+                  label=""
+                ></CheckBox>
                 <Img
                   src="images/img_rectangle802.png"
                   className="Rectangle8271"
@@ -399,17 +371,13 @@ const CartPagePage = () => {
                     >
                       ₹1239.00
                     </Text>
-                    <Column
-                      className="bg-white_A700 border border-gray_400 border-solid items-center lg:ml-[50px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] 2xl:p-[11px] 3xl:p-[13px] lg:p-[8px] xl:p-[9px] w-[4%]"
+                    <Button
+                      className="lg:ml-[50px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] text-center w-[4%]"
                       compid="13:2652"
-                      comptype="Column"
-                    >
-                      <div
-                        className="bg-gray_400 xl:h-[1px] lg:h-[1px] 3xl:h-[2px] 2xl:h-[2px] mb-[1px] w-[88%]"
-                        compid="13:2654"
-                        comptype="View"
-                      ></div>
-                    </Column>
+                      comptype="Button"
+                      size="md"
+                      variant="OutlineGray4001_2"
+                    ></Button>
                     <Text
                       className="Group118"
                       compid="13:2649"
@@ -418,19 +386,13 @@ const CartPagePage = () => {
                     >
                       1
                     </Text>
-                    <Stack
-                      className="bg-white_A700 border border-gray_400 border-solid lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] lg:px-[5px] xl:px-[6px] 2xl:px-[7px] 3xl:px-[8px] w-[4%]"
+                    <Button
+                      className="text-center w-[4%]"
                       compid="13:2646"
-                      comptype="Stack"
-                    >
-                      <Img
-                        src="images/img_plus.svg"
-                        className="plus"
-                        compid="13:2648"
-                        comptype="Image"
-                        alt="plus One"
-                      />
-                    </Stack>
+                      comptype="Button"
+                      size="sm"
+                      variant="OutlineGray4001_2"
+                    ></Button>
                     <Text
                       className="price_One2"
                       compid="13:2639"
@@ -484,20 +446,14 @@ const CartPagePage = () => {
                 comptype="Line"
               />
               <Row className="listvector_one" compid="251" comptype="Row">
-                <Button
-                  className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                <CheckBox
+                  className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                  inputClassName="mr-[5px] w-[undefinedpx]"
                   compid="13:2699"
-                  comptype="IconButton"
-                  shape="icbRoundedBorder6"
-                  size="smIcn"
-                  variant="icbFillLightgreen800"
-                >
-                  <Img
-                    src="images/img_vector.svg"
-                    className="flex items-center justify-center"
-                    alt="Vector Three"
-                  />
-                </Button>
+                  comptype="CheckBox"
+                  name="Vector Three"
+                  label=""
+                ></CheckBox>
                 <Img
                   src="images/img_group134.png"
                   className="Rectangle8271"
@@ -535,17 +491,13 @@ const CartPagePage = () => {
                     >
                       ₹1239.00
                     </Text>
-                    <Column
-                      className="bg-white_A700 border border-gray_400 border-solid items-center lg:ml-[50px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] 2xl:p-[11px] 3xl:p-[13px] lg:p-[8px] xl:p-[9px] w-[4%]"
+                    <Button
+                      className="lg:ml-[50px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] text-center w-[4%]"
                       compid="13:2672"
-                      comptype="Column"
-                    >
-                      <div
-                        className="bg-gray_400 xl:h-[1px] lg:h-[1px] 3xl:h-[2px] 2xl:h-[2px] mb-[1px] w-[88%]"
-                        compid="13:2674"
-                        comptype="View"
-                      ></div>
-                    </Column>
+                      comptype="Button"
+                      size="md"
+                      variant="OutlineGray4001_2"
+                    ></Button>
                     <Text
                       className="Group118"
                       compid="13:2669"
@@ -554,19 +506,13 @@ const CartPagePage = () => {
                     >
                       1
                     </Text>
-                    <Stack
-                      className="bg-white_A700 border border-gray_400 border-solid lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] lg:px-[5px] xl:px-[6px] 2xl:px-[7px] 3xl:px-[8px] w-[4%]"
+                    <Button
+                      className="text-center w-[4%]"
                       compid="13:2666"
-                      comptype="Stack"
-                    >
-                      <Img
-                        src="images/img_plus.svg"
-                        className="plus"
-                        compid="13:2668"
-                        comptype="Image"
-                        alt="plus Two"
-                      />
-                    </Stack>
+                      comptype="Button"
+                      size="sm"
+                      variant="OutlineGray4001_2"
+                    ></Button>
                     <Text
                       className="price_One2"
                       compid="13:2659"
@@ -653,20 +599,17 @@ const CartPagePage = () => {
               compid="267"
               comptype="Row"
             >
-              <Column
-                className="items-center rounded-radius6 w-[64%]"
-                compid="13:2678"
-                comptype="Column"
-              >
-                <Input
-                  className="placeholder:text-gray_500 Group104"
-                  wrapClassName="w-[100%]"
-                  compid="13:2679"
-                  comptype="EditText"
-                  name="Group104"
-                  placeholder="Coupon Code"
-                ></Input>
-              </Column>
+              <Input
+                className="placeholder:text-gray_500 Group104"
+                wrapClassName="w-[64%]"
+                compid="13:2679"
+                comptype="EditText"
+                name="Group104"
+                placeholder="Coupon Code"
+                shape="RoundedBorder8"
+                size="md"
+                variant="OutlineGray400"
+              ></Input>
               <Button
                 className="font-normal lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[28%]"
                 compid="58"

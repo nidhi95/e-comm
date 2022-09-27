@@ -13,9 +13,10 @@ const Header1 = (props) => {
         >
           <Img
             src="images/img_logo.svg"
-            className="lg:h-[21px] xl:h-[24px] 2xl:h-[27px] 3xl:h-[32px] lg:mt-[10px] xl:mt-[12px] 2xl:mt-[14px] 3xl:mt-[16px] w-[8%]"
+            className="common-pointer lg:h-[21px] xl:h-[24px] 2xl:h-[27px] 3xl:h-[32px] lg:mt-[10px] xl:mt-[12px] 2xl:mt-[14px] 3xl:mt-[16px] w-[8%]"
             compid="I13:2181;1:10418"
             comptype="Image"
+            onClick={props?.onlogoClick}
             alt="logo"
           />
           <Text
@@ -72,7 +73,7 @@ const Header1 = (props) => {
               alt="contrast"
             />
             <Text
-              className="hover:bg-gray_800 cursor-pointer hover:font-bold hover:justify-center lg:mr-[19px] xl:mr-[22px] 2xl:mr-[25px] 3xl:mr-[30px] input"
+              className="hover:bg-gray_800 cursor-pointer hover:font-bold font-inter font-normal hover:justify-center lg:ml-[14px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:mr-[19px] xl:mr-[22px] 2xl:mr-[25px] 3xl:mr-[30px] not-italic text-gray_500 w-[auto]"
               compid="I13:2181;1:10417;1:10370"
               variant="body6"
               comptype="Text"

@@ -8,8 +8,8 @@ export const SampleInput = (args) => <Input {...args} />;
 SampleInput.args = {
   type: "text",
   shape: "RoundedBorder8",
-  variant: "OutlineGray400",
-  size: "sm",
+  variant: "OutlineGray4001_2",
+  size: "md",
   wrapClassName: "w-[300px]",
   className: "w-full",
   placeholder: "placeholder",

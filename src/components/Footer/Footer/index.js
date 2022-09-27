@@ -243,7 +243,7 @@ const Footer = (props) => {
                     alt="camera"
                   />
                   <Text
-                    className="font-inter font-normal 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] mt-[3px] not-italic text-gray_500 w-[auto]"
+                    className="font-inter font-normal mt-[3px] not-italic rowninetyone"
                     compid="I13:2841;61:718;60:552"
                     variant="body6"
                     comptype="Text"
@@ -264,7 +264,7 @@ const Footer = (props) => {
                     alt="facebook"
                   />
                   <Text
-                    className="font-inter font-normal 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] not-italic text-gray_500 w-[auto]"
+                    className="font-inter font-normal not-italic rowninetyone"
                     compid="I13:2841;60:553;60:552"
                     variant="body6"
                     comptype="Text"
@@ -285,7 +285,7 @@ const Footer = (props) => {
                     alt="play"
                   />
                   <Text
-                    className="font-inter font-normal 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] my-[1px] not-italic text-gray_500 w-[auto]"
+                    className="font-inter font-normal my-[1px] not-italic rowninetyone"
                     compid="I13:2841;60:554;60:552"
                     variant="body6"
                     comptype="Text"
@@ -358,7 +358,7 @@ const Footer = (props) => {
                 alt="checkmark"
               />
               <Text
-                className="input"
+                className="font-inter font-normal lg:ml-[14px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] not-italic text-gray_500 w-[auto]"
                 compid="I13:2841;102:333"
                 variant="body6"
                 comptype="Text"

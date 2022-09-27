@@ -177,9 +177,6 @@ li:hover{
 .AboutUsOutSt_Five{
  @apply font-normal lg:mt-[18px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] not-italic text-gray_500 w-[auto]; 
 }
-.input{
- @apply font-inter font-normal lg:ml-[14px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] not-italic text-gray_500 w-[auto]; 
-}
 .rowvector1{
  @apply font-bold mb-[1px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] text-gray_900 tracking-ls1 w-[auto]; 
 }
@@ -236,6 +233,9 @@ li:hover{
 }
 .Rectangle830{
  @apply lg:h-[125px] xl:h-[143px] 2xl:h-[161px] 3xl:h-[193px] lg:ml-[20px] xl:ml-[23px] 2xl:ml-[26px] 3xl:ml-[31px] rounded-radius12 w-[14%]; 
+}
+.rowninetyone{
+ @apply 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] text-gray_500 w-[auto]; 
 }
 .Rectangle8271{
  @apply lg:h-[125px] xl:h-[143px] 2xl:h-[161px] 3xl:h-[193px] rounded-radius12 w-[14%]; 

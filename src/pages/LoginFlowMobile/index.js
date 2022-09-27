@@ -6,9 +6,10 @@ import {
   Img,
   Text,
   Stack,
-  Button,
+  CheckBox,
   Line,
   Input,
+  Button,
   List,
 } from "components";
 import Header1 from "components/Header/Header1";
@@ -177,20 +178,14 @@ const LoginFlowMobilePage = () => {
             >
               <Column className="w-[76%]" compid="95" comptype="Column">
                 <Row className="items-end w-[83%]" compid="93" comptype="Row">
-                  <Button
-                    className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                  <CheckBox
+                    className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                    inputClassName="mr-[5px] w-[undefinedpx]"
                     compid="13:2930"
-                    comptype="IconButton"
-                    shape="icbRoundedBorder6"
-                    size="smIcn"
-                    variant="icbFillLightgreen800"
-                  >
-                    <Img
-                      src="images/img_vector.svg"
-                      className="flex items-center justify-center"
-                      alt="Vector"
-                    />
-                  </Button>
+                    comptype="CheckBox"
+                    name="Vector"
+                    label=""
+                  ></CheckBox>
                   <Text
                     className="price_Two1"
                     compid="13:2847"
@@ -253,20 +248,17 @@ const LoginFlowMobilePage = () => {
                   compid="83"
                   comptype="Row"
                 >
-                  <Column
-                    className="items-center rounded-radius6 w-[64%]"
-                    compid="13:2918"
-                    comptype="Column"
-                  >
-                    <Input
-                      className="placeholder:text-gray_500 Group104"
-                      wrapClassName="w-[100%]"
-                      compid="13:2919"
-                      comptype="EditText"
-                      name="Group104"
-                      placeholder="Coupon Code"
-                    ></Input>
-                  </Column>
+                  <Input
+                    className="placeholder:text-gray_500 Group104"
+                    wrapClassName="w-[64%]"
+                    compid="13:2919"
+                    comptype="EditText"
+                    name="Group104"
+                    placeholder="Coupon Code"
+                    shape="RoundedBorder8"
+                    size="md"
+                    variant="OutlineGray400"
+                  ></Input>
                   <Button
                     className="font-normal lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[28%]"
                     compid="2"
@@ -287,20 +279,14 @@ const LoginFlowMobilePage = () => {
               orientation="vertical"
             >
               <Row className="listvector_one" compid="84" comptype="Row">
-                <Button
-                  className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                <CheckBox
+                  className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                  inputClassName="mr-[5px] w-[undefinedpx]"
                   compid="13:2933"
-                  comptype="IconButton"
-                  shape="icbRoundedBorder6"
-                  size="smIcn"
-                  variant="icbFillLightgreen800"
-                >
-                  <Img
-                    src="images/img_vector.svg"
-                    className="flex items-center justify-center"
-                    alt="Vector One"
-                  />
-                </Button>
+                  comptype="CheckBox"
+                  name="Vector One"
+                  label=""
+                ></CheckBox>
                 <Img
                   src="images/img_rectangle745.png"
                   className="lg:h-[125px] xl:h-[143px] 2xl:h-[161px] 3xl:h-[193px] rounded-radius12 w-[9%]"
@@ -448,20 +434,14 @@ const LoginFlowMobilePage = () => {
                 compid="87"
                 comptype="Row"
               >
-                <Button
-                  className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                <CheckBox
+                  className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                  inputClassName="mr-[5px] w-[undefinedpx]"
                   compid="13:2936"
-                  comptype="IconButton"
-                  shape="icbRoundedBorder6"
-                  size="smIcn"
-                  variant="icbFillLightgreen800"
-                >
-                  <Img
-                    src="images/img_vector.svg"
-                    className="flex items-center justify-center"
-                    alt="Vector Two"
-                  />
-                </Button>
+                  comptype="CheckBox"
+                  name="Vector Two"
+                  label=""
+                ></CheckBox>
                 <Img
                   src="images/img_rectangle802.png"
                   className="Rectangle830"
@@ -592,20 +572,14 @@ const LoginFlowMobilePage = () => {
                 compid="89"
                 comptype="Row"
               >
-                <Button
-                  className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                <CheckBox
+                  className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                  inputClassName="mr-[5px] w-[undefinedpx]"
                   compid="13:2939"
-                  comptype="IconButton"
-                  shape="icbRoundedBorder6"
-                  size="smIcn"
-                  variant="icbFillLightgreen800"
-                >
-                  <Img
-                    src="images/img_vector.svg"
-                    className="flex items-center justify-center"
-                    alt="Vector Three"
-                  />
-                </Button>
+                  comptype="CheckBox"
+                  name="Vector Three"
+                  label=""
+                ></CheckBox>
                 <Img
                   src="images/img_group134.png"
                   className="Rectangle830"
@@ -783,7 +757,7 @@ const LoginFlowMobilePage = () => {
                   comptype="Row"
                 >
                   <Text
-                    className="3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] text-gray_500 w-[auto]"
+                    className="rowninetyone"
                     compid="13:2961"
                     variant="body4"
                     comptype="Text"
@@ -795,14 +769,14 @@ const LoginFlowMobilePage = () => {
                     compid="13:2963"
                     comptype="Line"
                   />
-                  <Text
-                    className="2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] text-gray_900 w-[auto]"
+                  <Input
+                    className="font-semibold lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] placeholder:text-gray_900 text-gray_900 w-[100%]"
+                    wrapClassName="2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] w-[46%] xl:ml-[9px]"
                     compid="13:2962"
-                    variant="body4"
-                    comptype="Text"
-                  >
-                    Enter your Mobile number
-                  </Text>
+                    comptype="EditText"
+                    name="EnteryourMobi"
+                    placeholder="Enter your Mobile number"
+                  ></Input>
                 </Row>
               </Column>
               <Row
@@ -810,20 +784,14 @@ const LoginFlowMobilePage = () => {
                 compid="13:2952"
                 comptype="Row"
               >
-                <Button
-                  className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                <CheckBox
+                  className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                  inputClassName="mr-[5px] w-[undefinedpx]"
                   compid="13:2954"
-                  comptype="IconButton"
-                  shape="icbRoundedBorder6"
-                  size="smIcn"
-                  variant="icbFillLightgreen800"
-                >
-                  <Img
-                    src="images/img_vector.svg"
-                    className="flex items-center justify-center"
-                    alt="Vector Four"
-                  />
-                </Button>
+                  comptype="CheckBox"
+                  name="Vector Four"
+                  label=""
+                ></CheckBox>
                 <Text
                   className="font-semibold mb-[1px] xl:ml-[10px] 2xl:ml-[12px] 3xl:ml-[14px] lg:ml-[9px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] text-gray_500 w-[auto]"
                   compid="13:2953"

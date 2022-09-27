@@ -4,11 +4,17 @@ import PropTypes from "prop-types";
 
 const variants = {
   OutlineGray400: "bg-gray_101 border border-gray_400 border-solid",
+  FillWhiteA700: "bg-white_A700",
+  OutlineGray4001_2: "bg-gray_101 border border-gray_400 border-solid",
 };
-const shapes = { RoundedBorder8: "rounded-radius8" };
+const shapes = {
+  RoundedBorder8: "rounded-radius8",
+  RoundedBorder16: "rounded-radius16",
+};
 const sizes = {
-  sm: "3xl:pb-[10px] lg:pb-[7px] xl:pb-[8px] pb-[9px] lg:pt-[10px] xl:pt-[12px] pt-[14px] 3xl:pt-[16px] 3xl:px-[10px] lg:px-[7px] xl:px-[8px] px-[9px]",
-  md: "lg:pb-[10px] xl:pb-[12px] pb-[14px] 3xl:pb-[16px] lg:pt-[14px] xl:pt-[16px] pt-[19px] 3xl:pt-[22px] lg:px-[10px] xl:px-[12px] px-[14px] 3xl:px-[16px]",
+  sm: "lg:p-[6px] xl:p-[7px] p-[8px] 3xl:p-[9px]",
+  md: "3xl:pb-[10px] lg:pb-[7px] xl:pb-[8px] pb-[9px] lg:pt-[10px] xl:pt-[12px] pt-[14px] 3xl:pt-[16px] 3xl:px-[10px] lg:px-[7px] xl:px-[8px] px-[9px]",
+  lg: "lg:pb-[10px] xl:pb-[12px] pb-[14px] 3xl:pb-[16px] lg:pt-[14px] xl:pt-[16px] pt-[19px] 3xl:pt-[22px] lg:px-[10px] xl:px-[12px] px-[14px] 3xl:px-[16px]",
 };
 
 const Input = React.forwardRef(
@@ -62,9 +68,13 @@ Input.propTypes = {
   name: PropTypes.string,
   placeholder: PropTypes.string,
   type: PropTypes.string,
-  shape: PropTypes.oneOf(["RoundedBorder8"]),
-  variant: PropTypes.oneOf(["OutlineGray400"]),
-  size: PropTypes.oneOf(["sm", "md"]),
+  shape: PropTypes.oneOf(["RoundedBorder8", "RoundedBorder16"]),
+  variant: PropTypes.oneOf([
+    "OutlineGray400",
+    "FillWhiteA700",
+    "OutlineGray4001_2",
+  ]),
+  size: PropTypes.oneOf(["sm", "md", "lg"]),
 };
 Input.defaultProps = {
   wrapClassName: "",
@@ -72,9 +82,9 @@ Input.defaultProps = {
   name: "",
   placeholder: "",
   type: "text",
-  shape: "RoundedBorder8",
-  variant: "OutlineGray400",
-  size: "sm",
+  shape: "",
+  variant: "",
+  size: "",
 };
 
 export { Input };

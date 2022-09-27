@@ -8,16 +8,16 @@ import { useNavigate } from "react-router-dom";
 const DesktopThreePage = () => {
   const navigate = useNavigate();
 
-  function handleNavigate() {
+  function handleNavigate1() {
     navigate("/cartpage");
   }
-  function handleNavigate1() {
+  function handleNavigate2() {
     navigate("/loginflowotp");
   }
-  function handleNavigate2() {
+  function handleNavigate3() {
     navigate("/loginflowmobile");
   }
-  function handleNavigate3() {
+  function handleNavigate4() {
     navigate("/productdetailspageproductdescription");
   }
 
@@ -93,10 +93,10 @@ const DesktopThreePage = () => {
             className="font-inter w-[100%]"
             compid="67"
             comptype="Header"
-            ontrashClick={handleNavigate}
-            onfavoriteClick={handleNavigate1}
-            onuserClick={handleNavigate2}
-            onNewarrivalClick={handleNavigate3}
+            ontrashClick={handleNavigate1}
+            onfavoriteClick={handleNavigate2}
+            onuserClick={handleNavigate3}
+            onNewarrivalClick={handleNavigate4}
           />
           <Text
             className="font-extrabold font-lato lg:mt-[27px] xl:mt-[31px] 2xl:mt-[35px] 3xl:mt-[42px] text-gray_900 tracking-ls1 uppercase w-[auto]"
@@ -1237,7 +1237,9 @@ const DesktopThreePage = () => {
                     comptype="EditText"
                     name="GroupEighteen"
                     placeholder="Enter Email"
-                    size="md"
+                    shape="RoundedBorder8"
+                    size="lg"
+                    variant="OutlineGray400"
                   ></Input>
                 </Stack>
                 <Button

@@ -12,8 +12,15 @@ import {
   Input,
 } from "components";
 import Header1 from "components/Header/Header1";
+import { useNavigate } from "react-router-dom";
 
 const ProductDetailsPageProductdescriptionPage = () => {
+  const navigate = useNavigate();
+
+  function handleNavigate() {
+    navigate("/desktopthree");
+  }
+
   return (
     <>
       <Column
@@ -82,7 +89,12 @@ const ProductDetailsPageProductdescriptionPage = () => {
               Secure Payments
             </Text>
           </Row>
-          <Header1 className="w-[100%]" compid="68" comptype="Header" />
+          <Header1
+            className="w-[100%]"
+            compid="68"
+            comptype="Header"
+            onlogoClick={handleNavigate}
+          />
         </Column>
         <Row
           className="font-lato lg:mt-[23px] xl:mt-[26px] 2xl:mt-[30px] 3xl:mt-[36px] w-[96%]"
@@ -638,7 +650,9 @@ const ProductDetailsPageProductdescriptionPage = () => {
                 comptype="EditText"
                 name="Group172"
                 placeholder="Enter Pin"
-                size="md"
+                shape="RoundedBorder8"
+                size="lg"
+                variant="OutlineGray400"
               ></Input>
               <Button
                 className="font-normal lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[37%]"
@@ -2701,7 +2715,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                           alt="camera"
                         />
                         <Text
-                          className="font-normal 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] mt-[3px] not-italic text-gray_500 w-[auto]"
+                          className="font-normal mt-[3px] not-italic rowninetyone"
                           compid="I13:2472;61:718;60:552"
                           variant="body6"
                           comptype="Text"
@@ -2722,7 +2736,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                           alt="facebook"
                         />
                         <Text
-                          className="font-normal 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] not-italic text-gray_500 w-[auto]"
+                          className="font-normal not-italic rowninetyone"
                           compid="I13:2472;60:553;60:552"
                           variant="body6"
                           comptype="Text"
@@ -2743,7 +2757,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                           alt="play"
                         />
                         <Text
-                          className="font-normal 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] my-[1px] not-italic text-gray_500 w-[auto]"
+                          className="font-normal my-[1px] not-italic rowninetyone"
                           compid="I13:2472;60:554;60:552"
                           variant="body6"
                           comptype="Text"
@@ -2803,37 +2817,26 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   >
                     Sign up for email updates today.
                   </Text>
-                  <Row
-                    className="bg-white_A700 items-center justify-end lg:mt-[6px] xl:mt-[7px] 2xl:mt-[8px] 3xl:mt-[9px] lg:p-[6px] xl:p-[7px] 2xl:p-[8px] 3xl:p-[9px] rounded-radius16 w-[100%]"
+                  <Input
+                    className="p-[0] w-[100%]"
+                    wrapClassName="2xl:mt-[8px] 3xl:mt-[9px] flex lg:mt-[6px] w-[100%] xl:mt-[7px]"
                     compid="I13:2472;102:331"
-                    comptype="Row"
-                  >
-                    <Img
-                      src="images/img_checkmark.svg"
-                      className="lg:h-[14px] xl:h-[16px] 2xl:h-[18px] 3xl:h-[21px] w-[5%]"
-                      compid="I13:2472;102:332;13:2321"
-                      comptype="Image"
-                      alt="checkmark"
-                    />
-                    <Text
-                      className="input"
-                      compid="I13:2472;102:333"
-                      variant="body6"
-                      comptype="Text"
-                    >
-                      Enter email address
-                    </Text>
-                    <Button
-                      className="font-medium font-rubik 2xl:ml-[105px] 3xl:ml-[126px] lg:ml-[81px] xl:ml-[93px] lg:text-[11px] xl:text-[13px] 2xl:text-[15px] 3xl:text-[18px] text-center w-[23%]"
-                      compid="I13:2472;102:334"
-                      comptype="Button"
-                      shape="RoundedBorder12"
-                      size="sm"
-                      variant="FillYellowA400"
-                    >
-                      Sign up
-                    </Button>
-                  </Row>
+                    comptype="EditText"
+                    name="input"
+                    placeholder=""
+                    suffix={
+                      <Img
+                        src="images/img_checkmark.svg"
+                        className="ml-[0] lg:w-[15px] lg:mr-[6px] xl:w-[17px] xl:mr-[7px] 2xl:w-[20px] 2xl:mr-[8px] 3xl:w-[24px] 3xl:mr-[9px] my-[auto]"
+                        compid="I13:2472;102:332;13:2321"
+                        comptype="Image"
+                        alt="checkmark"
+                      />
+                    }
+                    shape="RoundedBorder16"
+                    size="sm"
+                    variant="FillWhiteA700"
+                  ></Input>
                   <Text
                     className="font-normal lg:leading-[14px] xl:leading-[16px] 2xl:leading-[18px] 3xl:leading-[21px] lg:mt-[28px] xl:mt-[32px] 2xl:mt-[36px] 3xl:mt-[43px] not-italic text-gray_500 w-[91%]"
                     compid="I13:2472;60:573"
