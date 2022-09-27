@@ -32,7 +32,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutRapidbox1"
                   compid="I13:2841;61:715;60:518"
-                  variant="body8"
+                  variant="body7"
                   comptype="Text"
                 >
                   About Rapidbox
@@ -40,7 +40,7 @@ const Footer = (props) => {
                 <Text
                   className="font-inter font-normal lg:mt-[12px] xl:mt-[14px] 2xl:mt-[16px] 3xl:mt-[19px] not-italic text-gray_500 w-[auto]"
                   compid="I13:2841;61:716;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   About Us/Out Story
@@ -55,7 +55,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutUsOutSt_One1"
                   compid="I13:2841;60:524;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Founding Team
@@ -63,7 +63,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutUsOutSt_One1"
                   compid="I13:2841;60:525;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Our Journey
@@ -71,7 +71,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutUsOutSt_One1"
                   compid="I13:2841;60:526;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Making of Our Shoes
@@ -79,7 +79,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutUsOutSt_Four2"
                   compid="I13:2841;60:527;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   We Care - Social Causes
@@ -87,7 +87,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutUsOutSt_Five1"
                   compid="I13:2841;60:528;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Community
@@ -101,7 +101,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutRapidbox1"
                   compid="I13:2841;60:530;60:518"
-                  variant="body8"
+                  variant="body7"
                   comptype="Text"
                 >
                   Need help?
@@ -109,7 +109,7 @@ const Footer = (props) => {
                 <Text
                   className="font-inter font-normal lg:mt-[12px] xl:mt-[14px] 2xl:mt-[16px] 3xl:mt-[19px] not-italic text-gray_500 w-[auto]"
                   compid="I13:2841;60:532;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Help Center
@@ -117,7 +117,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutUsOutSt_Four2"
                   compid="I13:2841;60:533;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Size Guide
@@ -125,7 +125,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutUsOutSt_Five1"
                   compid="I13:2841;60:534;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Shipping & Delivery
@@ -133,7 +133,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutUsOutSt_One1"
                   compid="I13:2841;60:535;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Returns & Exchange
@@ -141,7 +141,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutUsOutSt_One1"
                   compid="I13:2841;60:536;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Order Tracking
@@ -149,7 +149,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutUsOutSt_Four2"
                   compid="I13:2841;60:537;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Gift Cards
@@ -157,7 +157,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutUsOutSt_Five1"
                   compid="I13:2841;60:538;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Site Map
@@ -171,7 +171,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutRapidbox1"
                   compid="I13:2841;60:540;60:518"
-                  variant="body8"
+                  variant="body7"
                   comptype="Text"
                 >
                   Our E-stores
@@ -179,7 +179,7 @@ const Footer = (props) => {
                 <Text
                   className="font-inter font-normal lg:mt-[13px] xl:mt-[15px] 2xl:mt-[17px] 3xl:mt-[20px] not-italic text-gray_500 w-[auto]"
                   compid="I13:2841;60:542;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   The Sneaker Store
@@ -187,7 +187,7 @@ const Footer = (props) => {
                 <Text
                   className="font-inter font-normal lg:mt-[17px] xl:mt-[19px] 2xl:mt-[22px] 3xl:mt-[26px] not-italic text-gray_500 w-[auto]"
                   compid="I13:2841;60:543;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   The Athleisure Store
@@ -195,7 +195,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutUsOutSt_Five1"
                   compid="I13:2841;60:544;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   The Sports Shoes Store
@@ -203,7 +203,7 @@ const Footer = (props) => {
                 <Text
                   className="font-inter font-normal lg:mt-[14px] xl:mt-[16px] 2xl:mt-[19px] 3xl:mt-[22px] not-italic text-gray_500 w-[auto]"
                   compid="I13:2841;60:545;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   The Streetwear Store
@@ -211,7 +211,7 @@ const Footer = (props) => {
                 <Text
                   className="font-inter font-normal lg:mt-[17px] xl:mt-[20px] 2xl:mt-[23px] 3xl:mt-[27px] not-italic text-gray_500 w-[auto]"
                   compid="I13:2841;60:546;60:521"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   The Jacket Store
@@ -225,7 +225,7 @@ const Footer = (props) => {
                 <Text
                   className="AboutRapidbox1"
                   compid="I13:2841;60:548;60:518"
-                  variant="body8"
+                  variant="body7"
                   comptype="Text"
                 >
                   Social Media
@@ -243,9 +243,9 @@ const Footer = (props) => {
                     alt="camera"
                   />
                   <Text
-                    className="font-inter font-normal mt-[3px] not-italic rowninetyone"
+                    className="font-inter font-normal 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] mt-[3px] not-italic text-gray_500 w-[auto]"
                     compid="I13:2841;61:718;60:552"
-                    variant="body6"
+                    variant="body5"
                     comptype="Text"
                   >
                     Instagram
@@ -264,9 +264,9 @@ const Footer = (props) => {
                     alt="facebook"
                   />
                   <Text
-                    className="font-inter font-normal not-italic rowninetyone"
+                    className="font-inter font-normal 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] not-italic text-gray_500 w-[auto]"
                     compid="I13:2841;60:553;60:552"
-                    variant="body6"
+                    variant="body5"
                     comptype="Text"
                   >
                     Facebook
@@ -285,9 +285,9 @@ const Footer = (props) => {
                     alt="play"
                   />
                   <Text
-                    className="font-inter font-normal my-[1px] not-italic rowninetyone"
+                    className="font-inter font-normal 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] my-[1px] not-italic text-gray_500 w-[auto]"
                     compid="I13:2841;60:554;60:552"
-                    variant="body6"
+                    variant="body5"
                     comptype="Text"
                   >
                     Youtube
@@ -298,7 +298,7 @@ const Footer = (props) => {
             <Text
               className="font-inter font-medium ml-[1px] lg:mt-[46px] xl:mt-[53px] 2xl:mt-[60px] 3xl:mt-[72px] text-white_A700 w-[auto]"
               compid="I13:2841;60:513"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               © 2022 Rapidbox®, Inc.
@@ -306,7 +306,7 @@ const Footer = (props) => {
             <Text
               className="font-inter font-normal ml-[1px] lg:mt-[6px] xl:mt-[7px] 2xl:mt-[8px] 3xl:mt-[9px] text-white_A700 w-[auto]"
               compid="I13:2841;60:514"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               <span className="text-white_A700 font-medium underline lg:text-[10px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
@@ -340,7 +340,7 @@ const Footer = (props) => {
             <Text
               className="font-inter font-normal xl:mt-[10px] 2xl:mt-[12px] 3xl:mt-[14px] lg:mt-[9px] not-italic text-white_A700 w-[auto]"
               compid="I13:2841;60:570"
-              variant="body6"
+              variant="body5"
               comptype="Text"
             >
               Sign up for email updates today.
@@ -360,7 +360,7 @@ const Footer = (props) => {
               <Text
                 className="font-inter font-normal lg:ml-[14px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] not-italic text-gray_500 w-[auto]"
                 compid="I13:2841;102:333"
-                variant="body6"
+                variant="body5"
                 comptype="Text"
               >
                 Enter email address
@@ -379,7 +379,7 @@ const Footer = (props) => {
             <Text
               className="font-inter font-normal lg:leading-[14px] xl:leading-[16px] 2xl:leading-[18px] 3xl:leading-[21px] lg:mt-[28px] xl:mt-[32px] 2xl:mt-[36px] 3xl:mt-[43px] not-italic text-gray_500 w-[91%]"
               compid="I13:2841;60:573"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               By providing your email, you agree to the Terms of Use and Privacy
@@ -388,7 +388,7 @@ const Footer = (props) => {
             <Text
               className="font-inter font-normal xl:mt-[10px] 2xl:mt-[12px] 3xl:mt-[14px] lg:mt-[9px] not-italic text-gray_500 w-[auto]"
               compid="I13:2841;60:574"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               You may unsubscribe later.
@@ -396,7 +396,7 @@ const Footer = (props) => {
             <Text
               className="lg:mt-[34px] xl:mt-[39px] 2xl:mt-[44px] 3xl:mt-[52px] AboutRapidbox1"
               compid="I13:2841;60:503"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               Accepted Payment Methods

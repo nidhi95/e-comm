@@ -12,7 +12,7 @@ const shapes = {
   RoundedBorder16: "rounded-radius16",
 };
 const sizes = {
-  sm: "lg:p-[6px] xl:p-[7px] p-[8px] 3xl:p-[9px]",
+  sm: "lg:p-[5px] xl:p-[6px] p-[7px] 3xl:p-[8px]",
   md: "3xl:pb-[10px] lg:pb-[7px] xl:pb-[8px] pb-[9px] lg:pt-[10px] xl:pt-[12px] pt-[14px] 3xl:pt-[16px] 3xl:px-[10px] lg:px-[7px] xl:px-[8px] px-[9px]",
   lg: "lg:pb-[10px] xl:pb-[12px] pb-[14px] 3xl:pb-[16px] lg:pt-[14px] xl:pt-[16px] pt-[19px] 3xl:pt-[22px] lg:px-[10px] xl:px-[12px] px-[14px] 3xl:px-[16px]",
 };
@@ -82,8 +82,8 @@ Input.defaultProps = {
   name: "",
   placeholder: "",
   type: "text",
-  shape: "",
-  variant: "",
+  shape: "RoundedBorder8",
+  variant: "OutlineGray400",
   size: "",
 };
 

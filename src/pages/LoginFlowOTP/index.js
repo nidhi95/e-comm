@@ -38,7 +38,7 @@ const LoginFlowOTPPage = () => {
           <Text
             className="FastEasyand"
             compid="I13:2703;137:390"
-            variant="body8"
+            variant="body7"
             comptype="Text"
           >
             Fast, Easy and Free Returns
@@ -53,7 +53,7 @@ const LoginFlowOTPPage = () => {
           <Text
             className="price"
             compid="I13:2703;137:393"
-            variant="body8"
+            variant="body7"
             comptype="Text"
           >
             <span className="text-bluegray_900 font-inter lg:text-[10px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
@@ -73,7 +73,7 @@ const LoginFlowOTPPage = () => {
           <Text
             className="SecurePayments"
             compid="I13:2703;137:396"
-            variant="body8"
+            variant="body7"
             comptype="Text"
           >
             Secure Payments
@@ -103,7 +103,7 @@ const LoginFlowOTPPage = () => {
               <Text
                 className="Home"
                 compid="13:2735"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Home
@@ -111,7 +111,7 @@ const LoginFlowOTPPage = () => {
               <Text
                 className="Two"
                 compid="13:2738"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 /
@@ -119,7 +119,7 @@ const LoginFlowOTPPage = () => {
               <Text
                 className="Menscollectio"
                 compid="13:2736"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Men's collection
@@ -127,7 +127,7 @@ const LoginFlowOTPPage = () => {
               <Text
                 className="Two"
                 compid="13:2739"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 /
@@ -135,7 +135,7 @@ const LoginFlowOTPPage = () => {
               <Text
                 className="WhiteWillow"
                 compid="13:2737"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Sneakers
@@ -157,7 +157,7 @@ const LoginFlowOTPPage = () => {
               <Text
                 className="font-bold lg:ml-[610px] xl:ml-[698px] 2xl:ml-[785px] 3xl:ml-[942px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] text-gray_801 tracking-ls1 w-[auto]"
                 compid="13:2789"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Subtotal
@@ -189,7 +189,7 @@ const LoginFlowOTPPage = () => {
                   <Text
                     className="price_Two1"
                     compid="13:2711"
-                    variant="body5"
+                    variant="body4"
                     comptype="Text"
                   >
                     ALL
@@ -197,7 +197,7 @@ const LoginFlowOTPPage = () => {
                   <Text
                     className="ITEM"
                     compid="13:2712"
-                    variant="body5"
+                    variant="body4"
                     comptype="Text"
                   >
                     ITEM
@@ -205,7 +205,7 @@ const LoginFlowOTPPage = () => {
                   <Text
                     className="PRICE_Three"
                     compid="13:2713"
-                    variant="body5"
+                    variant="body4"
                     comptype="Text"
                   >
                     PRICE
@@ -213,7 +213,7 @@ const LoginFlowOTPPage = () => {
                   <Text
                     className="QTY"
                     compid="13:2714"
-                    variant="body5"
+                    variant="body4"
                     comptype="Text"
                   >
                     QTY
@@ -221,7 +221,7 @@ const LoginFlowOTPPage = () => {
                   <Text
                     className="TOTAL"
                     compid="13:2715"
-                    variant="body5"
+                    variant="body4"
                     comptype="Text"
                   >
                     TOTAL
@@ -255,9 +255,7 @@ const LoginFlowOTPPage = () => {
                     comptype="EditText"
                     name="Group104"
                     placeholder="Coupon Code"
-                    shape="RoundedBorder8"
                     size="md"
-                    variant="OutlineGray400"
                   ></Input>
                   <Button
                     className="font-normal lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[28%]"
@@ -322,7 +320,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="UK42Black"
                       compid="13:2717"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       UK 42 / Black
@@ -330,7 +328,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="price_Four"
                       compid="13:2709"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -349,7 +347,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="Group118"
                       compid="13:2725"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       1
@@ -370,7 +368,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="price_One2"
                       compid="13:2710"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -401,7 +399,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="Saveforlater"
                       compid="13:2718"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Save for later
@@ -416,7 +414,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="Delete"
                       compid="13:2719"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Delete
@@ -470,7 +468,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="UK42Black"
                       compid="13:2745"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       UK 42 / Black
@@ -478,7 +476,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="price_Four"
                       compid="13:2742"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -497,7 +495,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="Group118"
                       compid="13:2753"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       1
@@ -518,7 +516,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="price_One2"
                       compid="13:2743"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -539,7 +537,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="Saveforlater"
                       compid="13:2746"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Save for later
@@ -554,7 +552,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="Delete"
                       compid="13:2747"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Delete
@@ -608,7 +606,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="UK42Black"
                       compid="13:2765"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       UK 42 / Black
@@ -616,7 +614,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="price_Four"
                       compid="13:2762"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -635,7 +633,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="Group118"
                       compid="13:2773"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       1
@@ -656,7 +654,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="price_One2"
                       compid="13:2763"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -677,7 +675,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="Saveforlater"
                       compid="13:2766"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Save for later
@@ -692,7 +690,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="Delete"
                       compid="13:2767"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Delete
@@ -724,7 +722,7 @@ const LoginFlowOTPPage = () => {
               <Text
                 className="font-semibold lg:ml-[13px] xl:ml-[15px] 2xl:ml-[17px] 3xl:ml-[20px] lg:mt-[10px] xl:mt-[12px] 2xl:mt-[14px] 3xl:mt-[16px] text-gray_500 w-[auto]"
                 compid="13:2811"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 <span className="text-gray_500 font-lato lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
@@ -741,45 +739,29 @@ const LoginFlowOTPPage = () => {
               <Text
                 className="font-semibold lg:ml-[13px] xl:ml-[15px] 2xl:ml-[17px] 3xl:ml-[20px] lg:mt-[30px] xl:mt-[34px] 2xl:mt-[39px] 3xl:mt-[46px] text-gray_500 w-[auto]"
                 compid="13:2831"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Phone Number
               </Text>
-              <Row
-                className="bg-gray_101 border border-gray_400 border-solid items-center lg:ml-[13px] xl:ml-[15px] 2xl:ml-[17px] 3xl:ml-[20px] 2xl:mt-[11px] 3xl:mt-[13px] lg:mt-[8px] xl:mt-[9px] lg:p-[5px] xl:p-[6px] 2xl:p-[7px] 3xl:p-[8px] rounded-radius6 w-[93%]"
-                compid="13:2832"
-                comptype="Row"
-              >
-                <Text
-                  className="rowninetyone"
-                  compid="13:2834"
-                  variant="body4"
-                  comptype="Text"
-                >
-                  +91
-                </Text>
-                <Line
-                  className="bg-gray_400 lg:h-[28px] xl:h-[33px] 2xl:h-[37px] 3xl:h-[44px] xl:ml-[10px] 2xl:ml-[12px] 3xl:ml-[14px] lg:ml-[9px] w-[1px]"
-                  compid="13:2836"
-                  comptype="Line"
-                />
-                <Input
-                  className="font-semibold lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] placeholder:text-gray_900 text-gray_900 w-[100%]"
-                  wrapClassName="2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] w-[26%] xl:ml-[9px]"
-                  compid="13:2835"
-                  comptype="EditText"
-                  name="9838830000"
-                  placeholder="983-883-0000"
-                ></Input>
-                <Img
-                  src="images/img_close.svg"
-                  className="lg:h-[16px] xl:h-[18px] 2xl:h-[21px] 3xl:h-[25px] lg:ml-[189px] xl:ml-[217px] 2xl:ml-[244px] 3xl:ml-[292px] lg:w-[15px] xl:w-[17px] 2xl:w-[20px] 3xl:w-[24px]"
-                  compid="I13:2837;13:5549"
-                  comptype="Image"
-                  alt="close"
-                />
-              </Row>
+              <Input
+                className="font-semibold p-[0] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_500 w-[100%]"
+                wrapClassName="2xl:ml-[9px] 2xl:my-[8px] 3xl:ml-[10px] 3xl:my-[9px] flex lg:ml-[7px] lg:my-[6px] w-[93%] xl:ml-[8px] xl:my-[7px]"
+                compid="13:2834"
+                comptype="EditText"
+                name="NinetyOne"
+                placeholder=""
+                suffix={
+                  <Img
+                    src="images/img_close.svg"
+                    className="lg:w-[15px] lg:h-[16px] lg:ml-[189px] lg:mr-[5px] xl:w-[17px] xl:h-[18px] xl:ml-[217px] xl:mr-[6px] 2xl:w-[20px] 2xl:h-[21px] 2xl:ml-[244px] 2xl:mr-[7px] 3xl:w-[24px] 3xl:h-[25px] 3xl:ml-[292px] 3xl:mr-[8px] my-[auto]"
+                    compid="I13:2837;13:5549"
+                    comptype="Image"
+                    alt="close"
+                  />
+                }
+                size="sm"
+              ></Input>
               <Column
                 className="lg:ml-[13px] xl:ml-[15px] 2xl:ml-[17px] 3xl:ml-[20px] lg:mt-[18px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] rounded-radius6 w-[93%]"
                 compid="13:2815"
@@ -798,7 +780,7 @@ const LoginFlowOTPPage = () => {
                     <Text
                       className="font-semibold text-gray_500 w-[auto]"
                       compid="13:2819"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Verification Code
@@ -815,7 +797,6 @@ const LoginFlowOTPPage = () => {
                         comptype="EditText"
                         name="Rectangle810"
                         placeholder=""
-                        shape="RoundedBorder8"
                         variant="OutlineGray4001_2"
                       ></Input>
                       <Input
@@ -825,7 +806,6 @@ const LoginFlowOTPPage = () => {
                         comptype="EditText"
                         name="Rectangle821"
                         placeholder=""
-                        shape="RoundedBorder8"
                         variant="OutlineGray4001_2"
                       ></Input>
                       <Input
@@ -835,7 +815,6 @@ const LoginFlowOTPPage = () => {
                         comptype="EditText"
                         name="Rectangle822"
                         placeholder=""
-                        shape="RoundedBorder8"
                         variant="OutlineGray4001_2"
                       ></Input>
                       <Input
@@ -845,7 +824,6 @@ const LoginFlowOTPPage = () => {
                         comptype="EditText"
                         name="Rectangle823"
                         placeholder=""
-                        shape="RoundedBorder8"
                         variant="OutlineGray4001_2"
                       ></Input>
                       <Input
@@ -855,7 +833,6 @@ const LoginFlowOTPPage = () => {
                         comptype="EditText"
                         name="Rectangle824"
                         placeholder=""
-                        shape="RoundedBorder8"
                         variant="OutlineGray4001_2"
                       ></Input>
                       <Input
@@ -865,7 +842,6 @@ const LoginFlowOTPPage = () => {
                         comptype="EditText"
                         name="Rectangle825"
                         placeholder=""
-                        shape="RoundedBorder8"
                         variant="OutlineGray4001_2"
                       ></Input>
                     </Row>
@@ -884,7 +860,7 @@ const LoginFlowOTPPage = () => {
                 <Text
                   className="font-semibold lg:mt-[11px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] text-gray_500 w-[auto]"
                   compid="13:2816"
-                  variant="body5"
+                  variant="body4"
                   comptype="Text"
                 >
                   A 6 digit varification code has been sent to XXX-XXX-0000

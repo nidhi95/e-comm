@@ -38,7 +38,7 @@ const LoginFlowMobilePage = () => {
           <Text
             className="FastEasyand"
             compid="I13:2839;137:390"
-            variant="body8"
+            variant="body7"
             comptype="Text"
           >
             Fast, Easy and Free Returns
@@ -53,7 +53,7 @@ const LoginFlowMobilePage = () => {
           <Text
             className="price"
             compid="I13:2839;137:393"
-            variant="body8"
+            variant="body7"
             comptype="Text"
           >
             <span className="text-bluegray_900 font-inter lg:text-[10px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
@@ -73,7 +73,7 @@ const LoginFlowMobilePage = () => {
           <Text
             className="SecurePayments"
             compid="I13:2839;137:396"
-            variant="body8"
+            variant="body7"
             comptype="Text"
           >
             Secure Payments
@@ -103,7 +103,7 @@ const LoginFlowMobilePage = () => {
               <Text
                 className="Home"
                 compid="13:2871"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Home
@@ -111,7 +111,7 @@ const LoginFlowMobilePage = () => {
               <Text
                 className="Two"
                 compid="13:2874"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 /
@@ -119,7 +119,7 @@ const LoginFlowMobilePage = () => {
               <Text
                 className="Menscollectio"
                 compid="13:2872"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Men's collection
@@ -127,7 +127,7 @@ const LoginFlowMobilePage = () => {
               <Text
                 className="Two"
                 compid="13:2875"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 /
@@ -135,7 +135,7 @@ const LoginFlowMobilePage = () => {
               <Text
                 className="WhiteWillow"
                 compid="13:2873"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Sneakers
@@ -157,7 +157,7 @@ const LoginFlowMobilePage = () => {
               <Text
                 className="font-bold lg:ml-[610px] xl:ml-[698px] 2xl:ml-[785px] 3xl:ml-[942px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] text-gray_801 tracking-ls1 w-[auto]"
                 compid="13:2925"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Subtotal
@@ -189,7 +189,7 @@ const LoginFlowMobilePage = () => {
                   <Text
                     className="price_Two1"
                     compid="13:2847"
-                    variant="body5"
+                    variant="body4"
                     comptype="Text"
                   >
                     ALL
@@ -197,7 +197,7 @@ const LoginFlowMobilePage = () => {
                   <Text
                     className="ITEM"
                     compid="13:2848"
-                    variant="body5"
+                    variant="body4"
                     comptype="Text"
                   >
                     ITEM
@@ -205,7 +205,7 @@ const LoginFlowMobilePage = () => {
                   <Text
                     className="PRICE_Three"
                     compid="13:2849"
-                    variant="body5"
+                    variant="body4"
                     comptype="Text"
                   >
                     PRICE
@@ -213,7 +213,7 @@ const LoginFlowMobilePage = () => {
                   <Text
                     className="QTY"
                     compid="13:2850"
-                    variant="body5"
+                    variant="body4"
                     comptype="Text"
                   >
                     QTY
@@ -221,7 +221,7 @@ const LoginFlowMobilePage = () => {
                   <Text
                     className="TOTAL"
                     compid="13:2851"
-                    variant="body5"
+                    variant="body4"
                     comptype="Text"
                   >
                     TOTAL
@@ -255,9 +255,7 @@ const LoginFlowMobilePage = () => {
                     comptype="EditText"
                     name="Group104"
                     placeholder="Coupon Code"
-                    shape="RoundedBorder8"
                     size="md"
-                    variant="OutlineGray400"
                   ></Input>
                   <Button
                     className="font-normal lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[28%]"
@@ -322,7 +320,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="UK42Black"
                       compid="13:2853"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       UK 42 / Black
@@ -330,7 +328,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="price_Four"
                       compid="13:2845"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -349,7 +347,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="Group118"
                       compid="13:2861"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       1
@@ -370,7 +368,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="price_One2"
                       compid="13:2846"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -401,7 +399,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="Saveforlater"
                       compid="13:2854"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Save for later
@@ -416,7 +414,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="Delete"
                       compid="13:2855"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Delete
@@ -470,7 +468,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="UK42Black"
                       compid="13:2881"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       UK 42 / Black
@@ -478,7 +476,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="price_Four"
                       compid="13:2878"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -497,7 +495,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="Group118"
                       compid="13:2889"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       1
@@ -518,7 +516,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="price_One2"
                       compid="13:2879"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -539,7 +537,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="Saveforlater"
                       compid="13:2882"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Save for later
@@ -554,7 +552,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="Delete"
                       compid="13:2883"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Delete
@@ -608,7 +606,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="UK42Black"
                       compid="13:2901"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       UK 42 / Black
@@ -616,7 +614,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="price_Four"
                       compid="13:2898"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -635,7 +633,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="Group118"
                       compid="13:2909"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       1
@@ -656,7 +654,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="price_One2"
                       compid="13:2899"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -677,7 +675,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="Saveforlater"
                       compid="13:2902"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Save for later
@@ -692,7 +690,7 @@ const LoginFlowMobilePage = () => {
                     <Text
                       className="Delete"
                       compid="13:2903"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Delete
@@ -724,7 +722,7 @@ const LoginFlowMobilePage = () => {
               <Text
                 className="font-semibold lg:ml-[13px] xl:ml-[15px] 2xl:ml-[17px] 3xl:ml-[20px] lg:mt-[10px] xl:mt-[12px] 2xl:mt-[14px] 3xl:mt-[16px] text-gray_500 w-[auto]"
                 compid="13:2947"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 <span className="text-gray_500 font-lato lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
@@ -746,38 +744,20 @@ const LoginFlowMobilePage = () => {
                 <Text
                   className="font-semibold text-gray_500 w-[auto]"
                   compid="13:2958"
-                  variant="body5"
+                  variant="body4"
                   comptype="Text"
                 >
                   Phone Number
                 </Text>
-                <Row
-                  className="bg-gray_101 border border-gray_400 border-solid items-center 2xl:mt-[11px] 3xl:mt-[13px] lg:mt-[8px] xl:mt-[9px] lg:p-[5px] xl:p-[6px] 2xl:p-[7px] 3xl:p-[8px] rounded-radius6 w-[100%]"
-                  compid="13:2959"
-                  comptype="Row"
-                >
-                  <Text
-                    className="rowninetyone"
-                    compid="13:2961"
-                    variant="body4"
-                    comptype="Text"
-                  >
-                    +91
-                  </Text>
-                  <Line
-                    className="bg-gray_400 lg:h-[28px] xl:h-[33px] 2xl:h-[37px] 3xl:h-[44px] xl:ml-[10px] 2xl:ml-[12px] 3xl:ml-[14px] lg:ml-[9px] w-[1px]"
-                    compid="13:2963"
-                    comptype="Line"
-                  />
-                  <Input
-                    className="font-semibold lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] placeholder:text-gray_900 text-gray_900 w-[100%]"
-                    wrapClassName="2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] w-[46%] xl:ml-[9px]"
-                    compid="13:2962"
-                    comptype="EditText"
-                    name="EnteryourMobi"
-                    placeholder="Enter your Mobile number"
-                  ></Input>
-                </Row>
+                <Input
+                  className="font-semibold p-[0] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] 3xl:text-[21px] text-gray_500 w-[100%]"
+                  wrapClassName="2xl:h-[51px] 2xl:my-[8px] 3xl:h-[61px] 3xl:my-[9px] flex lg:h-[39px] lg:my-[6px] w-[100%] xl:h-[45px] xl:my-[7px]"
+                  compid="13:2961"
+                  comptype="EditText"
+                  name="NinetyOne"
+                  placeholder=""
+                  size="sm"
+                ></Input>
               </Column>
               <Row
                 className="items-end lg:ml-[13px] xl:ml-[15px] 2xl:ml-[17px] 3xl:ml-[20px] lg:mt-[12px] xl:mt-[14px] 2xl:mt-[16px] 3xl:mt-[19px] w-[85%]"
@@ -795,7 +775,7 @@ const LoginFlowMobilePage = () => {
                 <Text
                   className="font-semibold mb-[1px] xl:ml-[10px] 2xl:ml-[12px] 3xl:ml-[14px] lg:ml-[9px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] text-gray_500 w-[auto]"
                   compid="13:2953"
-                  variant="body5"
+                  variant="body4"
                   comptype="Text"
                 >
                   <span className="text-gray_500 font-lato lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">

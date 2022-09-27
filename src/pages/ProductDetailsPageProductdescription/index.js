@@ -48,7 +48,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
             <Text
               className="FastEasyand"
               compid="I13:2179;137:390"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               Fast, Easy and Free Returns
@@ -63,7 +63,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
             <Text
               className="price"
               compid="I13:2179;137:393"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               <span className="text-bluegray_900 font-inter lg:text-[10px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
@@ -83,7 +83,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
             <Text
               className="SecurePayments"
               compid="I13:2179;137:396"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               Secure Payments
@@ -110,7 +110,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="Home"
                 compid="13:2183"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Home
@@ -118,7 +118,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="Two"
                 compid="13:2187"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 /
@@ -126,7 +126,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="Menscollectio"
                 compid="13:2184"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Men's collection
@@ -134,7 +134,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="Two"
                 compid="13:2188"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 /
@@ -142,7 +142,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="Two"
                 compid="13:2185"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Sneakers
@@ -150,7 +150,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="Two"
                 compid="13:2189"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 /
@@ -158,7 +158,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="WhiteWillow"
                 compid="13:2186"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 White Willow
@@ -290,7 +290,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="font-bold lg:ml-[6px] xl:ml-[7px] 2xl:ml-[8px] 3xl:ml-[9px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] text-gray_900 w-[auto]"
                 compid="13:2276"
-                variant="body7"
+                variant="body6"
                 comptype="Text"
               >
                 4.5
@@ -298,7 +298,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="font-bold ml-[4px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] text-gray_900 w-[auto]"
                 compid="13:2277"
-                variant="body7"
+                variant="body6"
                 comptype="Text"
               >
                 (187)
@@ -306,7 +306,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="font-semibold lg:ml-[140px] xl:ml-[161px] 2xl:ml-[181px] 3xl:ml-[217px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] text-black_900 w-[auto]"
                 compid="13:2281"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Add to Wishlist
@@ -334,7 +334,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
             <Text
               className="font-bold lg:mt-[20px] xl:mt-[23px] 2xl:mt-[26px] 3xl:mt-[31px] text-gray_800 w-[auto]"
               compid="13:2204"
-              variant="body5"
+              variant="body4"
               comptype="Text"
             >
               Leather Derby Shoes
@@ -351,7 +351,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
             <Text
               className="font-medium lg:leading-[15px] xl:leading-[17px] 2xl:leading-[20px] 3xl:leading-[24px] lg:mt-[16px] xl:mt-[18px] 2xl:mt-[21px] 3xl:mt-[25px] text-gray_801 tracking-ls1 w-[97%]"
               compid="13:2201"
-              variant="body5"
+              variant="body4"
               comptype="Text"
             >
               A pillar of sneaker culture, the Nike Air Max 90 remains one of
@@ -529,7 +529,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="font-normal leading-[normal] 2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[2px] not-italic text-light_green_900 w-[12%]"
                 compid="13:2255"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Made in
@@ -546,7 +546,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="font-normal leading-[normal] 2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[2px] not-italic text-light_green_900 w-[13%]"
                 compid="13:2252"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 GRS
@@ -563,7 +563,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="font-normal leading-[normal] 2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[2px] not-italic text-light_green_900 w-[12%]"
                 compid="13:2246"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 1% of it
@@ -580,7 +580,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="font-normal leading-[normal] 2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[2px] not-italic text-light_green_900 w-[13%]"
                 compid="13:2249"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 GRS
@@ -650,9 +650,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                 comptype="EditText"
                 name="Group172"
                 placeholder="Enter Pin"
-                shape="RoundedBorder8"
                 size="lg"
-                variant="OutlineGray400"
               ></Input>
               <Button
                 className="font-normal lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[37%]"
@@ -686,7 +684,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="font-semibold xl:ml-[10px] 2xl:ml-[12px] 3xl:ml-[14px] lg:ml-[9px] text-bluegray_900 w-[auto]"
                 compid="13:2596"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Free Home Delivery by 22nd September
@@ -718,7 +716,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="language"
                 compid="13:2393"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Material :{" "}
@@ -726,7 +724,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="Leather"
                 compid="13:2391"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Leather
@@ -745,7 +743,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="language"
                 compid="13:2398"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Upper Material :{" "}
@@ -753,7 +751,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="Leather"
                 compid="13:2396"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Knitted Material
@@ -772,7 +770,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="mb-[1px] 2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] columnproductmeter"
                 compid="13:2403"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Sole Material :{" "}
@@ -780,7 +778,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="mt-[1px] Leather"
                 compid="13:2401"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 TPR, TPU
@@ -799,7 +797,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="language"
                 compid="13:2408"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Insole Material :{" "}
@@ -807,7 +805,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="Leather"
                 compid="13:2406"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Soft EVA
@@ -826,7 +824,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="mb-[1px] 2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] columnproductmeter"
                 compid="13:2413"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Suitable for :{" "}
@@ -834,7 +832,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="mt-[1px] Leather"
                 compid="13:2411"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Men
@@ -853,7 +851,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="language"
                 compid="13:2418"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Usage For :{" "}
@@ -861,7 +859,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="Leather"
                 compid="13:2416"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Casual Purpose
@@ -880,7 +878,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="language"
                 compid="13:2423"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Wear it to :{" "}
@@ -888,7 +886,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="Leather"
                 compid="13:2421"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Weekend Outings, Office
@@ -907,7 +905,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="language"
                 compid="13:2428"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Type :{" "}
@@ -915,7 +913,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="capitalize font-black lg:ml-[29px] xl:ml-[33px] 2xl:ml-[38px] 3xl:ml-[45px] text-black_900 w-[auto]"
                 compid="13:2426"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 High heel{" "}
@@ -965,7 +963,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                     <Text
                       className="columnproductmeter"
                       compid="13:2436"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Weight of the shoe
@@ -1000,7 +998,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                     <Text
                       className="columnproductmeter"
                       compid="13:2442"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Comfort of the Shoe
@@ -1035,7 +1033,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                     <Text
                       className="columnproductmeter"
                       compid="13:2448"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Durability of the shoe
@@ -1107,7 +1105,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                 <Text
                   className="font-medium lg:mt-[14px] xl:mt-[16px] 2xl:mt-[19px] 3xl:mt-[22px] text-gray_600 w-[auto]"
                   compid="13:2315"
-                  variant="body5"
+                  variant="body4"
                   comptype="Text"
                 >
                   319 ratings and 55 reviews
@@ -1132,7 +1130,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="Five"
                     compid="13:2318"
-                    variant="body9"
+                    variant="body8"
                     comptype="Text"
                   >
                     5★
@@ -1152,7 +1150,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="TwoHundredTwentySix"
                     compid="13:2322"
-                    variant="body9"
+                    variant="body8"
                     comptype="Text"
                   >
                     226
@@ -1166,7 +1164,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="Five"
                     compid="13:2324"
-                    variant="body9"
+                    variant="body8"
                     comptype="Text"
                   >
                     4★
@@ -1186,7 +1184,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="TwoHundredTwentySix"
                     compid="13:2328"
-                    variant="body9"
+                    variant="body8"
                     comptype="Text"
                   >
                     140
@@ -1200,7 +1198,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="Five"
                     compid="13:2336"
-                    variant="body9"
+                    variant="body8"
                     comptype="Text"
                   >
                     3★
@@ -1220,7 +1218,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="TwoHundredTwentySix"
                     compid="13:2340"
-                    variant="body9"
+                    variant="body8"
                     comptype="Text"
                   >
                     120
@@ -1234,7 +1232,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="Five"
                     compid="13:2330"
-                    variant="body9"
+                    variant="body8"
                     comptype="Text"
                   >
                     2★
@@ -1254,7 +1252,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="TwoHundredTwentySix"
                     compid="13:2334"
-                    variant="body9"
+                    variant="body8"
                     comptype="Text"
                   >
                     140
@@ -1268,7 +1266,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="Five"
                     compid="13:2342"
-                    variant="body9"
+                    variant="body8"
                     comptype="Text"
                   >
                     1★
@@ -1288,7 +1286,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="TwoHundredTwentySix"
                     compid="13:2346"
-                    variant="body9"
+                    variant="body8"
                     comptype="Text"
                   >
                     120
@@ -1304,7 +1302,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
               <Text
                 className="absolute capitalize font-semibold right-[0] text-indigo_A700 top-[4%] w-[auto]"
                 compid="13:2454"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 View All
@@ -1408,7 +1406,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                 <Text
                   className="font-black text-bluegray_901 tracking-ls1 w-[auto]"
                   compid="13:2257"
-                  variant="body7"
+                  variant="body6"
                   comptype="Text"
                 >
                   Value for Money
@@ -1416,7 +1414,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                 <Text
                   className="font-black xl:mt-[104px] 2xl:mt-[118px] 3xl:mt-[141px] lg:mt-[91px] text-bluegray_901 tracking-ls1 w-[auto]"
                   compid="13:2258"
-                  variant="body7"
+                  variant="body6"
                   comptype="Text"
                 >
                   Value for Money
@@ -1430,7 +1428,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                 <Text
                   className="font-normal not-italic text-white_A700 w-[auto]"
                   compid="13:2348"
-                  variant="body9"
+                  variant="body8"
                   comptype="Text"
                 >
                   5★
@@ -1464,7 +1462,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                         <Text
                           className="absolute font-normal h-[max-content] inset-[0] justify-center m-[auto] not-italic text-white_A700 w-[max-content]"
                           compid="13:2360"
-                          variant="body9"
+                          variant="body8"
                           comptype="Text"
                         >
                           5★
@@ -1472,7 +1470,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                         <Text
                           className="absolute font-normal h-[max-content] inset-[0] justify-center m-[auto] not-italic text-white_A700 w-[max-content]"
                           compid="13:2361"
-                          variant="body9"
+                          variant="body8"
                           comptype="Text"
                         >
                           5★
@@ -1481,7 +1479,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="rowfive_two"
                         compid="13:2356"
-                        variant="body7"
+                        variant="body6"
                         comptype="Text"
                       >
                         Value for Money
@@ -1490,7 +1488,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                     <Text
                       className="columnfive_two"
                       compid="13:2354"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Amet minim mollit non deserunt ullamco est sit aliqua
@@ -1526,7 +1524,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="bg-light_green_800 font-normal mb-[1px] not-italic lg:px-[4px] xl:px-[5px] 2xl:px-[6px] 3xl:px-[7px] py-[1px] rounded-radius4 text-white_A700 w-[32px]"
                         compid="13:2368"
-                        variant="body9"
+                        variant="body8"
                         comptype="Text"
                       >
                         5★
@@ -1534,7 +1532,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="rowfive_two"
                         compid="13:2367"
-                        variant="body7"
+                        variant="body6"
                         comptype="Text"
                       >
                         Value for Money
@@ -1543,7 +1541,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                     <Text
                       className="columnfive_two"
                       compid="13:2365"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Amet minim mollit non deserunt ullamco est sit aliqua
@@ -1564,7 +1562,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                 <Text
                   className="capitalize font-semibold lg:ml-[371px] xl:ml-[425px] 2xl:ml-[478px] 3xl:ml-[573px] lg:mt-[14px] xl:mt-[16px] 2xl:mt-[18px] 3xl:mt-[21px] text-indigo_A700 w-[auto]"
                   compid="13:2350"
-                  variant="body5"
+                  variant="body4"
                   comptype="Text"
                 >
                   View All
@@ -1798,7 +1796,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="rowgroupfortyseven"
                         compid="47"
-                        variant="body5"
+                        variant="body4"
                         comptype="Text"
                       >
                         <span className="text-gray_900 font-lato font-bold lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
@@ -1871,7 +1869,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="rowgroupfortyseven"
                         compid="46"
-                        variant="body5"
+                        variant="body4"
                         comptype="Text"
                       >
                         <span className="text-gray_900 font-lato font-bold lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
@@ -1946,7 +1944,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="rowgroupfortyseven"
                         compid="45"
-                        variant="body5"
+                        variant="body4"
                         comptype="Text"
                       >
                         <span className="text-gray_900 font-lato font-bold lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
@@ -2012,7 +2010,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="rowgroupfortyseven"
                         compid="44"
-                        variant="body5"
+                        variant="body4"
                         comptype="Text"
                       >
                         <span className="text-gray_900 font-lato font-bold lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px]">
@@ -2112,7 +2110,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="price_Two"
                         compid="13:2523"
-                        variant="body5"
+                        variant="body4"
                         comptype="Text"
                       >
                         ₹1239.00
@@ -2159,7 +2157,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="NewArrival_One"
                         compid="13:2527"
-                        variant="body9"
+                        variant="body8"
                         comptype="Text"
                       >
                         New Arrival
@@ -2203,7 +2201,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="price_Two"
                         compid="13:2524"
-                        variant="body5"
+                        variant="body4"
                         comptype="Text"
                       >
                         ₹1239.00
@@ -2261,7 +2259,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="NewArrival_One"
                         compid="13:2528"
-                        variant="body9"
+                        variant="body8"
                         comptype="Text"
                       >
                         New Arrival
@@ -2305,7 +2303,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="price_Two"
                         compid="13:2525"
-                        variant="body5"
+                        variant="body4"
                         comptype="Text"
                       >
                         ₹1239.00
@@ -2363,7 +2361,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="NewArrival_One"
                         compid="13:2529"
-                        variant="body9"
+                        variant="body8"
                         comptype="Text"
                       >
                         New Arrival
@@ -2407,7 +2405,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="price_Two"
                         compid="13:2526"
-                        variant="body5"
+                        variant="body4"
                         comptype="Text"
                       >
                         ₹1239.00
@@ -2465,7 +2463,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="NewArrival_One"
                         compid="13:2530"
-                        variant="body9"
+                        variant="body8"
                         comptype="Text"
                       >
                         New Arrival
@@ -2504,7 +2502,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="font-normal text-gray_400 w-[auto]"
                         compid="I13:2472;61:715;60:518"
-                        variant="body8"
+                        variant="body7"
                         comptype="Text"
                       >
                         About Rapidbox
@@ -2512,7 +2510,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="font-normal lg:mt-[12px] xl:mt-[14px] 2xl:mt-[16px] 3xl:mt-[19px] not-italic text-gray_500 w-[auto]"
                         compid="I13:2472;61:716;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         About Us/Out Story
@@ -2527,7 +2525,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="AboutUsOutSt_One"
                         compid="I13:2472;60:524;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         Founding Team
@@ -2535,7 +2533,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="AboutUsOutSt_One"
                         compid="I13:2472;60:525;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         Our Journey
@@ -2543,7 +2541,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="AboutUsOutSt_One"
                         compid="I13:2472;60:526;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         Making of Our Shoes
@@ -2551,7 +2549,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="AboutUsOutSt_Four"
                         compid="I13:2472;60:527;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         We Care - Social Causes
@@ -2559,7 +2557,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="AboutUsOutSt_Five"
                         compid="I13:2472;60:528;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         Community
@@ -2573,7 +2571,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="font-normal text-gray_400 w-[auto]"
                         compid="I13:2472;60:530;60:518"
-                        variant="body8"
+                        variant="body7"
                         comptype="Text"
                       >
                         Need help?
@@ -2581,7 +2579,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="font-normal lg:mt-[12px] xl:mt-[14px] 2xl:mt-[16px] 3xl:mt-[19px] not-italic text-gray_500 w-[auto]"
                         compid="I13:2472;60:532;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         Help Center
@@ -2589,7 +2587,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="AboutUsOutSt_Four"
                         compid="I13:2472;60:533;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         Size Guide
@@ -2597,7 +2595,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="AboutUsOutSt_Five"
                         compid="I13:2472;60:534;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         Shipping & Delivery
@@ -2605,7 +2603,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="AboutUsOutSt_One"
                         compid="I13:2472;60:535;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         Returns & Exchange
@@ -2613,7 +2611,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="AboutUsOutSt_One"
                         compid="I13:2472;60:536;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         Order Tracking
@@ -2621,7 +2619,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="AboutUsOutSt_Four"
                         compid="I13:2472;60:537;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         Gift Cards
@@ -2629,7 +2627,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="AboutUsOutSt_Five"
                         compid="I13:2472;60:538;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         Site Map
@@ -2643,7 +2641,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="font-normal text-gray_400 w-[auto]"
                         compid="I13:2472;60:540;60:518"
-                        variant="body8"
+                        variant="body7"
                         comptype="Text"
                       >
                         Our E-stores
@@ -2651,7 +2649,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="font-normal lg:mt-[13px] xl:mt-[15px] 2xl:mt-[17px] 3xl:mt-[20px] not-italic text-gray_500 w-[auto]"
                         compid="I13:2472;60:542;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         The Sneaker Store
@@ -2659,7 +2657,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="font-normal lg:mt-[17px] xl:mt-[19px] 2xl:mt-[22px] 3xl:mt-[26px] not-italic text-gray_500 w-[auto]"
                         compid="I13:2472;60:543;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         The Athleisure Store
@@ -2667,7 +2665,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="AboutUsOutSt_Five"
                         compid="I13:2472;60:544;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         The Sports Shoes Store
@@ -2675,7 +2673,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="font-normal lg:mt-[14px] xl:mt-[16px] 2xl:mt-[19px] 3xl:mt-[22px] not-italic text-gray_500 w-[auto]"
                         compid="I13:2472;60:545;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         The Streetwear Store
@@ -2683,7 +2681,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="font-normal lg:mt-[17px] xl:mt-[20px] 2xl:mt-[23px] 3xl:mt-[27px] not-italic text-gray_500 w-[auto]"
                         compid="I13:2472;60:546;60:521"
-                        variant="body6"
+                        variant="body5"
                         comptype="Text"
                       >
                         The Jacket Store
@@ -2697,7 +2695,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                       <Text
                         className="font-normal text-gray_400 w-[auto]"
                         compid="I13:2472;60:548;60:518"
-                        variant="body8"
+                        variant="body7"
                         comptype="Text"
                       >
                         Social Media
@@ -2715,9 +2713,9 @@ const ProductDetailsPageProductdescriptionPage = () => {
                           alt="camera"
                         />
                         <Text
-                          className="font-normal mt-[3px] not-italic rowninetyone"
+                          className="font-normal 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] mt-[3px] not-italic text-gray_500 w-[auto]"
                           compid="I13:2472;61:718;60:552"
-                          variant="body6"
+                          variant="body5"
                           comptype="Text"
                         >
                           Instagram
@@ -2736,9 +2734,9 @@ const ProductDetailsPageProductdescriptionPage = () => {
                           alt="facebook"
                         />
                         <Text
-                          className="font-normal not-italic rowninetyone"
+                          className="font-normal 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] not-italic text-gray_500 w-[auto]"
                           compid="I13:2472;60:553;60:552"
-                          variant="body6"
+                          variant="body5"
                           comptype="Text"
                         >
                           Facebook
@@ -2757,9 +2755,9 @@ const ProductDetailsPageProductdescriptionPage = () => {
                           alt="play"
                         />
                         <Text
-                          className="font-normal my-[1px] not-italic rowninetyone"
+                          className="font-normal 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] my-[1px] not-italic text-gray_500 w-[auto]"
                           compid="I13:2472;60:554;60:552"
-                          variant="body6"
+                          variant="body5"
                           comptype="Text"
                         >
                           Youtube
@@ -2770,7 +2768,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="font-medium ml-[1px] lg:mt-[46px] xl:mt-[53px] 2xl:mt-[60px] 3xl:mt-[72px] text-white_A700 w-[auto]"
                     compid="I13:2472;60:513"
-                    variant="body8"
+                    variant="body7"
                     comptype="Text"
                   >
                     © 2022 Rapidbox®, Inc.
@@ -2778,7 +2776,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="font-normal ml-[1px] lg:mt-[6px] xl:mt-[7px] 2xl:mt-[8px] 3xl:mt-[9px] text-white_A700 w-[auto]"
                     compid="I13:2472;60:514"
-                    variant="body8"
+                    variant="body7"
                     comptype="Text"
                   >
                     <span className="text-white_A700 font-inter font-medium underline lg:text-[10px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
@@ -2812,7 +2810,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="font-normal xl:mt-[10px] 2xl:mt-[12px] 3xl:mt-[14px] lg:mt-[9px] not-italic text-white_A700 w-[auto]"
                     compid="I13:2472;60:570"
-                    variant="body6"
+                    variant="body5"
                     comptype="Text"
                   >
                     Sign up for email updates today.
@@ -2827,7 +2825,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                     suffix={
                       <Img
                         src="images/img_checkmark.svg"
-                        className="ml-[0] lg:w-[15px] lg:mr-[6px] xl:w-[17px] xl:mr-[7px] 2xl:w-[20px] 2xl:mr-[8px] 3xl:w-[24px] 3xl:mr-[9px] my-[auto]"
+                        className="ml-[0] lg:w-[15px] lg:mr-[5px] xl:w-[17px] xl:mr-[6px] 2xl:w-[20px] 2xl:mr-[7px] 3xl:w-[24px] 3xl:mr-[8px] my-[auto]"
                         compid="I13:2472;102:332;13:2321"
                         comptype="Image"
                         alt="checkmark"
@@ -2840,7 +2838,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="font-normal lg:leading-[14px] xl:leading-[16px] 2xl:leading-[18px] 3xl:leading-[21px] lg:mt-[28px] xl:mt-[32px] 2xl:mt-[36px] 3xl:mt-[43px] not-italic text-gray_500 w-[91%]"
                     compid="I13:2472;60:573"
-                    variant="body8"
+                    variant="body7"
                     comptype="Text"
                   >
                     By providing your email, you agree to the Terms of Use and
@@ -2849,7 +2847,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="font-normal xl:mt-[10px] 2xl:mt-[12px] 3xl:mt-[14px] lg:mt-[9px] not-italic text-gray_500 w-[auto]"
                     compid="I13:2472;60:574"
-                    variant="body8"
+                    variant="body7"
                     comptype="Text"
                   >
                     You may unsubscribe later.
@@ -2857,7 +2855,7 @@ const ProductDetailsPageProductdescriptionPage = () => {
                   <Text
                     className="font-normal lg:mt-[34px] xl:mt-[39px] 2xl:mt-[44px] 3xl:mt-[52px] text-gray_400 w-[auto]"
                     compid="I13:2472;60:503"
-                    variant="body8"
+                    variant="body7"
                     comptype="Text"
                   >
                     Accepted Payment Methods
