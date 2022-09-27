@@ -48,7 +48,7 @@ const DesktopThreePage = () => {
             <Text
               className="FastEasyand"
               compid="I1:1570;137:390"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               Fast, Easy and Free Returns
@@ -63,7 +63,7 @@ const DesktopThreePage = () => {
             <Text
               className="price"
               compid="I1:1570;137:393"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               <span className="text-bluegray_900 font-inter lg:text-[10px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
@@ -83,7 +83,7 @@ const DesktopThreePage = () => {
             <Text
               className="SecurePayments"
               compid="I1:1570;137:396"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               Secure Payments
@@ -125,7 +125,7 @@ const DesktopThreePage = () => {
                 <Text
                   className="columnshopbymen"
                   compid="I1:1575;21:340"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Shop by men
@@ -148,7 +148,7 @@ const DesktopThreePage = () => {
                 <Text
                   className="columnshopbymen"
                   compid="I1:1576;21:340"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Shop by women
@@ -171,7 +171,7 @@ const DesktopThreePage = () => {
                 <Text
                   className="columnshopbymen"
                   compid="I1:1577;21:340"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Shop by sport
@@ -194,7 +194,7 @@ const DesktopThreePage = () => {
                 <Text
                   className="columnshopbymen"
                   compid="I1:1578;21:340"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Shop sports
@@ -217,7 +217,7 @@ const DesktopThreePage = () => {
                 <Text
                   className="columnshopbymen"
                   compid="I1:1579;21:340"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Shop new arrivals
@@ -240,7 +240,7 @@ const DesktopThreePage = () => {
                 <Text
                   className="columnshopbymen_five"
                   compid="I1:1580;21:340"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Shop collaborations
@@ -263,7 +263,7 @@ const DesktopThreePage = () => {
                 <Text
                   className="columnshopbymen"
                   compid="I1:1581;21:340"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Shop by men
@@ -286,7 +286,7 @@ const DesktopThreePage = () => {
                 <Text
                   className="columnshopbymen"
                   compid="I1:1582;21:340"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Shop by women
@@ -309,7 +309,7 @@ const DesktopThreePage = () => {
                 <Text
                   className="columnshopbymen"
                   compid="I1:1583;21:340"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Shop by sport
@@ -332,7 +332,7 @@ const DesktopThreePage = () => {
                 <Text
                   className="columnshopbymen"
                   compid="I1:1584;21:340"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Shop sports
@@ -355,7 +355,7 @@ const DesktopThreePage = () => {
                 <Text
                   className="columnshopbymen"
                   compid="I1:1585;21:340"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Shop new arrivals
@@ -378,7 +378,7 @@ const DesktopThreePage = () => {
                 <Text
                   className="columnshopbymen_five"
                   compid="I1:1586;21:340"
-                  variant="body6"
+                  variant="body5"
                   comptype="Text"
                 >
                   Shop collaborations
@@ -409,7 +409,7 @@ const DesktopThreePage = () => {
                   <Text
                     className="font-semibold ml-[2px] text-black_900 w-[auto]"
                     compid="1:1591"
-                    variant="body6"
+                    variant="body5"
                     comptype="Text"
                   >
                     ₹
@@ -438,7 +438,7 @@ const DesktopThreePage = () => {
                   <Text
                     className="font-semibold 2xl:mt-[11px] 3xl:mt-[13px] lg:mt-[8px] xl:mt-[9px] text-white_A700 w-[auto]"
                     compid="1:1593"
-                    variant="body7"
+                    variant="body6"
                     comptype="Text"
                   >
                     Colour
@@ -1237,9 +1237,7 @@ const DesktopThreePage = () => {
                     comptype="EditText"
                     name="GroupEighteen"
                     placeholder="Enter Email"
-                    shape="RoundedBorder8"
                     size="lg"
-                    variant="OutlineGray400"
                   ></Input>
                 </Stack>
                 <Button

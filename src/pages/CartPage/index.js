@@ -42,7 +42,7 @@ const CartPagePage = () => {
             <Text
               className="FastEasyand"
               compid="I13:2601;137:390"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               Fast, Easy and Free Returns
@@ -57,7 +57,7 @@ const CartPagePage = () => {
             <Text
               className="price"
               compid="I13:2601;137:393"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               <span className="text-bluegray_900 font-inter lg:text-[10px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
@@ -77,7 +77,7 @@ const CartPagePage = () => {
             <Text
               className="SecurePayments"
               compid="I13:2601;137:396"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               Secure Payments
@@ -99,7 +99,7 @@ const CartPagePage = () => {
               <Text
                 className="Home"
                 compid="13:2631"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Home
@@ -107,7 +107,7 @@ const CartPagePage = () => {
               <Text
                 className="Two"
                 compid="13:2634"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 /
@@ -115,7 +115,7 @@ const CartPagePage = () => {
               <Text
                 className="Menscollectio"
                 compid="13:2632"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Men's collection
@@ -123,7 +123,7 @@ const CartPagePage = () => {
               <Text
                 className="Two"
                 compid="13:2635"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 /
@@ -131,7 +131,7 @@ const CartPagePage = () => {
               <Text
                 className="WhiteWillow"
                 compid="13:2633"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Sneakers
@@ -161,7 +161,7 @@ const CartPagePage = () => {
               <Text
                 className="price_Two1"
                 compid="13:2607"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 ALL
@@ -169,7 +169,7 @@ const CartPagePage = () => {
               <Text
                 className="ITEM"
                 compid="13:2608"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 ITEM
@@ -177,7 +177,7 @@ const CartPagePage = () => {
               <Text
                 className="PRICE_Three"
                 compid="13:2609"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 PRICE
@@ -185,7 +185,7 @@ const CartPagePage = () => {
               <Text
                 className="QTY"
                 compid="13:2610"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 QTY
@@ -193,7 +193,7 @@ const CartPagePage = () => {
               <Text
                 className="TOTAL"
                 compid="13:2611"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 TOTAL
@@ -238,7 +238,7 @@ const CartPagePage = () => {
                     <Text
                       className="UK42Black"
                       compid="13:2613"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       UK 42 / Black
@@ -246,7 +246,7 @@ const CartPagePage = () => {
                     <Text
                       className="price_Four"
                       compid="13:2605"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -261,7 +261,7 @@ const CartPagePage = () => {
                     <Text
                       className="Group118"
                       compid="13:2621"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       1
@@ -276,7 +276,7 @@ const CartPagePage = () => {
                     <Text
                       className="price_One2"
                       compid="13:2606"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -297,7 +297,7 @@ const CartPagePage = () => {
                     <Text
                       className="Saveforlater"
                       compid="13:2614"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Save for later
@@ -312,7 +312,7 @@ const CartPagePage = () => {
                     <Text
                       className="Delete"
                       compid="13:2615"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Delete
@@ -358,7 +358,7 @@ const CartPagePage = () => {
                     <Text
                       className="UK42Black"
                       compid="13:2641"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       UK 42 / Black
@@ -366,7 +366,7 @@ const CartPagePage = () => {
                     <Text
                       className="price_Four"
                       compid="13:2638"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -381,7 +381,7 @@ const CartPagePage = () => {
                     <Text
                       className="Group118"
                       compid="13:2649"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       1
@@ -396,7 +396,7 @@ const CartPagePage = () => {
                     <Text
                       className="price_One2"
                       compid="13:2639"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -417,7 +417,7 @@ const CartPagePage = () => {
                     <Text
                       className="Saveforlater"
                       compid="13:2642"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Save for later
@@ -432,7 +432,7 @@ const CartPagePage = () => {
                     <Text
                       className="Delete"
                       compid="13:2643"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Delete
@@ -478,7 +478,7 @@ const CartPagePage = () => {
                     <Text
                       className="UK42Black"
                       compid="13:2661"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       UK 42 / Black
@@ -486,7 +486,7 @@ const CartPagePage = () => {
                     <Text
                       className="price_Four"
                       compid="13:2658"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -501,7 +501,7 @@ const CartPagePage = () => {
                     <Text
                       className="Group118"
                       compid="13:2669"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       1
@@ -516,7 +516,7 @@ const CartPagePage = () => {
                     <Text
                       className="price_One2"
                       compid="13:2659"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       ₹1239.00
@@ -537,7 +537,7 @@ const CartPagePage = () => {
                     <Text
                       className="Saveforlater"
                       compid="13:2662"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Save for later
@@ -552,7 +552,7 @@ const CartPagePage = () => {
                     <Text
                       className="Delete"
                       compid="13:2663"
-                      variant="body5"
+                      variant="body4"
                       comptype="Text"
                     >
                       Delete
@@ -575,7 +575,7 @@ const CartPagePage = () => {
               <Text
                 className="font-bold mb-[2px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] text-gray_801 tracking-ls1 w-[auto]"
                 compid="13:2685"
-                variant="body5"
+                variant="body4"
                 comptype="Text"
               >
                 Subtotal
@@ -606,9 +606,7 @@ const CartPagePage = () => {
                 comptype="EditText"
                 name="Group104"
                 placeholder="Coupon Code"
-                shape="RoundedBorder8"
                 size="md"
-                variant="OutlineGray400"
               ></Input>
               <Button
                 className="font-normal lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[28%]"

@@ -22,7 +22,7 @@ const Header1 = (props) => {
           <Text
             className="common-pointer hover:bg-gray_800 cursor-pointer hover:font-bold font-inter font-normal hover:justify-center lg:ml-[168px] xl:ml-[192px] 2xl:ml-[216px] 3xl:ml-[259px] lg:mt-[15px] xl:mt-[17px] 2xl:mt-[20px] 3xl:mt-[24px] text-bluegray_900 hover:text-gray_500 uppercase w-[auto]"
             compid="I13:2181;1:10412"
-            variant="body6"
+            variant="body5"
             comptype="Text"
             onClick={props?.onNewarrivalClick}
           >
@@ -31,7 +31,7 @@ const Header1 = (props) => {
           <Text
             className="hover:bg-gray_800 cursor-pointer hover:font-bold font-inter font-normal hover:justify-center lg:ml-[24px] xl:ml-[28px] 2xl:ml-[32px] 3xl:ml-[38px] lg:mt-[15px] xl:mt-[17px] 2xl:mt-[20px] 3xl:mt-[24px] text-bluegray_900 hover:text-gray_500 uppercase w-[auto]"
             compid="I13:2181;1:10413"
-            variant="body6"
+            variant="body5"
             comptype="Text"
           >
             Featured
@@ -39,7 +39,7 @@ const Header1 = (props) => {
           <Text
             className="hover:bg-gray_800 cursor-pointer hover:font-bold font-inter font-normal hover:justify-center lg:ml-[24px] xl:ml-[28px] 2xl:ml-[32px] 3xl:ml-[38px] lg:mt-[15px] xl:mt-[17px] 2xl:mt-[20px] 3xl:mt-[24px] text-bluegray_900 hover:text-gray_500 uppercase w-[auto]"
             compid="I13:2181;1:10414"
-            variant="body6"
+            variant="body5"
             comptype="Text"
           >
             Men
@@ -47,7 +47,7 @@ const Header1 = (props) => {
           <Text
             className="hover:bg-gray_800 cursor-pointer hover:font-bold font-inter font-normal hover:justify-center lg:ml-[24px] xl:ml-[28px] 2xl:ml-[32px] 3xl:ml-[38px] lg:mt-[14px] xl:mt-[16px] 2xl:mt-[18px] 3xl:mt-[21px] text-bluegray_900 hover:text-gray_500 uppercase w-[auto]"
             compid="I13:2181;1:10415"
-            variant="body6"
+            variant="body5"
             comptype="Text"
           >
             Women
@@ -55,7 +55,7 @@ const Header1 = (props) => {
           <Text
             className="hover:bg-gray_800 cursor-pointer hover:font-bold font-inter font-normal hover:justify-center lg:ml-[24px] xl:ml-[28px] 2xl:ml-[32px] 3xl:ml-[38px] lg:mt-[14px] xl:mt-[16px] 2xl:mt-[18px] 3xl:mt-[21px] text-bluegray_900 hover:text-gray_500 uppercase w-[auto]"
             compid="I13:2181;1:10416"
-            variant="body6"
+            variant="body5"
             comptype="Text"
           >
             Sale
@@ -75,7 +75,7 @@ const Header1 = (props) => {
             <Text
               className="hover:bg-gray_800 cursor-pointer hover:font-bold font-inter font-normal hover:justify-center lg:ml-[14px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] lg:mr-[19px] xl:mr-[22px] 2xl:mr-[25px] 3xl:mr-[30px] not-italic text-gray_500 w-[auto]"
               compid="I13:2181;1:10417;1:10370"
-              variant="body6"
+              variant="body5"
               comptype="Text"
             >
               Search for products, categories, etc
@@ -119,7 +119,7 @@ const Header1 = (props) => {
             <Text
               className="hover:absolute absolute bg-gray_800 cursor-pointer hover:font-bold font-bold font-inter p-[4px] right-[0] rounded-radius4 hover:text-gray_500 text-yellow_100 top-[0] w-[23px]"
               compid="I13:2181;1:10433"
-              variant="body8"
+              variant="body7"
               comptype="Text"
             >
               12
