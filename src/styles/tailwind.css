@@ -1,0 +1,254 @@
+
+    @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #23230d;
+}
+/* Override default focus colors for tailwindcss-forms https://github.com/tailwindlabs/tailwindcss-forms */
+[type='text']:focus,
+[type='email']:focus,
+[type='url']:focus,
+[type='password']:focus,
+[type='number']:focus,
+[type='date']:focus,
+[type='search']:focus,
+[type='checkbox']:focus,
+[type='radio']:focus,
+[multiple]:focus,
+textarea:focus,
+select:focus {
+  --tw-ring-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.react-datepicker-wrapper .react-datepicker__input-container input{
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  padding: 0px;
+}
+.react-datepicker__day.react-datepicker__day--keyboard-selected {
+  background: none;
+  color: black;
+}
+input:focus, textarea:focus{
+  outline:none !important;
+  outline-offset: 0 !important;
+  --tw-ring-offset-width:none !important;
+}
+
+li:focus-visible{
+  outline: none;
+}
+
+li:hover{
+  cursor: pointer;
+}
+
+.tab-panel--selected { animation-name: tabPanel; animation-duration: 300ms; animation-timing-function: linear; }
+@keyframes tabPanel { from { opacity: 0; } to { opacity: 1; } }
+/* Input style */
+.input-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container label {
+  position: absolute;
+  transform-origin: top left;
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.input-container input {
+  transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.sections{
+ @apply font-medium lg:ml-[7px] xl:ml-[8px] text-bluegray_900 uppercase w-[auto]; 
+}
+.reply{
+ @apply 3xl:h-[10px] lg:h-[7px] xl:h-[8px] 2xl:h-[9px] w-[1%]; 
+}
+.FastEasyand{
+ @apply font-medium 2xl:ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] text-bluegray_900 uppercase w-[auto]; 
+}
+.map{
+ @apply lg:h-[11px] xl:h-[13px] 2xl:h-[15px] 3xl:h-[17px] lg:ml-[161px] xl:ml-[185px] 2xl:ml-[208px] 3xl:ml-[249px] my-[1px] lg:w-[10px] xl:w-[12px] 2xl:w-[14px] 3xl:w-[16px]; 
+}
+.price{
+ @apply font-medium 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] text-bluegray_900 uppercase w-[auto]; 
+}
+.computer{
+ @apply lg:h-[11px] xl:h-[12px] 2xl:h-[14px] 3xl:h-[16px] lg:ml-[223px] xl:ml-[255px] 2xl:ml-[287px] 3xl:ml-[344px] lg:w-[10px] xl:w-[11px] 2xl:w-[13px] 3xl:w-[15px]; 
+}
+.SecurePayments{
+ @apply font-medium 3xl:ml-[10px] lg:ml-[7px] xl:ml-[8px] 2xl:ml-[9px] 3xl:mr-[105px] lg:mr-[68px] xl:mr-[78px] 2xl:mr-[88px] text-bluegray_900 uppercase w-[auto]; 
+}
+.columnshopbymen{
+ @apply font-normal lg:mt-[101px] xl:mt-[116px] 2xl:mt-[131px] 3xl:mt-[157px] text-gray_101 uppercase w-[auto]; 
+}
+.columnshopbymen_five{
+ @apply font-normal lg:leading-[17px] xl:leading-[19px] 2xl:leading-[22px] 3xl:leading-[26px] 2xl:mt-[109px] 3xl:mt-[130px] lg:mt-[84px] xl:mt-[96px] text-center text-gray_101 uppercase w-[86%]; 
+}
+.rowbaggyjoggers{
+ @apply font-semibold lg:text-[18px] xl:text-[21px] 2xl:text-[24px] 3xl:text-[28px] text-indigo_900 underline w-[auto]; 
+}
+.RectangleFortyOne{
+ @apply absolute lg:h-[280px] xl:h-[321px] 2xl:h-[361px] 3xl:h-[433px] rounded-radius24 top-[0] w-[100%]; 
+}
+.rowalsoexplore{
+ @apply font-extrabold text-black_900 lg:tracking-ls1 2xl:tracking-ls2 xl:tracking-ls2 3xl:tracking-ls3 w-[auto]; 
+}
+.RectangleFiftyTwo{
+ @apply lg:h-[350px] xl:h-[401px] 2xl:h-[451px] 3xl:h-[541px] rounded-radius48 w-[24%]; 
+}
+.Home{
+ @apply font-normal mt-[1px] text-gray_500 w-[auto]; 
+}
+.Two{
+ @apply font-normal lg:ml-[6px] xl:ml-[7px] 2xl:ml-[8px] 3xl:ml-[9px] my-[1px] text-gray_500 w-[auto]; 
+}
+.Menscollectio{
+ @apply font-normal mb-[1px] lg:ml-[6px] xl:ml-[7px] 2xl:ml-[8px] 3xl:ml-[9px] text-gray_500 w-[auto]; 
+}
+.WhiteWillow{
+ @apply font-normal lg:ml-[6px] xl:ml-[7px] 2xl:ml-[8px] 3xl:ml-[9px] my-[1px] text-gray_903 w-[auto]; 
+}
+.RectangleThree{
+ @apply lg:h-[324px] xl:h-[371px] 2xl:h-[417px] 3xl:h-[500px] lg:ml-[18px] xl:ml-[21px] 2xl:ml-[24px] 3xl:ml-[28px] rounded-radius24 w-[48%]; 
+}
+.RectangleFour{
+ @apply lg:h-[324px] xl:h-[371px] 2xl:h-[417px] 3xl:h-[500px] rounded-radius24 w-[48%]; 
+}
+.language{
+ @apply capitalize font-semibold 2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[1px] text-black_900 w-[auto]; 
+}
+.Leather{
+ @apply capitalize font-black 2xl:ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] text-black_900 w-[auto]; 
+}
+.columnproductmeter{
+ @apply capitalize font-semibold text-black_900 w-[auto]; 
+}
+.rowfive{
+ @apply font-normal not-italic text-black_900 w-[auto]; 
+}
+.Five{
+ @apply font-normal mb-[1px] not-italic text-black_900 w-[auto]; 
+}
+.TwoHundredTwentySix{
+ @apply font-normal mt-[2px] not-italic text-black_900 w-[auto]; 
+}
+.Rectangle729{
+ @apply lg:h-[50px] xl:h-[57px] 2xl:h-[65px] 3xl:h-[77px] rounded-radius4 lg:w-[49px] xl:w-[56px] 2xl:w-[64px] 3xl:w-[76px]; 
+}
+.columnfive_two{
+ @apply font-semibold leading-[normal] xl:mt-[10px] 2xl:mt-[12px] 3xl:mt-[14px] lg:mt-[9px] text-gray_801 tracking-ls1 w-[100%]; 
+}
+.rowfive_two{
+ @apply font-black 2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[3px] text-bluegray_901 tracking-ls1 w-[auto]; 
+}
+.Rectangle800{
+ @apply lg:h-[304px] xl:h-[347px] 2xl:h-[391px] 3xl:h-[469px] rounded-radius24 w-[54%]; 
+}
+.rowellipsefive{
+ @apply font-bold lg:ml-[6px] xl:ml-[7px] 2xl:ml-[8px] 3xl:ml-[9px] text-white_A700 w-[auto]; 
+}
+.rowgroupfortyseven{
+ @apply bg-white_A700 font-normal not-italic lg:px-[11px] xl:px-[13px] 2xl:px-[15px] 3xl:px-[18px] 2xl:py-[10px] 3xl:py-[12px] lg:py-[7px] xl:py-[8px] rounded-radius10 text-gray_900 w-[96px]; 
+}
+.favorite_Two{
+ @apply absolute bottom-[0] lg:h-[14px] xl:h-[16px] 2xl:h-[18px] 3xl:h-[21px] right-[0] w-[6%]; 
+}
+.price_Two{
+ @apply font-semibold lg:mt-[10px] xl:mt-[12px] 2xl:mt-[14px] 3xl:mt-[16px] text-gray_903 tracking-ls1 w-[auto]; 
+}
+.NewArrival_One{
+ @apply font-semibold lg:mt-[14px] xl:mt-[16px] 2xl:mt-[18px] 3xl:mt-[21px] text-gray_903 tracking-ls1 w-[auto]; 
+}
+.AboutUsOutSt_One{
+ @apply font-normal lg:mt-[15px] xl:mt-[17px] 2xl:mt-[20px] 3xl:mt-[24px] not-italic text-gray_500 w-[auto]; 
+}
+.AboutUsOutSt_Four{
+ @apply font-normal lg:mt-[14px] xl:mt-[16px] 2xl:mt-[18px] 3xl:mt-[21px] not-italic text-gray_500 w-[auto]; 
+}
+.AboutUsOutSt_Five{
+ @apply font-normal lg:mt-[18px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] not-italic text-gray_500 w-[auto]; 
+}
+.input{
+ @apply font-inter font-normal lg:ml-[14px] xl:ml-[16px] 2xl:ml-[18px] 3xl:ml-[21px] not-italic text-gray_500 w-[auto]; 
+}
+.rowvector1{
+ @apply font-bold mb-[1px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] text-gray_900 tracking-ls1 w-[auto]; 
+}
+.price_Two1{
+ @apply font-bold mb-[1px] lg:ml-[17px] xl:ml-[20px] 2xl:ml-[23px] 3xl:ml-[27px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] text-gray_900 tracking-ls1 w-[auto]; 
+}
+.ITEM{
+ @apply font-bold mb-[1px] xl:ml-[109px] 2xl:ml-[123px] 3xl:ml-[147px] lg:ml-[95px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] text-gray_900 tracking-ls1 w-[auto]; 
+}
+.PRICE_Three{
+ @apply font-bold mb-[1px] lg:ml-[143px] xl:ml-[163px] 2xl:ml-[184px] 3xl:ml-[220px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] text-gray_900 tracking-ls1 w-[auto]; 
+}
+.QTY{
+ @apply font-bold mb-[1px] 3xl:ml-[108px] lg:ml-[70px] xl:ml-[80px] 2xl:ml-[90px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] text-gray_900 tracking-ls1 w-[auto]; 
+}
+.TOTAL{
+ @apply font-bold mb-[1px] lg:ml-[147px] xl:ml-[169px] 2xl:ml-[190px] 3xl:ml-[228px] lg:mt-[4px] xl:mt-[5px] 2xl:mt-[6px] 3xl:mt-[7px] text-gray_900 tracking-ls1 w-[auto]; 
+}
+.Group104{
+ @apply font-semibold p-[0] lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-gray_500 w-[100%]; 
+}
+.listvector_one{
+ @apply items-center justify-between lg:my-[18px] xl:my-[21px] 2xl:my-[24px] 3xl:my-[28px] w-[100%]; 
+}
+.UK42Black{
+ @apply font-semibold lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] text-gray_500 tracking-ls1 w-[auto]; 
+}
+.price_Four{
+ @apply font-bold lg:ml-[105px] xl:ml-[120px] 2xl:ml-[136px] 3xl:ml-[163px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] text-gray_900 tracking-ls1 w-[auto]; 
+}
+.Group118{
+ @apply bg-white_A700 border border-gray_400 border-solid font-bold pb-[1px] lg:pt-[4px] xl:pt-[5px] 2xl:pt-[6px] 3xl:pt-[7px] 2xl:px-[10px] 3xl:px-[12px] lg:px-[7px] xl:px-[8px] text-gray_900 tracking-ls1 w-[30px]; 
+}
+.plus{
+ @apply absolute 3xl:h-[10px] lg:h-[7px] xl:h-[8px] 2xl:h-[9px] inset-[0] justify-center m-[auto] w-[23%]; 
+}
+.price_One2{
+ @apply font-black lg:ml-[105px] xl:ml-[120px] 2xl:ml-[136px] 3xl:ml-[163px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] text-gray_900 tracking-ls1 w-[auto]; 
+}
+.rowfavorite{
+ @apply font-semibold mt-[4px] text-gray_903 tracking-ls1 w-[auto]; 
+}
+.favorite_One1{
+ @apply lg:h-[14px] xl:h-[16px] 2xl:h-[18px] 3xl:h-[21px] mt-[1px] w-[9%]; 
+}
+.Saveforlater{
+ @apply font-semibold 2xl:ml-[10px] 3xl:ml-[12px] lg:ml-[7px] xl:ml-[8px] mt-[4px] text-gray_903 tracking-ls1 w-[auto]; 
+}
+.trash_One{
+ @apply lg:h-[16px] xl:h-[18px] 2xl:h-[21px] 3xl:h-[25px] mb-[1px] lg:ml-[18px] xl:ml-[21px] 2xl:ml-[24px] 3xl:ml-[28px] w-[8%]; 
+}
+.Delete{
+ @apply font-semibold 2xl:ml-[11px] 3xl:ml-[13px] lg:ml-[8px] xl:ml-[9px] mt-[4px] text-gray_903 tracking-ls1 w-[auto]; 
+}
+.Rectangle830{
+ @apply lg:h-[125px] xl:h-[143px] 2xl:h-[161px] 3xl:h-[193px] lg:ml-[20px] xl:ml-[23px] 2xl:ml-[26px] 3xl:ml-[31px] rounded-radius12 w-[14%]; 
+}
+.Rectangle8271{
+ @apply lg:h-[125px] xl:h-[143px] 2xl:h-[161px] 3xl:h-[193px] rounded-radius12 w-[14%]; 
+}
+.AboutRapidbox1{
+ @apply font-inter font-normal text-gray_400 w-[auto]; 
+}
+.AboutUsOutSt_One1{
+ @apply font-inter font-normal lg:mt-[15px] xl:mt-[17px] 2xl:mt-[20px] 3xl:mt-[24px] not-italic text-gray_500 w-[auto]; 
+}
+.AboutUsOutSt_Four2{
+ @apply font-inter font-normal lg:mt-[14px] xl:mt-[16px] 2xl:mt-[18px] 3xl:mt-[21px] not-italic text-gray_500 w-[auto]; 
+}
+.AboutUsOutSt_Five1{
+ @apply font-inter font-normal lg:mt-[18px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] not-italic text-gray_500 w-[auto]; 
+}

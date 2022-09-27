@@ -1,0 +1,714 @@
+import React from "react";
+
+import {
+  Column,
+  Row,
+  Img,
+  Text,
+  Button,
+  List,
+  Line,
+  Stack,
+  Input,
+} from "components";
+import Header1 from "components/Header/Header1";
+import Footer from "components/Footer/Footer";
+
+const CartPagePage = () => {
+  return (
+    <>
+      <Column
+        className="bg-gray_100 font-inter mx-[auto] w-[100%]"
+        compid="13:2600"
+        comptype="Column"
+      >
+        <Column
+          className="items-center w-[100%]"
+          compid="278"
+          comptype="Column"
+        >
+          <Row
+            className="bg-yellow_100 items-center justify-end xl:p-[10px] 2xl:p-[12px] 3xl:p-[14px] lg:p-[9px] w-[100%]"
+            compid="13:2601"
+            comptype="Row"
+          >
+            <Img
+              src="images/img_reply.svg"
+              className="reply"
+              compid="I13:2601;137:389;13:1705"
+              comptype="Image"
+              alt="reply"
+            />
+            <Text
+              className="FastEasyand"
+              compid="I13:2601;137:390"
+              variant="body8"
+              comptype="Text"
+            >
+              Fast, Easy and Free Returns
+            </Text>
+            <Img
+              src="images/img_map.svg"
+              className="map"
+              compid="I13:2601;137:392;13:3703"
+              comptype="Image"
+              alt="map"
+            />
+            <Text
+              className="price"
+              compid="I13:2601;137:393"
+              variant="body8"
+              comptype="Text"
+            >
+              <span className="text-bluegray_900 font-inter lg:text-[10px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
+                Free shipping on order above ₹1000{" "}
+              </span>
+              <span className="text-bluegray_900 font-inter font-normal underline lg:text-[10px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
+                Learn More
+              </span>
+            </Text>
+            <Img
+              src="images/img_computer.svg"
+              className="computer"
+              compid="I13:2601;137:395;13:686"
+              comptype="Image"
+              alt="computer"
+            />
+            <Text
+              className="SecurePayments"
+              compid="I13:2601;137:396"
+              variant="body8"
+              comptype="Text"
+            >
+              Secure Payments
+            </Text>
+          </Row>
+          <Header1 className="w-[100%]" compid="69" comptype="Header" />
+        </Column>
+        <Row className="font-lato mt-[1px] w-[96%]" compid="272" comptype="Row">
+          <Column
+            className="bg-white_A700 lg:p-[22px] xl:p-[25px] 2xl:p-[29px] 3xl:p-[34px] shadow-bs2 w-[76%]"
+            compid="59"
+            comptype="Column"
+          >
+            <Row
+              className="items-center lg:ml-[23px] xl:ml-[26px] 2xl:ml-[30px] 3xl:ml-[36px] w-[28%]"
+              compid="13:2630"
+              comptype="Row"
+            >
+              <Text
+                className="Home"
+                compid="13:2631"
+                variant="body5"
+                comptype="Text"
+              >
+                Home
+              </Text>
+              <Text
+                className="Two"
+                compid="13:2634"
+                variant="body5"
+                comptype="Text"
+              >
+                /
+              </Text>
+              <Text
+                className="Menscollectio"
+                compid="13:2632"
+                variant="body5"
+                comptype="Text"
+              >
+                Men's collection
+              </Text>
+              <Text
+                className="Two"
+                compid="13:2635"
+                variant="body5"
+                comptype="Text"
+              >
+                /
+              </Text>
+              <Text
+                className="WhiteWillow"
+                compid="13:2633"
+                variant="body5"
+                comptype="Text"
+              >
+                Sneakers
+              </Text>
+            </Row>
+            <Text
+              className="font-normal lg:ml-[24px] xl:ml-[28px] 2xl:ml-[32px] 3xl:ml-[38px] lg:mt-[21px] xl:mt-[24px] 2xl:mt-[28px] 3xl:mt-[33px] text-black_900 w-[auto]"
+              compid="13:2627"
+              variant="body1"
+              comptype="Text"
+            >
+              ITEM SUMMARY (3)
+            </Text>
+            <Row
+              className="items-end lg:ml-[23px] xl:ml-[26px] 2xl:ml-[30px] 3xl:ml-[36px] lg:mt-[11px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[85%]"
+              compid="255"
+              comptype="Row"
+            >
+              <Button
+                className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                compid="13:2690"
+                comptype="IconButton"
+                shape="icbRoundedBorder6"
+                size="smIcn"
+                variant="icbFillLightgreen800"
+              >
+                <Img
+                  src="images/img_vector.svg"
+                  className="flex items-center justify-center"
+                  alt="Vector"
+                />
+              </Button>
+              <Text
+                className="price_Two1"
+                compid="13:2607"
+                variant="body5"
+                comptype="Text"
+              >
+                ALL
+              </Text>
+              <Text
+                className="ITEM"
+                compid="13:2608"
+                variant="body5"
+                comptype="Text"
+              >
+                ITEM
+              </Text>
+              <Text
+                className="PRICE_Three"
+                compid="13:2609"
+                variant="body5"
+                comptype="Text"
+              >
+                PRICE
+              </Text>
+              <Text
+                className="QTY"
+                compid="13:2610"
+                variant="body5"
+                comptype="Text"
+              >
+                QTY
+              </Text>
+              <Text
+                className="TOTAL"
+                compid="13:2611"
+                variant="body5"
+                comptype="Text"
+              >
+                TOTAL
+              </Text>
+            </Row>
+            <List
+              className="gap-[0] lg:mb-[38px] xl:mb-[44px] 2xl:mb-[50px] 3xl:mb-[60px] min-h-[auto] lg:ml-[23px] xl:ml-[26px] 2xl:ml-[30px] 3xl:ml-[36px] lg:mt-[28px] xl:mt-[32px] 2xl:mt-[36px] 3xl:mt-[43px] w-[87%]"
+              compid="277"
+              comptype="List"
+              orientation="vertical"
+            >
+              <Row className="listvector_one" compid="247" comptype="Row">
+                <Button
+                  className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                  compid="13:2693"
+                  comptype="IconButton"
+                  shape="icbRoundedBorder6"
+                  size="smIcn"
+                  variant="icbFillLightgreen800"
+                >
+                  <Img
+                    src="images/img_vector.svg"
+                    className="flex items-center justify-center"
+                    alt="Vector One"
+                  />
+                </Button>
+                <Img
+                  src="images/img_rectangle745.png"
+                  className="Rectangle8271"
+                  compid="13:2616"
+                  comptype="Image"
+                  alt="Rectangle827"
+                />
+                <Column className="w-[78%]" compid="258" comptype="Column">
+                  <Text
+                    className="text-black_900 w-[auto]"
+                    compid="13:2612"
+                    variant="body3"
+                    comptype="Text"
+                  >
+                    Chunky Derby sneakers
+                  </Text>
+                  <Row
+                    className="lg:mt-[11px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[100%]"
+                    compid="13:2617"
+                    comptype="Row"
+                  >
+                    <Text
+                      className="UK42Black"
+                      compid="13:2613"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      UK 42 / Black
+                    </Text>
+                    <Text
+                      className="price_Four"
+                      compid="13:2605"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      ₹1239.00
+                    </Text>
+                    <Column
+                      className="bg-white_A700 border border-gray_400 border-solid items-center lg:ml-[50px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] 2xl:p-[11px] 3xl:p-[13px] lg:p-[8px] xl:p-[9px] w-[4%]"
+                      compid="13:2624"
+                      comptype="Column"
+                    >
+                      <div
+                        className="bg-gray_400 xl:h-[1px] lg:h-[1px] 3xl:h-[2px] 2xl:h-[2px] mb-[1px] w-[88%]"
+                        compid="13:2626"
+                        comptype="View"
+                      ></div>
+                    </Column>
+                    <Text
+                      className="Group118"
+                      compid="13:2621"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      1
+                    </Text>
+                    <Stack
+                      className="bg-white_A700 border border-gray_400 border-solid lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] lg:px-[5px] xl:px-[6px] 2xl:px-[7px] 3xl:px-[8px] w-[4%]"
+                      compid="13:2618"
+                      comptype="Stack"
+                    >
+                      <Img
+                        src="images/img_plus.svg"
+                        className="plus"
+                        compid="13:2620"
+                        comptype="Image"
+                        alt="plus"
+                      />
+                    </Stack>
+                    <Text
+                      className="price_One2"
+                      compid="13:2606"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      ₹1239.00
+                    </Text>
+                  </Row>
+                  <Row
+                    className="ml-[2px] lg:mt-[57px] xl:mt-[65px] 2xl:mt-[74px] 3xl:mt-[88px] w-[34%]"
+                    compid="248"
+                    comptype="Row"
+                  >
+                    <Img
+                      src="images/img_favorite.svg"
+                      className="favorite_One1"
+                      compid="I13:2636;13:4922"
+                      comptype="Image"
+                      alt="favorite One"
+                    />
+                    <Text
+                      className="Saveforlater"
+                      compid="13:2614"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      Save for later
+                    </Text>
+                    <Img
+                      src="images/img_trash_20X18.svg"
+                      className="trash_One"
+                      compid="I13:2637;13:5396"
+                      comptype="Image"
+                      alt="trash One"
+                    />
+                    <Text
+                      className="Delete"
+                      compid="13:2615"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      Delete
+                    </Text>
+                  </Row>
+                </Column>
+              </Row>
+              <Line
+                className="self-center w-[100%] h-[1px] bg-gray_400"
+                compid="13:2675"
+                comptype="Line"
+              />
+              <Row className="listvector_one" compid="249" comptype="Row">
+                <Button
+                  className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                  compid="13:2696"
+                  comptype="IconButton"
+                  shape="icbRoundedBorder6"
+                  size="smIcn"
+                  variant="icbFillLightgreen800"
+                >
+                  <Img
+                    src="images/img_vector.svg"
+                    className="flex items-center justify-center"
+                    alt="Vector Two"
+                  />
+                </Button>
+                <Img
+                  src="images/img_rectangle802.png"
+                  className="Rectangle8271"
+                  compid="13:2644"
+                  comptype="Image"
+                  alt="Rectangle830"
+                />
+                <Column className="w-[78%]" compid="259" comptype="Column">
+                  <Text
+                    className="text-black_900 w-[auto]"
+                    compid="13:2640"
+                    variant="body3"
+                    comptype="Text"
+                  >
+                    Chunky Derby sneakers
+                  </Text>
+                  <Row
+                    className="lg:mt-[11px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[100%]"
+                    compid="13:2645"
+                    comptype="Row"
+                  >
+                    <Text
+                      className="UK42Black"
+                      compid="13:2641"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      UK 42 / Black
+                    </Text>
+                    <Text
+                      className="price_Four"
+                      compid="13:2638"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      ₹1239.00
+                    </Text>
+                    <Column
+                      className="bg-white_A700 border border-gray_400 border-solid items-center lg:ml-[50px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] 2xl:p-[11px] 3xl:p-[13px] lg:p-[8px] xl:p-[9px] w-[4%]"
+                      compid="13:2652"
+                      comptype="Column"
+                    >
+                      <div
+                        className="bg-gray_400 xl:h-[1px] lg:h-[1px] 3xl:h-[2px] 2xl:h-[2px] mb-[1px] w-[88%]"
+                        compid="13:2654"
+                        comptype="View"
+                      ></div>
+                    </Column>
+                    <Text
+                      className="Group118"
+                      compid="13:2649"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      1
+                    </Text>
+                    <Stack
+                      className="bg-white_A700 border border-gray_400 border-solid lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] lg:px-[5px] xl:px-[6px] 2xl:px-[7px] 3xl:px-[8px] w-[4%]"
+                      compid="13:2646"
+                      comptype="Stack"
+                    >
+                      <Img
+                        src="images/img_plus.svg"
+                        className="plus"
+                        compid="13:2648"
+                        comptype="Image"
+                        alt="plus One"
+                      />
+                    </Stack>
+                    <Text
+                      className="price_One2"
+                      compid="13:2639"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      ₹1239.00
+                    </Text>
+                  </Row>
+                  <Row
+                    className="ml-[2px] lg:mt-[57px] xl:mt-[65px] 2xl:mt-[74px] 3xl:mt-[88px] w-[34%]"
+                    compid="250"
+                    comptype="Row"
+                  >
+                    <Img
+                      src="images/img_favorite.svg"
+                      className="favorite_One1"
+                      compid="I13:2656;13:4922"
+                      comptype="Image"
+                      alt="favorite Two"
+                    />
+                    <Text
+                      className="Saveforlater"
+                      compid="13:2642"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      Save for later
+                    </Text>
+                    <Img
+                      src="images/img_trash_20X18.svg"
+                      className="trash_One"
+                      compid="I13:2657;13:5396"
+                      comptype="Image"
+                      alt="trash Two"
+                    />
+                    <Text
+                      className="Delete"
+                      compid="13:2643"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      Delete
+                    </Text>
+                  </Row>
+                </Column>
+              </Row>
+              <Line
+                className="self-center w-[100%] h-[1px] bg-gray_400"
+                compid="13:2675"
+                comptype="Line"
+              />
+              <Row className="listvector_one" compid="251" comptype="Row">
+                <Button
+                  className="flex lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] items-center justify-center lg:w-[18px] xl:w-[21px] 2xl:w-[24px] 3xl:w-[28px]"
+                  compid="13:2699"
+                  comptype="IconButton"
+                  shape="icbRoundedBorder6"
+                  size="smIcn"
+                  variant="icbFillLightgreen800"
+                >
+                  <Img
+                    src="images/img_vector.svg"
+                    className="flex items-center justify-center"
+                    alt="Vector Three"
+                  />
+                </Button>
+                <Img
+                  src="images/img_group134.png"
+                  className="Rectangle8271"
+                  compid="13:2664"
+                  comptype="Image"
+                  alt="Rectangle830 One"
+                />
+                <Column className="w-[78%]" compid="260" comptype="Column">
+                  <Text
+                    className="text-black_900 w-[auto]"
+                    compid="13:2660"
+                    variant="body3"
+                    comptype="Text"
+                  >
+                    Chunky Derby sneakers
+                  </Text>
+                  <Row
+                    className="lg:mt-[11px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[100%]"
+                    compid="13:2665"
+                    comptype="Row"
+                  >
+                    <Text
+                      className="UK42Black"
+                      compid="13:2661"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      UK 42 / Black
+                    </Text>
+                    <Text
+                      className="price_Four"
+                      compid="13:2658"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      ₹1239.00
+                    </Text>
+                    <Column
+                      className="bg-white_A700 border border-gray_400 border-solid items-center lg:ml-[50px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] 2xl:p-[11px] 3xl:p-[13px] lg:p-[8px] xl:p-[9px] w-[4%]"
+                      compid="13:2672"
+                      comptype="Column"
+                    >
+                      <div
+                        className="bg-gray_400 xl:h-[1px] lg:h-[1px] 3xl:h-[2px] 2xl:h-[2px] mb-[1px] w-[88%]"
+                        compid="13:2674"
+                        comptype="View"
+                      ></div>
+                    </Column>
+                    <Text
+                      className="Group118"
+                      compid="13:2669"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      1
+                    </Text>
+                    <Stack
+                      className="bg-white_A700 border border-gray_400 border-solid lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px] lg:px-[5px] xl:px-[6px] 2xl:px-[7px] 3xl:px-[8px] w-[4%]"
+                      compid="13:2666"
+                      comptype="Stack"
+                    >
+                      <Img
+                        src="images/img_plus.svg"
+                        className="plus"
+                        compid="13:2668"
+                        comptype="Image"
+                        alt="plus Two"
+                      />
+                    </Stack>
+                    <Text
+                      className="price_One2"
+                      compid="13:2659"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      ₹1239.00
+                    </Text>
+                  </Row>
+                  <Row
+                    className="ml-[2px] lg:mt-[57px] xl:mt-[65px] 2xl:mt-[74px] 3xl:mt-[88px] w-[34%]"
+                    compid="252"
+                    comptype="Row"
+                  >
+                    <Img
+                      src="images/img_favorite.svg"
+                      className="favorite_One1"
+                      compid="I13:2676;13:4922"
+                      comptype="Image"
+                      alt="favorite Three"
+                    />
+                    <Text
+                      className="Saveforlater"
+                      compid="13:2662"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      Save for later
+                    </Text>
+                    <Img
+                      src="images/img_trash_20X18.svg"
+                      className="trash_One"
+                      compid="I13:2677;13:5396"
+                      comptype="Image"
+                      alt="trash Three"
+                    />
+                    <Text
+                      className="Delete"
+                      compid="13:2663"
+                      variant="body5"
+                      comptype="Text"
+                    >
+                      Delete
+                    </Text>
+                  </Row>
+                </Column>
+              </Row>
+            </List>
+          </Column>
+          <Column
+            className="items-center lg:ml-[18px] xl:ml-[21px] 2xl:ml-[24px] 3xl:ml-[28px] lg:mt-[56px] xl:mt-[64px] 2xl:mt-[72px] 3xl:mt-[86px] w-[23%]"
+            compid="271"
+            comptype="Column"
+          >
+            <Row
+              className="items-end justify-between w-[100%]"
+              compid="266"
+              comptype="Row"
+            >
+              <Text
+                className="font-bold mb-[2px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] text-gray_801 tracking-ls1 w-[auto]"
+                compid="13:2685"
+                variant="body5"
+                comptype="Text"
+              >
+                Subtotal
+              </Text>
+              <Text
+                className="font-extrabold text-gray_900 w-[auto]"
+                compid="13:2684"
+                variant="body1"
+                comptype="Text"
+              >
+                ₹1239.00
+              </Text>
+            </Row>
+            <Line
+              className="bg-gray_400 h-[1px] lg:mt-[13px] xl:mt-[15px] 2xl:mt-[17px] 3xl:mt-[20px] w-[100%]"
+              compid="13:2686"
+              comptype="Line"
+            />
+            <Row
+              className="items-center justify-between lg:mt-[11px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[100%]"
+              compid="267"
+              comptype="Row"
+            >
+              <Column
+                className="items-center rounded-radius6 w-[64%]"
+                compid="13:2678"
+                comptype="Column"
+              >
+                <Input
+                  className="placeholder:text-gray_500 Group104"
+                  wrapClassName="w-[100%]"
+                  compid="13:2679"
+                  comptype="EditText"
+                  name="Group104"
+                  placeholder="Coupon Code"
+                ></Input>
+              </Column>
+              <Button
+                className="font-normal lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[28%]"
+                compid="58"
+                comptype="Button"
+                shape="RoundedBorder8"
+                size="md"
+                variant="FillGray900"
+              >
+                Apply
+              </Button>
+            </Row>
+            <Line
+              className="bg-gray_400 h-[1px] lg:mt-[18px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] w-[100%]"
+              compid="13:2687"
+              comptype="Line"
+            />
+            <Button
+              className="font-bold lg:mt-[17px] xl:mt-[20px] 2xl:mt-[23px] 3xl:mt-[27px] lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center tracking-ls1 w-[100%]"
+              compid="57"
+              comptype="Button"
+              shape="RoundedBorder8"
+              size="lg"
+              variant="FillGray900"
+            >
+              Proceed to Payment
+            </Button>
+          </Column>
+        </Row>
+        <Column
+          className="font-inter items-center w-[100%]"
+          compid="279"
+          comptype="Column"
+        >
+          <Footer
+            className="bg-gray_903 w-[100%]"
+            compid="13:2603"
+            comptype="Footer"
+          />
+        </Column>
+      </Column>
+    </>
+  );
+};
+
+export default CartPagePage;
