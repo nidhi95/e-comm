@@ -259,7 +259,9 @@ const LoginFlowMobilePage = () => {
                     comptype="EditText"
                     name="Group104"
                     placeholder="Coupon Code"
+                    shape="RoundedBorder6"
                     size="md"
+                    variant="OutlineGray400"
                   ></Input>
                   <Button
                     className="font-normal lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[28%]"
@@ -760,7 +762,9 @@ const LoginFlowMobilePage = () => {
                   comptype="EditText"
                   name="NinetyOne"
                   placeholder=""
+                  shape="RoundedBorder6"
                   size="sm"
+                  variant="OutlineGray400"
                 ></Input>
               </Column>
               <Row

@@ -642,7 +642,9 @@ const ProductDetailsPageProductdescriptionPage = () => {
                 comptype="EditText"
                 name="Group172"
                 placeholder="Enter Pin"
+                shape="RoundedBorder6"
                 size="lg"
+                variant="OutlineGray400"
               ></Input>
               <Button
                 className="font-normal lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[37%]"

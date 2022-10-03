@@ -1196,30 +1196,14 @@ const DesktopThreePage = () => {
                 compid="1:1715"
                 comptype="Row"
               >
-                <Stack
-                  className="lg:h-[36px] xl:h-[45px] 2xl:h-[51px] 3xl:h-[61px] w-[65%]"
-                  compid="117"
-                  comptype="Stack"
-                >
-                  <Text
-                    className="absolute bottom-[2%] font-bold left-[8%] text-gray_500 tracking-ls1 w-[auto]"
-                    compid="1:1716"
-                    variant="body1"
-                    comptype="Text"
-                  >
-                    Enter Email
-                  </Text>
-                  <Input
-                    className="absolute font-bold p-[0] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] placeholder:text-gray_500 text-gray_500 tracking-ls1 w-[100%]"
-                    wrapClassName="absolute w-[100%]"
-                    compid="18"
-                    type="email"
-                    comptype="EditText"
-                    name="GroupEighteen"
-                    placeholder="Enter Email"
-                    size="lg"
-                  ></Input>
-                </Stack>
+                <Input
+                  className="font-bold lg:text-[17px] xl:text-[21px] 2xl:text-[24px] 3xl:text-[28px] text-gray_500 tracking-ls1 w-[100%]"
+                  wrapClassName="2xl:h-[51px] 2xl:ml-[32px] 3xl:h-[61px] 3xl:ml-[38px] flex lg:h-[36px] lg:ml-[22px] w-[65%] xl:h-[45px] xl:ml-[28px]"
+                  compid="1:1716"
+                  comptype="EditText"
+                  name="EnterEmail"
+                  placeholder=""
+                ></Input>
                 <Button
                   className="font-bold lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center tracking-ls1 w-[31%]"
                   compid="17"

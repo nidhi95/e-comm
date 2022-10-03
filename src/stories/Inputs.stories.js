@@ -7,7 +7,7 @@ export default {
 export const SampleInput = (args) => <Input {...args} />;
 SampleInput.args = {
   type: "text",
-  shape: "RoundedBorder8",
+  shape: "RoundedBorder6",
   variant: "OutlineGray400",
   size: "sm",
   wrapClassName: "w-[300px]",

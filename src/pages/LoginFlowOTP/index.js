@@ -259,7 +259,9 @@ const LoginFlowOTPPage = () => {
                     comptype="EditText"
                     name="Group104"
                     placeholder="Coupon Code"
+                    shape="RoundedBorder6"
                     size="md"
+                    variant="OutlineGray400"
                   ></Input>
                   <Button
                     className="font-normal lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[28%]"
@@ -764,7 +766,9 @@ const LoginFlowOTPPage = () => {
                     alt="close"
                   />
                 }
+                shape="RoundedBorder6"
                 size="sm"
+                variant="OutlineGray400"
               ></Input>
               <Column
                 className="justify-start lg:ml-[12px] xl:ml-[15px] 2xl:ml-[17px] 3xl:ml-[20px] lg:mt-[17px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] rounded-radius6 w-[93%]"
@@ -801,6 +805,7 @@ const LoginFlowOTPPage = () => {
                         comptype="EditText"
                         name="Rectangle810"
                         placeholder=""
+                        shape="RoundedBorder6"
                         variant="OutlineGray4001_2"
                       ></Input>
                       <Input
@@ -810,6 +815,7 @@ const LoginFlowOTPPage = () => {
                         comptype="EditText"
                         name="Rectangle821"
                         placeholder=""
+                        shape="RoundedBorder6"
                         variant="OutlineGray4001_2"
                       ></Input>
                       <Input
@@ -819,6 +825,7 @@ const LoginFlowOTPPage = () => {
                         comptype="EditText"
                         name="Rectangle822"
                         placeholder=""
+                        shape="RoundedBorder6"
                         variant="OutlineGray4001_2"
                       ></Input>
                       <Input
@@ -828,6 +835,7 @@ const LoginFlowOTPPage = () => {
                         comptype="EditText"
                         name="Rectangle823"
                         placeholder=""
+                        shape="RoundedBorder6"
                         variant="OutlineGray4001_2"
                       ></Input>
                       <Input
@@ -837,6 +845,7 @@ const LoginFlowOTPPage = () => {
                         comptype="EditText"
                         name="Rectangle824"
                         placeholder=""
+                        shape="RoundedBorder6"
                         variant="OutlineGray4001_2"
                       ></Input>
                       <Input
@@ -846,6 +855,7 @@ const LoginFlowOTPPage = () => {
                         comptype="EditText"
                         name="Rectangle825"
                         placeholder=""
+                        shape="RoundedBorder6"
                         variant="OutlineGray4001_2"
                       ></Input>
                     </Row>
