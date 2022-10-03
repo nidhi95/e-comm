@@ -8,13 +8,13 @@ const variants = {
   OutlineGray4001_2: "bg-gray_101 border border-gray_400 border-solid",
 };
 const shapes = {
-  RoundedBorder8: "rounded-radius8",
+  RoundedBorder6: "rounded-radius6",
   RoundedBorder16: "rounded-radius16",
 };
 const sizes = {
-  sm: "lg:p-[6px] xl:p-[7px] p-[8px] 3xl:p-[9px]",
-  md: "3xl:pb-[10px] lg:pb-[7px] xl:pb-[8px] pb-[9px] lg:pt-[10px] xl:pt-[12px] pt-[14px] 3xl:pt-[16px] 3xl:px-[10px] lg:px-[7px] xl:px-[8px] px-[9px]",
-  lg: "lg:pb-[10px] xl:pb-[12px] pb-[14px] 3xl:pb-[16px] lg:pt-[14px] xl:pt-[16px] pt-[19px] 3xl:pt-[22px] lg:px-[10px] xl:px-[12px] px-[14px] 3xl:px-[16px]",
+  sm: "lg:p-[4px] xl:p-[6px] p-[7px] 3xl:p-[8px]",
+  md: "3xl:pb-[10px] lg:pb-[6px] xl:pb-[8px] pb-[9px] xl:pt-[12px] pt-[14px] 3xl:pt-[16px] lg:pt-[9px] 3xl:px-[10px] lg:px-[6px] xl:px-[8px] px-[9px]",
+  lg: "lg:pb-[10px] xl:pb-[13px] pb-[15px] 3xl:pb-[18px] lg:pt-[12px] xl:pt-[16px] pt-[18px] 3xl:pt-[21px] lg:px-[10px] xl:px-[13px] px-[15px] 3xl:px-[18px]",
 };
 
 const Input = React.forwardRef(
@@ -68,7 +68,7 @@ Input.propTypes = {
   name: PropTypes.string,
   placeholder: PropTypes.string,
   type: PropTypes.string,
-  shape: PropTypes.oneOf(["RoundedBorder8", "RoundedBorder16"]),
+  shape: PropTypes.oneOf(["RoundedBorder6", "RoundedBorder16"]),
   variant: PropTypes.oneOf([
     "OutlineGray400",
     "FillWhiteA700",
