@@ -22,11 +22,11 @@ const variants = {
   icbFillLightgreen800: "bg-light_green_800",
 };
 const sizes = {
-  sm: "lg:p-[5px] xl:p-[6px] p-[7px] 3xl:p-[8px]",
-  md: "xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px]",
-  lg: "lg:p-[13px] xl:p-[15px] p-[17px] 3xl:p-[20px]",
-  xl: "lg:p-[15px] xl:p-[17px] p-[20px] 3xl:p-[24px]",
-  "2xl": "lg:p-[17px] xl:p-[20px] p-[23px] 3xl:p-[27px]",
+  sm: "lg:p-[4px] xl:p-[6px] p-[7px] 3xl:p-[8px]",
+  md: "xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[8px]",
+  lg: "lg:p-[12px] xl:p-[15px] p-[17px] 3xl:p-[20px]",
+  xl: "lg:p-[14px] xl:p-[17px] p-[20px] 3xl:p-[24px]",
+  "2xl": "lg:p-[16px] xl:p-[20px] p-[23px] 3xl:p-[27px]",
   smIcn: "lg:p-[4px] xl:p-[5px] p-[6px] 3xl:p-[7px]",
 };
 

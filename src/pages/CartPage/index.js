@@ -18,7 +18,7 @@ const CartPagePage = () => {
   return (
     <>
       <Column
-        className="bg-gray_100 font-inter mx-[auto] w-[100%]"
+        className="bg-gray_100 font-inter justify-start mx-[auto] w-[100%]"
         compid="13:2600"
         comptype="Column"
       >
@@ -28,7 +28,7 @@ const CartPagePage = () => {
           comptype="Column"
         >
           <Row
-            className="bg-yellow_100 items-center justify-end xl:p-[10px] 2xl:p-[12px] 3xl:p-[14px] lg:p-[9px] w-[100%]"
+            className="bg-yellow_100 items-center justify-end xl:p-[10px] 2xl:p-[12px] 3xl:p-[14px] lg:p-[8px] w-[100%]"
             compid="13:2601"
             comptype="Row"
           >
@@ -60,10 +60,10 @@ const CartPagePage = () => {
               variant="body7"
               comptype="Text"
             >
-              <span className="text-bluegray_900 font-inter lg:text-[10px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
+              <span className="text-bluegray_900 font-inter lg:text-[9px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
                 Free shipping on order above ₹1000{" "}
               </span>
-              <span className="text-bluegray_900 font-inter font-normal underline lg:text-[10px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
+              <span className="text-bluegray_900 font-inter font-normal underline lg:text-[9px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
                 Learn More
               </span>
             </Text>
@@ -85,14 +85,18 @@ const CartPagePage = () => {
           </Row>
           <Header1 className="w-[100%]" compid="69" comptype="Header" />
         </Column>
-        <Row className="font-lato mt-[1px] w-[96%]" compid="272" comptype="Row">
+        <Row
+          className="font-lato items-start mt-[1px] w-[96%]"
+          compid="272"
+          comptype="Row"
+        >
           <Column
-            className="bg-white_A700 lg:p-[22px] xl:p-[25px] 2xl:p-[29px] 3xl:p-[34px] shadow-bs2 w-[76%]"
+            className="bg-white_A700 justify-start lg:p-[20px] xl:p-[25px] 2xl:p-[29px] 3xl:p-[34px] shadow-bs2 w-[76%]"
             compid="59"
             comptype="Column"
           >
             <Row
-              className="items-center lg:ml-[23px] xl:ml-[26px] 2xl:ml-[30px] 3xl:ml-[36px] w-[28%]"
+              className="items-center lg:ml-[21px] xl:ml-[26px] 2xl:ml-[30px] 3xl:ml-[36px] w-[28%]"
               compid="13:2630"
               comptype="Row"
             >
@@ -138,7 +142,7 @@ const CartPagePage = () => {
               </Text>
             </Row>
             <Text
-              className="font-normal lg:ml-[24px] xl:ml-[28px] 2xl:ml-[32px] 3xl:ml-[38px] lg:mt-[21px] xl:mt-[24px] 2xl:mt-[28px] 3xl:mt-[33px] text-black_900 w-[auto]"
+              className="font-normal lg:ml-[22px] xl:ml-[28px] 2xl:ml-[32px] 3xl:ml-[38px] lg:mt-[19px] xl:mt-[24px] 2xl:mt-[28px] 3xl:mt-[33px] text-black_900 w-[auto]"
               compid="13:2627"
               variant="body1"
               comptype="Text"
@@ -146,12 +150,12 @@ const CartPagePage = () => {
               ITEM SUMMARY (3)
             </Text>
             <Row
-              className="items-end lg:ml-[23px] xl:ml-[26px] 2xl:ml-[30px] 3xl:ml-[36px] lg:mt-[11px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[85%]"
+              className="items-end lg:ml-[21px] xl:ml-[26px] 2xl:ml-[30px] 3xl:ml-[36px] lg:mt-[10px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[85%]"
               compid="255"
               comptype="Row"
             >
               <CheckBox
-                className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                className="lg:h-[18px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
                 inputClassName="mr-[5px] w-[undefinedpx]"
                 compid="13:2690"
                 comptype="CheckBox"
@@ -200,14 +204,14 @@ const CartPagePage = () => {
               </Text>
             </Row>
             <List
-              className="gap-[0] lg:mb-[38px] xl:mb-[44px] 2xl:mb-[50px] 3xl:mb-[60px] min-h-[auto] lg:ml-[23px] xl:ml-[26px] 2xl:ml-[30px] 3xl:ml-[36px] lg:mt-[28px] xl:mt-[32px] 2xl:mt-[36px] 3xl:mt-[43px] w-[87%]"
+              className="gap-[0] lg:mb-[35px] xl:mb-[44px] 2xl:mb-[50px] 3xl:mb-[60px] min-h-[auto] lg:ml-[21px] xl:ml-[26px] 2xl:ml-[30px] 3xl:ml-[36px] lg:mt-[25px] xl:mt-[32px] 2xl:mt-[36px] 3xl:mt-[43px] w-[87%]"
               compid="277"
               comptype="List"
               orientation="vertical"
             >
               <Row className="listvector_one" compid="247" comptype="Row">
                 <CheckBox
-                  className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                  className="lg:h-[18px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
                   inputClassName="mr-[5px] w-[undefinedpx]"
                   compid="13:2693"
                   comptype="CheckBox"
@@ -231,7 +235,7 @@ const CartPagePage = () => {
                     Chunky Derby sneakers
                   </Text>
                   <Row
-                    className="lg:mt-[11px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[100%]"
+                    className="items-start lg:mt-[10px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[100%]"
                     compid="13:2617"
                     comptype="Row"
                   >
@@ -252,7 +256,7 @@ const CartPagePage = () => {
                       ₹1239.00
                     </Text>
                     <Button
-                      className="lg:ml-[50px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] text-center w-[4%]"
+                      className="lg:ml-[46px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] text-center w-[4%]"
                       compid="13:2624"
                       comptype="Button"
                       size="md"
@@ -283,7 +287,7 @@ const CartPagePage = () => {
                     </Text>
                   </Row>
                   <Row
-                    className="ml-[2px] lg:mt-[57px] xl:mt-[65px] 2xl:mt-[74px] 3xl:mt-[88px] w-[34%]"
+                    className="items-start ml-[2px] lg:mt-[52px] xl:mt-[65px] 2xl:mt-[74px] 3xl:mt-[88px] w-[34%]"
                     compid="248"
                     comptype="Row"
                   >
@@ -327,7 +331,7 @@ const CartPagePage = () => {
               />
               <Row className="listvector_one" compid="249" comptype="Row">
                 <CheckBox
-                  className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                  className="lg:h-[18px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
                   inputClassName="mr-[5px] w-[undefinedpx]"
                   compid="13:2696"
                   comptype="CheckBox"
@@ -351,7 +355,7 @@ const CartPagePage = () => {
                     Chunky Derby sneakers
                   </Text>
                   <Row
-                    className="lg:mt-[11px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[100%]"
+                    className="items-start lg:mt-[10px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[100%]"
                     compid="13:2645"
                     comptype="Row"
                   >
@@ -372,7 +376,7 @@ const CartPagePage = () => {
                       ₹1239.00
                     </Text>
                     <Button
-                      className="lg:ml-[50px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] text-center w-[4%]"
+                      className="lg:ml-[46px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] text-center w-[4%]"
                       compid="13:2652"
                       comptype="Button"
                       size="md"
@@ -403,7 +407,7 @@ const CartPagePage = () => {
                     </Text>
                   </Row>
                   <Row
-                    className="ml-[2px] lg:mt-[57px] xl:mt-[65px] 2xl:mt-[74px] 3xl:mt-[88px] w-[34%]"
+                    className="items-start ml-[2px] lg:mt-[52px] xl:mt-[65px] 2xl:mt-[74px] 3xl:mt-[88px] w-[34%]"
                     compid="250"
                     comptype="Row"
                   >
@@ -447,7 +451,7 @@ const CartPagePage = () => {
               />
               <Row className="listvector_one" compid="251" comptype="Row">
                 <CheckBox
-                  className="lg:h-[19px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
+                  className="lg:h-[18px] xl:h-[22px] 2xl:h-[25px] 3xl:h-[29px]"
                   inputClassName="mr-[5px] w-[undefinedpx]"
                   compid="13:2699"
                   comptype="CheckBox"
@@ -471,7 +475,7 @@ const CartPagePage = () => {
                     Chunky Derby sneakers
                   </Text>
                   <Row
-                    className="lg:mt-[11px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[100%]"
+                    className="items-start lg:mt-[10px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[100%]"
                     compid="13:2665"
                     comptype="Row"
                   >
@@ -492,7 +496,7 @@ const CartPagePage = () => {
                       ₹1239.00
                     </Text>
                     <Button
-                      className="lg:ml-[50px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] text-center w-[4%]"
+                      className="lg:ml-[46px] xl:ml-[57px] 2xl:ml-[65px] 3xl:ml-[78px] text-center w-[4%]"
                       compid="13:2672"
                       comptype="Button"
                       size="md"
@@ -523,7 +527,7 @@ const CartPagePage = () => {
                     </Text>
                   </Row>
                   <Row
-                    className="ml-[2px] lg:mt-[57px] xl:mt-[65px] 2xl:mt-[74px] 3xl:mt-[88px] w-[34%]"
+                    className="items-start ml-[2px] lg:mt-[52px] xl:mt-[65px] 2xl:mt-[74px] 3xl:mt-[88px] w-[34%]"
                     compid="252"
                     comptype="Row"
                   >
@@ -563,7 +567,7 @@ const CartPagePage = () => {
             </List>
           </Column>
           <Column
-            className="items-center lg:ml-[18px] xl:ml-[21px] 2xl:ml-[24px] 3xl:ml-[28px] lg:mt-[56px] xl:mt-[64px] 2xl:mt-[72px] 3xl:mt-[86px] w-[23%]"
+            className="items-center justify-start lg:ml-[17px] xl:ml-[21px] 2xl:ml-[24px] 3xl:ml-[28px] lg:mt-[51px] xl:mt-[64px] 2xl:mt-[72px] 3xl:mt-[86px] w-[23%]"
             compid="271"
             comptype="Column"
           >
@@ -590,12 +594,12 @@ const CartPagePage = () => {
               </Text>
             </Row>
             <Line
-              className="bg-gray_400 h-[1px] lg:mt-[13px] xl:mt-[15px] 2xl:mt-[17px] 3xl:mt-[20px] w-[100%]"
+              className="bg-gray_400 h-[1px] lg:mt-[12px] xl:mt-[15px] 2xl:mt-[17px] 3xl:mt-[20px] w-[100%]"
               compid="13:2686"
               comptype="Line"
             />
             <Row
-              className="items-center justify-between lg:mt-[11px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[100%]"
+              className="items-center justify-between lg:mt-[10px] xl:mt-[13px] 2xl:mt-[15px] 3xl:mt-[18px] w-[100%]"
               compid="267"
               comptype="Row"
             >
@@ -609,7 +613,7 @@ const CartPagePage = () => {
                 size="md"
               ></Input>
               <Button
-                className="font-normal lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[28%]"
+                className="font-normal lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center w-[28%]"
                 compid="58"
                 comptype="Button"
                 shape="RoundedBorder8"
@@ -620,12 +624,12 @@ const CartPagePage = () => {
               </Button>
             </Row>
             <Line
-              className="bg-gray_400 h-[1px] lg:mt-[18px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] w-[100%]"
+              className="bg-gray_400 h-[1px] lg:mt-[17px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] w-[100%]"
               compid="13:2687"
               comptype="Line"
             />
             <Button
-              className="font-bold lg:mt-[17px] xl:mt-[20px] 2xl:mt-[23px] 3xl:mt-[27px] lg:text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center tracking-ls1 w-[100%]"
+              className="font-bold lg:mt-[16px] xl:mt-[20px] 2xl:mt-[23px] 3xl:mt-[27px] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center tracking-ls1 w-[100%]"
               compid="57"
               comptype="Button"
               shape="RoundedBorder8"
