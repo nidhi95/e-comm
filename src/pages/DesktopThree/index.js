@@ -1,384 +1,423 @@
 import React from "react";
 
-import { Column, Row, Img, Text, Grid, Stack, Button, Input } from "components";
-import Header1 from "components/Header/Header1";
+import {
+  Column,
+  Row,
+  Img,
+  Text,
+  List,
+  Grid,
+  Stack,
+  Button,
+  Input,
+} from "components";
+import Header from "components/Header/Header";
 import Footer from "components/Footer/Footer";
 
 const DesktopThreePage = () => {
   return (
     <>
       <Column
-        className="bg-gray_100 font-lato justify-start mx-[auto] w-[100%]"
+        className="bg-gray_100 font-inter justify-start mx-[auto] w-[100%]"
         compid="1:1569"
         comptype="Column"
       >
         <Column
           className="items-center w-[100%]"
-          compid="151"
+          compid="504"
           comptype="Column"
         >
           <Row
-            className="bg-yellow_100 font-inter items-center justify-end xl:p-[10px] 2xl:p-[12px] 3xl:p-[14px] lg:p-[8px] w-[100%]"
+            className="bg-yellow_100 items-center xl:p-[10px] 2xl:p-[12px] 3xl:p-[14px] lg:p-[8px] w-[100%]"
             compid="1:1570"
             comptype="Row"
           >
-            <Img
-              src="images/img_reply.svg"
-              className="reply"
-              compid="I1:1570;137:389;13:1705"
-              comptype="Image"
-              alt="reply"
-            />
-            <Text
-              className="FastEasyand"
-              compid="I1:1570;137:390"
-              variant="body7"
-              comptype="Text"
+            <Row
+              className="items-start justify-center 3xl:ml-[105px] lg:ml-[62px] xl:ml-[78px] 2xl:ml-[88px] pr-[1px] pt-[1px] w-[28%]"
+              compid="I1:1570;137:388"
+              comptype="Row"
             >
-              Fast, Easy and Free Returns
-            </Text>
-            <Img
-              src="images/img_map.svg"
-              className="map"
-              compid="I1:1570;137:392;13:3703"
-              comptype="Image"
-              alt="map"
-            />
-            <Text
-              className="price"
-              compid="I1:1570;137:393"
-              variant="body7"
-              comptype="Text"
+              <Img
+                src="images/img_reply.svg"
+                className="reply"
+                compid="I1:1570;137:389"
+                comptype="Image"
+                alt="reply"
+              />
+              <Text
+                className="center"
+                compid="I1:1570;137:390"
+                variant="body8"
+                comptype="Text"
+              >
+                Fast, Easy and Free Returns
+              </Text>
+            </Row>
+            <List
+              className="lg:gap-[11px] xl:gap-[14px] 2xl:gap-[16px] 3xl:gap-[19px] grid grid-cols-2 min-h-[auto] lg:ml-[11px] xl:ml-[14px] 2xl:ml-[16px] 3xl:ml-[19px] w-[58%]"
+              compid="502"
+              comptype="List"
+              orientation="horizontal"
             >
-              <span className="text-bluegray_900 font-inter lg:text-[9px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
-                Free shipping on order above ₹1000{" "}
-              </span>
-              <span className="text-bluegray_900 font-inter font-normal underline lg:text-[9px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
-                Learn More
-              </span>
-            </Text>
-            <Img
-              src="images/img_computer.svg"
-              className="computer"
-              compid="I1:1570;137:395;13:686"
-              comptype="Image"
-              alt="computer"
-            />
-            <Text
-              className="SecurePayments"
-              compid="I1:1570;137:396"
-              variant="body7"
-              comptype="Text"
-            >
-              Secure Payments
-            </Text>
+              <Row
+                className="items-center p-[1px] w-[100%]"
+                compid="I1:1570;137:391"
+                comptype="Row"
+              >
+                <Img
+                  src="images/img_car.svg"
+                  className="car"
+                  compid="I1:1570;137:392"
+                  comptype="Image"
+                  alt="car"
+                />
+                <Text
+                  className="left"
+                  compid="I1:1570;137:393"
+                  variant="body8"
+                  comptype="Text"
+                >
+                  <span className="text-bluegray_900 font-inter lg:text-[9px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
+                    Free shipping on order above ₹1000{" "}
+                  </span>
+                  <span className="text-bluegray_900 font-inter font-normal underline lg:text-[9px] xl:text-[11px] 2xl:text-[13px] 3xl:text-[15px]">
+                    Learn More
+                  </span>
+                </Text>
+              </Row>
+              <Row
+                className="items-center justify-end pl-[1px] py-[1px] w-[100%]"
+                compid="I1:1570;137:394"
+                comptype="Row"
+              >
+                <Img
+                  src="images/img_computer.svg"
+                  className="computer"
+                  compid="I1:1570;137:395"
+                  comptype="Image"
+                  alt="computer"
+                />
+                <Text
+                  className="left"
+                  compid="I1:1570;137:396"
+                  variant="body8"
+                  comptype="Text"
+                >
+                  Secure Payments
+                </Text>
+              </Row>
+            </List>
           </Row>
-          <Header1
-            className="font-inter w-[100%]"
-            compid="67"
-            comptype="Header"
-          />
-          <Text
-            className="font-extrabold font-lato lg:mt-[24px] xl:mt-[31px] 2xl:mt-[35px] 3xl:mt-[42px] text-gray_900 tracking-ls1 uppercase w-[auto]"
-            compid="1:1573"
-            variant="body1"
-            comptype="Text"
+          <Header className="w-[100%]" compid="415" comptype="Header" />
+          <Column
+            className="font-lato items-center justify-start lg:mt-[24px] xl:mt-[31px] 2xl:mt-[35px] 3xl:mt-[42px] w-[92%]"
+            compid="1:1572"
+            comptype="Column"
           >
-            SHOP BY CATAGORIES
-          </Text>
-          <Grid
-            className="font-inter lg:gap-[17px] xl:gap-[21px] 2xl:gap-[24px] 3xl:gap-[28px] grid grid-cols-6 lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] w-[92%]"
-            compid="149"
-            comptype="Grid"
-          >
-            <Column
-              className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
-              compid="1:1575"
-              style={{ backgroundImage: "url('images/img_categorycard.png')" }}
-              comptype="Column"
+            <Text
+              className="font-extrabold text-gray_900 tracking-ls1 uppercase w-[auto]"
+              compid="1:1573"
+              variant="body1"
+              comptype="Text"
+            >
+              SHOP BY CATAGORIES
+            </Text>
+            <Grid
+              className="font-inter lg:gap-[17px] xl:gap-[21px] 2xl:gap-[24px] 3xl:gap-[28px] grid grid-cols-6 lg:mt-[17px] xl:mt-[22px] 2xl:mt-[25px] 3xl:mt-[30px] w-[100%]"
+              compid="501"
+              comptype="Grid"
             >
               <Column
-                className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
-                compid="5"
+                className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
+                compid="1:1575"
+                style={{
+                  backgroundImage: "url('images/img_categorycard.png')",
+                }}
                 comptype="Column"
               >
-                <Text
-                  className="columnshopbymen"
-                  compid="I1:1575;21:340"
-                  variant="body5"
-                  comptype="Text"
+                <Column
+                  className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
+                  compid="358"
+                  comptype="Column"
                 >
-                  Shop by men
-                </Text>
+                  <Text
+                    className="columnshopbymen"
+                    compid="I1:1575;21:340"
+                    variant="body6"
+                    comptype="Text"
+                  >
+                    Shop by men
+                  </Text>
+                </Column>
               </Column>
-            </Column>
-            <Column
-              className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
-              compid="1:1576"
-              style={{
-                backgroundImage: "url('images/img_categorycard_186X200.png')",
-              }}
-              comptype="Column"
-            >
               <Column
-                className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
-                compid="6"
+                className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
+                compid="1:1576"
+                style={{
+                  backgroundImage: "url('images/img_categorycard_186X200.png')",
+                }}
                 comptype="Column"
               >
-                <Text
-                  className="columnshopbymen"
-                  compid="I1:1576;21:340"
-                  variant="body5"
-                  comptype="Text"
+                <Column
+                  className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
+                  compid="359"
+                  comptype="Column"
                 >
-                  Shop by women
-                </Text>
+                  <Text
+                    className="columnshopbymen"
+                    compid="I1:1576;21:340"
+                    variant="body6"
+                    comptype="Text"
+                  >
+                    Shop by women
+                  </Text>
+                </Column>
               </Column>
-            </Column>
-            <Column
-              className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
-              compid="1:1577"
-              style={{
-                backgroundImage: "url('images/img_categorycard_1.png')",
-              }}
-              comptype="Column"
-            >
               <Column
-                className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
-                compid="7"
+                className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
+                compid="1:1577"
+                style={{
+                  backgroundImage: "url('images/img_categorycard_1.png')",
+                }}
                 comptype="Column"
               >
-                <Text
-                  className="columnshopbymen"
-                  compid="I1:1577;21:340"
-                  variant="body5"
-                  comptype="Text"
+                <Column
+                  className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
+                  compid="360"
+                  comptype="Column"
                 >
-                  Shop by sport
-                </Text>
+                  <Text
+                    className="columnshopbymen"
+                    compid="I1:1577;21:340"
+                    variant="body6"
+                    comptype="Text"
+                  >
+                    Shop by sport
+                  </Text>
+                </Column>
               </Column>
-            </Column>
-            <Column
-              className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
-              compid="1:1578"
-              style={{
-                backgroundImage: "url('images/img_categorycard_2.png')",
-              }}
-              comptype="Column"
-            >
               <Column
-                className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
-                compid="8"
+                className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
+                compid="1:1578"
+                style={{
+                  backgroundImage: "url('images/img_categorycard_2.png')",
+                }}
                 comptype="Column"
               >
-                <Text
-                  className="columnshopbymen"
-                  compid="I1:1578;21:340"
-                  variant="body5"
-                  comptype="Text"
+                <Column
+                  className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
+                  compid="361"
+                  comptype="Column"
                 >
-                  Shop sports
-                </Text>
+                  <Text
+                    className="columnshopbymen"
+                    compid="I1:1578;21:340"
+                    variant="body6"
+                    comptype="Text"
+                  >
+                    Shop sports
+                  </Text>
+                </Column>
               </Column>
-            </Column>
-            <Column
-              className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
-              compid="1:1579"
-              style={{
-                backgroundImage: "url('images/img_categorycard_3.png')",
-              }}
-              comptype="Column"
-            >
               <Column
-                className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
-                compid="9"
+                className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
+                compid="1:1579"
+                style={{
+                  backgroundImage: "url('images/img_categorycard_3.png')",
+                }}
                 comptype="Column"
               >
-                <Text
-                  className="columnshopbymen"
-                  compid="I1:1579;21:340"
-                  variant="body5"
-                  comptype="Text"
+                <Column
+                  className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
+                  compid="362"
+                  comptype="Column"
                 >
-                  Shop new arrivals
-                </Text>
+                  <Text
+                    className="columnshopbymen"
+                    compid="I1:1579;21:340"
+                    variant="body6"
+                    comptype="Text"
+                  >
+                    Shop new arrivals
+                  </Text>
+                </Column>
               </Column>
-            </Column>
-            <Column
-              className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
-              compid="1:1580"
-              style={{
-                backgroundImage: "url('images/img_categorycard_4.png')",
-              }}
-              comptype="Column"
-            >
               <Column
-                className="bg-gradient  items-center justify-end lg:p-[14px] xl:p-[18px] 2xl:p-[21px] 3xl:p-[25px] rounded-radius24 w-[100%]"
-                compid="10"
+                className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
+                compid="1:1580"
+                style={{
+                  backgroundImage: "url('images/img_categorycard_4.png')",
+                }}
                 comptype="Column"
               >
-                <Text
-                  className="columnshopbymen_five"
-                  compid="I1:1580;21:340"
-                  variant="body5"
-                  comptype="Text"
+                <Column
+                  className="bg-gradient  items-center justify-end lg:p-[14px] xl:p-[18px] 2xl:p-[21px] 3xl:p-[25px] rounded-radius24 w-[100%]"
+                  compid="363"
+                  comptype="Column"
                 >
-                  Shop collaborations
-                </Text>
+                  <Text
+                    className="columnshopbymen_five"
+                    compid="I1:1580;21:340"
+                    variant="body6"
+                    comptype="Text"
+                  >
+                    Shop collaborations
+                  </Text>
+                </Column>
               </Column>
-            </Column>
-            <Column
-              className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
-              compid="1:1581"
-              style={{
-                backgroundImage: "url('images/img_categorycard_5.png')",
-              }}
-              comptype="Column"
-            >
               <Column
-                className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
-                compid="11"
+                className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
+                compid="1:1581"
+                style={{
+                  backgroundImage: "url('images/img_categorycard_5.png')",
+                }}
                 comptype="Column"
               >
-                <Text
-                  className="columnshopbymen"
-                  compid="I1:1581;21:340"
-                  variant="body5"
-                  comptype="Text"
+                <Column
+                  className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
+                  compid="364"
+                  comptype="Column"
                 >
-                  Shop by men
-                </Text>
+                  <Text
+                    className="columnshopbymen"
+                    compid="I1:1581;21:340"
+                    variant="body6"
+                    comptype="Text"
+                  >
+                    Shop by men
+                  </Text>
+                </Column>
               </Column>
-            </Column>
-            <Column
-              className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
-              compid="1:1582"
-              style={{
-                backgroundImage: "url('images/img_categorycard_6.png')",
-              }}
-              comptype="Column"
-            >
               <Column
-                className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
-                compid="12"
+                className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
+                compid="1:1582"
+                style={{
+                  backgroundImage: "url('images/img_categorycard_6.png')",
+                }}
                 comptype="Column"
               >
-                <Text
-                  className="columnshopbymen"
-                  compid="I1:1582;21:340"
-                  variant="body5"
-                  comptype="Text"
+                <Column
+                  className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
+                  compid="365"
+                  comptype="Column"
                 >
-                  Shop by women
-                </Text>
+                  <Text
+                    className="columnshopbymen"
+                    compid="I1:1582;21:340"
+                    variant="body6"
+                    comptype="Text"
+                  >
+                    Shop by women
+                  </Text>
+                </Column>
               </Column>
-            </Column>
-            <Column
-              className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
-              compid="1:1583"
-              style={{
-                backgroundImage: "url('images/img_categorycard_7.png')",
-              }}
-              comptype="Column"
-            >
               <Column
-                className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
-                compid="13"
+                className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
+                compid="1:1583"
+                style={{
+                  backgroundImage: "url('images/img_categorycard_7.png')",
+                }}
                 comptype="Column"
               >
-                <Text
-                  className="columnshopbymen"
-                  compid="I1:1583;21:340"
-                  variant="body5"
-                  comptype="Text"
+                <Column
+                  className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
+                  compid="366"
+                  comptype="Column"
                 >
-                  Shop by sport
-                </Text>
+                  <Text
+                    className="columnshopbymen"
+                    compid="I1:1583;21:340"
+                    variant="body6"
+                    comptype="Text"
+                  >
+                    Shop by sport
+                  </Text>
+                </Column>
               </Column>
-            </Column>
-            <Column
-              className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
-              compid="1:1584"
-              style={{
-                backgroundImage: "url('images/img_categorycard_8.png')",
-              }}
-              comptype="Column"
-            >
               <Column
-                className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
-                compid="14"
+                className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
+                compid="1:1584"
+                style={{
+                  backgroundImage: "url('images/img_categorycard_8.png')",
+                }}
                 comptype="Column"
               >
-                <Text
-                  className="columnshopbymen"
-                  compid="I1:1584;21:340"
-                  variant="body5"
-                  comptype="Text"
+                <Column
+                  className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
+                  compid="367"
+                  comptype="Column"
                 >
-                  Shop sports
-                </Text>
+                  <Text
+                    className="columnshopbymen"
+                    compid="I1:1584;21:340"
+                    variant="body6"
+                    comptype="Text"
+                  >
+                    Shop sports
+                  </Text>
+                </Column>
               </Column>
-            </Column>
-            <Column
-              className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
-              compid="1:1585"
-              style={{
-                backgroundImage: "url('images/img_categorycard_9.png')",
-              }}
-              comptype="Column"
-            >
               <Column
-                className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
-                compid="15"
+                className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
+                compid="1:1585"
+                style={{
+                  backgroundImage: "url('images/img_categorycard_9.png')",
+                }}
                 comptype="Column"
               >
-                <Text
-                  className="columnshopbymen"
-                  compid="I1:1585;21:340"
-                  variant="body5"
-                  comptype="Text"
+                <Column
+                  className="bg-gradient  items-center justify-end lg:p-[13px] xl:p-[16px] 2xl:p-[19px] 3xl:p-[22px] rounded-radius24 w-[100%]"
+                  compid="368"
+                  comptype="Column"
                 >
-                  Shop new arrivals
-                </Text>
+                  <Text
+                    className="columnshopbymen"
+                    compid="I1:1585;21:340"
+                    variant="body6"
+                    comptype="Text"
+                  >
+                    Shop new arrivals
+                  </Text>
+                </Column>
               </Column>
-            </Column>
-            <Column
-              className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
-              compid="1:1586"
-              style={{
-                backgroundImage: "url('images/img_categorycard_10.png')",
-              }}
-              comptype="Column"
-            >
               <Column
-                className="bg-gradient  items-center justify-end lg:p-[14px] xl:p-[18px] 2xl:p-[21px] 3xl:p-[25px] rounded-radius24 w-[100%]"
-                compid="16"
+                className="bg-cover bg-repeat items-center justify-start rounded-radius24 w-[100%]"
+                compid="1:1586"
+                style={{
+                  backgroundImage: "url('images/img_categorycard_10.png')",
+                }}
                 comptype="Column"
               >
-                <Text
-                  className="columnshopbymen_five"
-                  compid="I1:1586;21:340"
-                  variant="body5"
-                  comptype="Text"
+                <Column
+                  className="bg-gradient  items-center justify-end lg:p-[14px] xl:p-[18px] 2xl:p-[21px] 3xl:p-[25px] rounded-radius24 w-[100%]"
+                  compid="369"
+                  comptype="Column"
                 >
-                  Shop collaborations
-                </Text>
+                  <Text
+                    className="columnshopbymen_five"
+                    compid="I1:1586;21:340"
+                    variant="body6"
+                    comptype="Text"
+                  >
+                    Shop collaborations
+                  </Text>
+                </Column>
               </Column>
-            </Column>
-          </Grid>
+            </Grid>
+          </Column>
           <Stack
-            className="font-montserrat lg:h-[1607px] xl:h-[2008px] 2xl:h-[2259px] 3xl:h-[2710px] w-[100%]"
-            compid="112"
+            className="font-montserrat lg:h-[1605px] xl:h-[2008px] 2xl:h-[2259px] 3xl:h-[2710px] w-[100%]"
+            compid="463"
             comptype="Stack"
           >
             <Stack
-              className="absolute bottom-[0] lg:h-[1149px] xl:h-[1435px] 2xl:h-[1615px] 3xl:h-[1937px] w-[100%]"
-              compid="118"
+              className="absolute bottom-[0] lg:h-[1148px] xl:h-[1435px] 2xl:h-[1615px] 3xl:h-[1937px] w-[100%]"
+              compid="468"
               comptype="Stack"
             >
               <Row
                 className="absolute items-start justify-between left-[8%] top-[38%] w-[48%]"
-                compid="130"
+                compid="480"
                 comptype="Row"
               >
                 <Row
@@ -389,7 +428,7 @@ const DesktopThreePage = () => {
                   <Text
                     className="font-semibold ml-[2px] text-black_900 w-[auto]"
                     compid="1:1591"
-                    variant="body5"
+                    variant="body6"
                     comptype="Text"
                   >
                     ₹
@@ -418,7 +457,7 @@ const DesktopThreePage = () => {
                   <Text
                     className="font-semibold 2xl:mt-[11px] 3xl:mt-[13px] lg:mt-[7px] xl:mt-[9px] text-white_A700 w-[auto]"
                     compid="1:1593"
-                    variant="body6"
+                    variant="body7"
                     comptype="Text"
                   >
                     Colour
@@ -426,112 +465,130 @@ const DesktopThreePage = () => {
                 </Column>
               </Row>
               <Column
-                className="absolute bg-white_A700 font-lato justify-center lg:pl-[42px] xl:pl-[53px] 2xl:pl-[60px] 3xl:pl-[72px] lg:py-[42px] xl:py-[53px] 2xl:py-[60px] 3xl:py-[72px] rounded-bl-[0] rounded-br-[0] rounded-tl-[96px] rounded-tr-[96px] w-[100%]"
-                compid="4"
+                className="absolute bg-white_A700 font-lato justify-start lg:pl-[37px] xl:pl-[47px] 2xl:pl-[53px] 3xl:pl-[63px] lg:py-[37px] xl:py-[47px] 2xl:py-[53px] 3xl:py-[63px] rounded-bl-[0] rounded-br-[0] rounded-tl-[96px] rounded-tr-[96px] w-[100%]"
+                compid="357"
                 comptype="Column"
               >
-                <Row
-                  className="items-end justify-end 2xl:ml-[112px] 3xl:ml-[134px] lg:ml-[79px] xl:ml-[99px] mt-[4px] pb-[2px] pr-[2px] w-[88%]"
-                  compid="1:1608"
-                  comptype="Row"
-                >
-                  <Text
-                    className="leading-[normal] mb-[4px] text-black_900 2xl:tracking-ls1 xl:tracking-ls1 lg:tracking-ls1 3xl:tracking-ls2 w-[21%]"
-                    compid="1:1609"
-                    as="h3"
-                    variant="h3"
-                    comptype="Text"
-                  >
-                    Hand Picked
-                    <br />
-                    for You.
-                  </Text>
-                  <Text
-                    className="font-bold leading-[normal] lg:ml-[298px] xl:ml-[373px] 2xl:ml-[420px] 3xl:ml-[504px] lg:mt-[37px] xl:mt-[46px] 2xl:mt-[52px] 3xl:mt-[62px] text-gray_800 tracking-ls1 w-[33%]"
-                    compid="1:1610"
-                    variant="body1"
-                    comptype="Text"
-                  >
-                    {`For us, comfort isn't rocket science -`}
-                    <br />
-                    Ist Standard
-                  </Text>
-                  <Img
-                    src="images/img_clock.svg"
-                    className="lg:h-[29px] xl:h-[36px] 2xl:h-[41px] 3xl:h-[49px] mb-[1px] lg:ml-[27px] xl:ml-[33px] 2xl:ml-[38px] 3xl:ml-[45px] lg:mt-[41px] xl:mt-[51px] 2xl:mt-[58px] 3xl:mt-[69px] lg:w-[28px] xl:w-[35px] 2xl:w-[40px] 3xl:w-[48px]"
-                    compid="1:1614"
-                    comptype="Image"
-                    alt="clock"
-                  />
-                  <Img
-                    src="images/img_clock.svg"
-                    className="lg:h-[29px] xl:h-[36px] 2xl:h-[41px] 3xl:h-[49px] mb-[1px] lg:ml-[11px] xl:ml-[14px] 2xl:ml-[16px] 3xl:ml-[19px] mr-[1px] lg:mt-[41px] xl:mt-[51px] 2xl:mt-[58px] 3xl:mt-[69px] lg:w-[28px] xl:w-[35px] 2xl:w-[40px] 3xl:w-[48px]"
-                    compid="1:1620"
-                    comptype="Image"
-                    alt="clock One"
-                  />
-                </Row>
-                <Row
-                  className="items-center justify-end lg:mt-[35px] xl:mt-[44px] 2xl:mt-[50px] 3xl:mt-[60px] w-[100%]"
-                  compid="1:1603"
-                  comptype="Row"
-                >
-                  <Img
-                    src="images/img_rectangle13.png"
-                    className="lg:h-[382px] xl:h-[477px] 2xl:h-[537px] 3xl:h-[644px] rounded-radius64 w-[31%]"
-                    compid="1:1604"
-                    comptype="Image"
-                    alt="RectangleThirteen"
-                  />
-                  <Img
-                    src="images/img_rectangle14.png"
-                    className="lg:h-[382px] xl:h-[477px] 2xl:h-[537px] 3xl:h-[644px] lg:ml-[17px] xl:ml-[21px] 2xl:ml-[24px] 3xl:ml-[28px] rounded-radius64 w-[31%]"
-                    compid="1:1605"
-                    comptype="Image"
-                    alt="RectangleFourteen"
-                  />
-                  <Img
-                    src="images/img_rectangle15.png"
-                    className="lg:h-[382px] xl:h-[477px] 2xl:h-[537px] 3xl:h-[644px] lg:ml-[17px] xl:ml-[21px] 2xl:ml-[24px] 3xl:ml-[28px] rounded-radius64 w-[31%]"
-                    compid="1:1606"
-                    comptype="Image"
-                    alt="RectangleFifteen"
-                  />
-                  <Img
-                    src="images/img_rectangle16.png"
-                    className="lg:h-[382px] xl:h-[477px] 2xl:h-[537px] 3xl:h-[644px] lg:ml-[17px] xl:ml-[22px] 2xl:ml-[25px] 3xl:ml-[30px] rounded-bl-[64px] rounded-br-[0] rounded-tl-[64px] rounded-tr-[0] w-[3%]"
-                    compid="1:1607"
-                    comptype="Image"
-                    alt="RectangleSixteen"
-                  />
-                </Row>
-                <Stack
-                  className="lg:h-[507px] xl:h-[634px] 2xl:h-[713px] 3xl:h-[855px] lg:mb-[17px] xl:mb-[21px] 2xl:mb-[24px] 3xl:mb-[28px] 2xl:ml-[112px] 3xl:ml-[134px] lg:ml-[79px] xl:ml-[99px] lg:mt-[45px] xl:mt-[56px] 2xl:mt-[64px] 3xl:mt-[76px] w-[87%]"
-                  compid="116"
-                  comptype="Stack"
+                <Column
+                  className="justify-start lg:ml-[4px] xl:ml-[6px] 2xl:ml-[7px] 3xl:ml-[8px] 2xl:pt-[11px] 3xl:pt-[13px] lg:pt-[7px] xl:pt-[9px] w-[99%]"
+                  compid="1:1602"
+                  comptype="Column"
                 >
                   <Row
-                    className="absolute items-start justify-between pl-[4px] right-[0] w-[73%]"
-                    compid="1:1624"
+                    className="items-end justify-end ml-[auto] w-[88%]"
+                    compid="1:1608"
+                    comptype="Row"
+                  >
+                    <Text
+                      className="leading-[normal] lg:mb-[4px] xl:mb-[6px] 2xl:mb-[7px] 3xl:mb-[8px] text-black_900 2xl:tracking-ls1 xl:tracking-ls1 lg:tracking-ls1 3xl:tracking-ls2 w-[21%]"
+                      compid="1:1609"
+                      as="h3"
+                      variant="h3"
+                      comptype="Text"
+                    >
+                      Hand Picked
+                      <br />
+                      for You.
+                    </Text>
+                    <Text
+                      className="font-bold leading-[normal] mb-[2px] lg:ml-[298px] xl:ml-[373px] 2xl:ml-[420px] 3xl:ml-[504px] lg:mt-[36px] xl:mt-[46px] 2xl:mt-[52px] 3xl:mt-[62px] text-gray_800 tracking-ls1 w-[33%]"
+                      compid="1:1610"
+                      variant="body1"
+                      comptype="Text"
+                    >
+                      {`For us, comfort isn't rocket science -`}
+                      <br />
+                      Ist Standard
+                    </Text>
+                    <Row
+                      className="items-center justify-between lg:ml-[24px] xl:ml-[30px] 2xl:ml-[34px] 3xl:ml-[40px] lg:mt-[38px] xl:mt-[48px] 2xl:mt-[54px] 3xl:mt-[64px] w-[9%]"
+                      compid="1:1611"
+                      comptype="Row"
+                    >
+                      <Img
+                        src="images/img_clock.svg"
+                        className="clock"
+                        compid="1:1612"
+                        comptype="Image"
+                        alt="clock"
+                      />
+                      <Img
+                        src="images/img_clock.svg"
+                        className="clock"
+                        compid="1:1618"
+                        comptype="Image"
+                        alt="clock One"
+                      />
+                    </Row>
+                  </Row>
+                  <Row
+                    className="items-center justify-between lg:mt-[35px] xl:mt-[44px] 2xl:mt-[50px] 3xl:mt-[60px] w-[100%]"
+                    compid="1:1603"
                     comptype="Row"
                   >
                     <Img
-                      src="images/img_clock.svg"
-                      className="lg:h-[29px] xl:h-[36px] 2xl:h-[41px] 3xl:h-[49px] lg:mt-[298px] xl:mt-[372px] 2xl:mt-[419px] 3xl:mt-[503px] lg:w-[28px] xl:w-[35px] 2xl:w-[40px] 3xl:w-[48px]"
-                      compid="I1:1634;1:1614"
+                      src="images/img_rectangle13.png"
+                      className="RectangleThirteen"
+                      compid="1:1604"
                       comptype="Image"
-                      alt="clock Two"
+                      alt="RectangleThirteen"
                     />
                     <Img
-                      src="images/img_clock.svg"
-                      className="lg:h-[29px] xl:h-[36px] 2xl:h-[41px] 3xl:h-[49px] lg:mt-[298px] xl:mt-[372px] 2xl:mt-[419px] 3xl:mt-[503px] lg:w-[28px] xl:w-[35px] 2xl:w-[40px] 3xl:w-[48px]"
-                      compid="I1:1635;1:1620"
+                      src="images/img_rectangle14.png"
+                      className="RectangleThirteen"
+                      compid="1:1605"
                       comptype="Image"
-                      alt="clock Three"
+                      alt="RectangleFourteen"
                     />
+                    <Img
+                      src="images/img_rectangle15.png"
+                      className="RectangleThirteen"
+                      compid="1:1606"
+                      comptype="Image"
+                      alt="RectangleFifteen"
+                    />
+                    <Img
+                      src="images/img_rectangle16.png"
+                      className="lg:h-[382px] xl:h-[477px] 2xl:h-[537px] 3xl:h-[644px] rounded-bl-[64px] rounded-br-[0] rounded-tl-[64px] rounded-tr-[0] w-[3%]"
+                      compid="1:1607"
+                      comptype="Image"
+                      alt="RectangleSixteen"
+                    />
+                  </Row>
+                </Column>
+                <Stack
+                  className="lg:h-[507px] xl:h-[634px] 2xl:h-[713px] 3xl:h-[855px] lg:mb-[22px] xl:mb-[27px] 2xl:mb-[31px] 3xl:mb-[37px] xl:ml-[105px] 2xl:ml-[119px] 3xl:ml-[142px] lg:ml-[84px] lg:mt-[45px] xl:mt-[56px] 2xl:mt-[64px] 3xl:mt-[76px] w-[87%]"
+                  compid="467"
+                  comptype="Stack"
+                >
+                  <Row
+                    className="absolute items-start justify-between right-[0] w-[73%]"
+                    compid="1:1624"
+                    comptype="Row"
+                  >
+                    <Row
+                      className="items-center justify-between lg:mt-[295px] xl:mt-[369px] 2xl:mt-[415px] 3xl:mt-[498px] w-[12%]"
+                      compid="1:1633"
+                      comptype="Row"
+                    >
+                      <Img
+                        src="images/img_clock.svg"
+                        className="clock"
+                        compid="1:1634"
+                        comptype="Image"
+                        alt="clock Two"
+                      />
+                      <Img
+                        src="images/img_clock.svg"
+                        className="clock"
+                        compid="1:1635"
+                        comptype="Image"
+                        alt="clock Three"
+                      />
+                    </Row>
                     <Img
                       src="images/img_rectangle29.png"
-                      className="lg:h-[507px] xl:h-[634px] 2xl:h-[713px] 3xl:h-[855px] rounded-radius64 w-[61%]"
+                      className="lg:h-[507px] xl:h-[634px] 2xl:h-[713px] 3xl:h-[855px] rounded-radius64 w-[60%]"
                       compid="1:1625"
                       comptype="Image"
                       alt="RectangleTwentyNine"
@@ -568,7 +625,7 @@ const DesktopThreePage = () => {
                         comptype="Column"
                       >
                         <Text
-                          className="font-bold lg:my-[19px] xl:my-[24px] 2xl:my-[27px] 3xl:my-[32px] text-gray_900 tracking-ls1 w-[auto]"
+                          className="lg:my-[19px] xl:my-[24px] 2xl:my-[27px] 3xl:my-[32px] rowprice_four"
                           compid="1:1632"
                           as="h5"
                           variant="h5"
@@ -580,29 +637,35 @@ const DesktopThreePage = () => {
                     </Column>
                   </Row>
                   <Column
-                    className="absolute justify-start left-[0] pt-[3px] top-[0] w-[35%]"
+                    className="absolute items-center justify-start left-[0] pt-[3px] top-[0] w-[35%]"
                     compid="1:1637"
                     comptype="Column"
                   >
-                    <Text
-                      className="font-bold ml-[1px] text-gray_800 tracking-ls1 w-[auto]"
-                      compid="1:1639"
-                      variant="body1"
-                      comptype="Text"
+                    <Column
+                      className="justify-start w-[100%]"
+                      compid="1:1638"
+                      comptype="Column"
                     >
-                      The Sneakers Edit
-                    </Text>
-                    <Text
-                      className="font-extrabold leading-[normal] lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] text-black_900 lg:tracking-ls1 2xl:tracking-ls2 xl:tracking-ls2 3xl:tracking-ls3 w-[100%]"
-                      compid="1:1640"
-                      as="h2"
-                      variant="h2"
-                      comptype="Text"
-                    >
-                      White Sneakers
-                      <br />
-                      craze.
-                    </Text>
+                      <Text
+                        className="font-bold ml-[1px] text-gray_800 tracking-ls1 w-[auto]"
+                        compid="1:1639"
+                        variant="body1"
+                        comptype="Text"
+                      >
+                        The Sneakers Edit
+                      </Text>
+                      <Text
+                        className="font-extrabold leading-[normal] lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] text-black_900 lg:tracking-ls1 2xl:tracking-ls2 xl:tracking-ls2 3xl:tracking-ls3 w-[100%]"
+                        compid="1:1640"
+                        as="h2"
+                        variant="h2"
+                        comptype="Text"
+                      >
+                        White Sneakers
+                        <br />
+                        craze.
+                      </Text>
+                    </Column>
                     <Text
                       className="leading-[132.02%] lg:mt-[39px] xl:mt-[49px] 2xl:mt-[56px] 3xl:mt-[67px] not-italic text-gray_802 tracking-ls1 w-[100%]"
                       compid="1:1641"
@@ -619,7 +682,7 @@ const DesktopThreePage = () => {
             </Stack>
             <Img
               src="images/img_blackflagcrea.png"
-              className="absolute lg:h-[460px] xl:h-[574px] 2xl:h-[646px] 3xl:h-[775px] top-[0] w-[100%]"
+              className="absolute lg:h-[459px] xl:h-[574px] 2xl:h-[646px] 3xl:h-[775px] top-[0] w-[100%]"
               compid="1:1736"
               comptype="Image"
               alt="BlackFlagCrea"
@@ -632,7 +695,7 @@ const DesktopThreePage = () => {
             comptype="Row"
           >
             <Column
-              className="justify-start lg:mb-[130px] xl:mb-[162px] 2xl:mb-[183px] 3xl:mb-[219px] lg:mt-[37px] xl:mt-[46px] 2xl:mt-[52px] 3xl:mt-[62px] w-[34%]"
+              className="justify-start lg:mb-[130px] xl:mb-[162px] 2xl:mb-[183px] 3xl:mb-[219px] lg:mt-[36px] xl:mt-[46px] 2xl:mt-[52px] 3xl:mt-[62px] w-[34%]"
               compid="1:1645"
               comptype="Column"
             >
@@ -657,13 +720,13 @@ const DesktopThreePage = () => {
               </Text>
             </Column>
             <Stack
-              className="bg-black_900_bf border-bw11 border-solid border-white_A700 lg:h-[107px] xl:h-[134px] 2xl:h-[151px] 3xl:h-[181px] lg:mt-[107px] xl:mt-[134px] 2xl:mt-[151px] 3xl:mt-[181px] lg:px-[37px] xl:px-[46px] 2xl:px-[52px] 3xl:px-[62px] rounded-radius50 lg:w-[106px] xl:w-[133px] 2xl:w-[150px] 3xl:w-[180px]"
+              className="bg-black_900_bf border-bw11 border-solid border-white_A700 lg:h-[107px] xl:h-[134px] 2xl:h-[151px] 3xl:h-[181px] lg:mt-[107px] xl:mt-[134px] 2xl:mt-[151px] 3xl:mt-[181px] lg:px-[36px] xl:px-[46px] 2xl:px-[52px] 3xl:px-[62px] rounded-radius50 lg:w-[106px] xl:w-[133px] 2xl:w-[150px] 3xl:w-[180px]"
               compid="1:1648"
               comptype="Stack"
             >
               <Img
                 src="images/img_play.svg"
-                className="absolute lg:h-[33px] xl:h-[41px] 2xl:h-[46px] 3xl:h-[55px] inset-[0] justify-center m-[auto] w-[28%]"
+                className="absolute lg:h-[32px] xl:h-[41px] 2xl:h-[46px] 3xl:h-[55px] inset-[0] justify-center m-[auto] w-[28%]"
                 compid="I1:1650;13:8142"
                 comptype="Image"
                 alt="play"
@@ -698,28 +761,28 @@ const DesktopThreePage = () => {
           </Row>
         </Column>
         <Column
-          className="items-end lg:mt-[45px] xl:mt-[56px] 2xl:mt-[64px] 3xl:mt-[76px] lg:pl-[42px] xl:pl-[53px] 2xl:pl-[60px] 3xl:pl-[72px] w-[100%]"
-          compid="152"
+          className="font-lato items-end lg:mt-[45px] xl:mt-[56px] 2xl:mt-[64px] 3xl:mt-[76px] lg:pl-[42px] xl:pl-[53px] 2xl:pl-[60px] 3xl:pl-[72px] w-[100%]"
+          compid="505"
           comptype="Column"
         >
           <div
             className="overflow-x-auto w-[100%]"
-            compid="150"
+            compid="503"
             comptype="HorizontalScroll"
           >
             <Stack
-              className="lg:h-[566px] xl:h-[707px] 2xl:h-[795px] 3xl:h-[954px] overflow-auto w-[100%]"
-              compid="114"
+              className="lg:h-[565px] xl:h-[707px] 2xl:h-[795px] 3xl:h-[954px] overflow-auto w-[100%]"
+              compid="465"
               comptype="Stack"
             >
               <Stack
-                className="absolute bottom-[0] lg:h-[494px] xl:h-[617px] 2xl:h-[694px] 3xl:h-[833px] left-[0] w-[31%]"
+                className="absolute bottom-[0] lg:h-[493px] xl:h-[617px] 2xl:h-[694px] 3xl:h-[833px] left-[0] w-[31%]"
                 compid="1:1667"
                 comptype="Stack"
               >
                 <Column
                   className="absolute bg-white_A700 bottom-[0] justify-center lg:p-[25px] xl:p-[32px] 2xl:p-[36px] 3xl:p-[43px] rounded-bl-[48px] rounded-br-[48px] rounded-tl-[0] rounded-tr-[0] w-[100%]"
-                  compid="1:1668"
+                  compid="489"
                   comptype="Column"
                 >
                   <Text
@@ -742,7 +805,7 @@ const DesktopThreePage = () => {
                   </Text>
                   <Row
                     className="items-center justify-between lg:mt-[27px] xl:mt-[34px] 2xl:mt-[39px] 3xl:mt-[46px] w-[100%]"
-                    compid="135"
+                    compid="485"
                     comptype="Row"
                   >
                     <Text
@@ -762,7 +825,7 @@ const DesktopThreePage = () => {
                   </Row>
                   <Row
                     className="items-start xl:mb-[11px] 2xl:mb-[13px] 3xl:mb-[15px] lg:mb-[9px] lg:mt-[24px] xl:mt-[30px] 2xl:mt-[34px] 3xl:mt-[40px] w-[93%]"
-                    compid="136"
+                    compid="486"
                     comptype="Row"
                   >
                     <Text
@@ -790,13 +853,13 @@ const DesktopThreePage = () => {
                 />
               </Stack>
               <Stack
-                className="absolute bottom-[0] lg:h-[494px] xl:h-[617px] 2xl:h-[694px] 3xl:h-[833px] left-[32%] w-[31%]"
+                className="absolute bottom-[0] lg:h-[493px] xl:h-[617px] 2xl:h-[694px] 3xl:h-[833px] left-[32%] w-[31%]"
                 compid="1:1677"
                 comptype="Stack"
               >
                 <Column
                   className="absolute bg-white_A700 bottom-[0] justify-center lg:p-[25px] xl:p-[32px] 2xl:p-[36px] 3xl:p-[43px] rounded-bl-[48px] rounded-br-[48px] rounded-tl-[0] rounded-tr-[0] w-[100%]"
-                  compid="1:1678"
+                  compid="494"
                   comptype="Column"
                 >
                   <Text
@@ -819,7 +882,7 @@ const DesktopThreePage = () => {
                   </Text>
                   <Row
                     className="items-center justify-between lg:mt-[27px] xl:mt-[34px] 2xl:mt-[39px] 3xl:mt-[46px] w-[100%]"
-                    compid="140"
+                    compid="490"
                     comptype="Row"
                   >
                     <Text
@@ -839,7 +902,7 @@ const DesktopThreePage = () => {
                   </Row>
                   <Row
                     className="items-start xl:mb-[11px] 2xl:mb-[13px] 3xl:mb-[15px] lg:mb-[9px] lg:mt-[24px] xl:mt-[30px] 2xl:mt-[34px] 3xl:mt-[40px] w-[93%]"
-                    compid="141"
+                    compid="491"
                     comptype="Row"
                   >
                     <Text
@@ -867,7 +930,7 @@ const DesktopThreePage = () => {
                 />
               </Stack>
               <Stack
-                className="absolute bottom-[0] lg:h-[494px] xl:h-[617px] 2xl:h-[694px] 3xl:h-[833px] right-[12%] w-[23%]"
+                className="absolute bottom-[0] lg:h-[493px] xl:h-[617px] 2xl:h-[694px] 3xl:h-[833px] right-[12%] w-[23%]"
                 compid="1:1687"
                 comptype="Stack"
               >
@@ -923,7 +986,7 @@ const DesktopThreePage = () => {
                 comptype="Column"
               >
                 <Row
-                  className="items-start mr-[auto] pr-[4px] w-[85%]"
+                  className="items-start mr-[auto] w-[85%]"
                   compid="1:1723"
                   comptype="Row"
                 >
@@ -936,23 +999,29 @@ const DesktopThreePage = () => {
                   >
                     Also Explore
                   </Text>
-                  <Img
-                    src="images/img_clock.svg"
-                    className="lg:h-[29px] xl:h-[36px] 2xl:h-[41px] 3xl:h-[49px] 3xl:ml-[1062px] lg:ml-[629px] xl:ml-[787px] 2xl:ml-[885px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] lg:w-[28px] xl:w-[35px] 2xl:w-[40px] 3xl:w-[48px]"
-                    compid="I1:1726;1:1614"
-                    comptype="Image"
-                    alt="clock Four"
-                  />
-                  <Img
-                    src="images/img_clock.svg"
-                    className="lg:h-[29px] xl:h-[36px] 2xl:h-[41px] 3xl:h-[49px] lg:ml-[11px] xl:ml-[14px] 2xl:ml-[16px] 3xl:ml-[19px] lg:mt-[3px] xl:mt-[4px] 2xl:mt-[5px] 3xl:mt-[6px] lg:w-[28px] xl:w-[35px] 2xl:w-[40px] 3xl:w-[48px]"
-                    compid="I1:1727;1:1620"
-                    comptype="Image"
-                    alt="clock Five"
-                  />
+                  <Row
+                    className="items-center justify-between 3xl:ml-[1057px] lg:ml-[626px] xl:ml-[783px] 2xl:ml-[881px] mt-[1px] w-[8%]"
+                    compid="1:1725"
+                    comptype="Row"
+                  >
+                    <Img
+                      src="images/img_clock.svg"
+                      className="clock"
+                      compid="1:1726"
+                      comptype="Image"
+                      alt="clock Four"
+                    />
+                    <Img
+                      src="images/img_clock.svg"
+                      className="clock"
+                      compid="1:1727"
+                      comptype="Image"
+                      alt="clock Five"
+                    />
+                  </Row>
                 </Row>
                 <Stack
-                  className="lg:h-[494px] xl:h-[617px] 2xl:h-[694px] 3xl:h-[833px] xl:ml-[1095px] 2xl:ml-[1232px] 3xl:ml-[1479px] lg:ml-[876px] lg:mt-[17px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] w-[20%]"
+                  className="lg:h-[493px] xl:h-[617px] 2xl:h-[694px] 3xl:h-[833px] xl:ml-[1095px] 2xl:ml-[1232px] 3xl:ml-[1479px] lg:ml-[876px] lg:mt-[17px] xl:mt-[21px] 2xl:mt-[24px] 3xl:mt-[28px] w-[20%]"
                   compid="1:1728"
                   comptype="Stack"
                 >
@@ -996,7 +1065,7 @@ const DesktopThreePage = () => {
                   </Column>
                   <Img
                     src="images/img_rectangle59.png"
-                    className="absolute lg:h-[257px] xl:h-[321px] 2xl:h-[361px] 3xl:h-[433px] left-[0] rounded-radius24 top-[0] w-[82%]"
+                    className="absolute lg:h-[256px] xl:h-[321px] 2xl:h-[361px] 3xl:h-[433px] left-[0] rounded-radius24 top-[0] w-[82%]"
                     compid="1:1735"
                     comptype="Image"
                     alt="RectangleFiftyNine"
@@ -1007,13 +1076,13 @@ const DesktopThreePage = () => {
           </div>
         </Column>
         <Column
-          className="items-center lg:mt-[54px] xl:mt-[67px] 2xl:mt-[76px] 3xl:mt-[91px] w-[100%]"
-          compid="153"
+          className="font-lato items-center lg:mt-[54px] xl:mt-[67px] 2xl:mt-[76px] 3xl:mt-[91px] w-[100%]"
+          compid="506"
           comptype="Column"
         >
           <Stack
             className="lg:h-[402px] xl:h-[502px] 2xl:h-[565px] 3xl:h-[678px] w-[92%]"
-            compid="113"
+            compid="464"
             comptype="Stack"
           >
             <Text
@@ -1027,32 +1096,32 @@ const DesktopThreePage = () => {
             </Text>
             <Column
               className="absolute items-end justify-start top-[0] w-[100%]"
-              compid="1:1659"
+              compid="484"
               comptype="Column"
             >
               <Row
-                className="items-center ml-[auto] p-[4px] w-[8%]"
+                className="items-center justify-end ml-[auto] w-[8%]"
                 compid="1:1664"
                 comptype="Row"
               >
                 <Img
                   src="images/img_clock.svg"
-                  className="lg:h-[29px] xl:h-[36px] 2xl:h-[41px] 3xl:h-[49px] lg:w-[28px] xl:w-[35px] 2xl:w-[40px] 3xl:w-[48px]"
-                  compid="I1:1665;1:1614"
+                  className="clock"
+                  compid="1:1665"
                   comptype="Image"
                   alt="clock Six"
                 />
                 <Img
                   src="images/img_clock.svg"
-                  className="lg:h-[29px] xl:h-[36px] 2xl:h-[41px] 3xl:h-[49px] lg:ml-[11px] xl:ml-[14px] 2xl:ml-[16px] 3xl:ml-[19px] lg:w-[28px] xl:w-[35px] 2xl:w-[40px] 3xl:w-[48px]"
-                  compid="I1:1666;1:1620"
+                  className="lg:ml-[5px] xl:ml-[7px] 2xl:ml-[8px] 3xl:ml-[9px] clock"
+                  compid="1:1666"
                   comptype="Image"
                   alt="clock Seven"
                 />
               </Row>
               <Row
                 className="items-center justify-between lg:mt-[45px] xl:mt-[56px] 2xl:mt-[64px] 3xl:mt-[76px] w-[100%]"
-                compid="133"
+                compid="483"
                 comptype="Row"
               >
                 <Img
@@ -1101,13 +1170,13 @@ const DesktopThreePage = () => {
               Making of a Shoe
             </Text>
             <Stack
-              className="bg-black_900_bf border-bw11 border-solid border-white_A700 lg:h-[107px] xl:h-[134px] 2xl:h-[151px] 3xl:h-[181px] lg:mb-[158px] xl:mb-[198px] 2xl:mb-[223px] 3xl:mb-[267px] lg:mt-[111px] xl:mt-[139px] 2xl:mt-[157px] 3xl:mt-[188px] lg:px-[37px] xl:px-[46px] 2xl:px-[52px] 3xl:px-[62px] rounded-radius50 lg:w-[106px] xl:w-[133px] 2xl:w-[150px] 3xl:w-[180px]"
+              className="bg-black_900_bf border-bw11 border-solid border-white_A700 lg:h-[107px] xl:h-[134px] 2xl:h-[151px] 3xl:h-[181px] lg:mb-[158px] xl:mb-[198px] 2xl:mb-[223px] 3xl:mb-[267px] lg:mt-[111px] xl:mt-[139px] 2xl:mt-[157px] 3xl:mt-[188px] lg:px-[36px] xl:px-[46px] 2xl:px-[52px] 3xl:px-[62px] rounded-radius50 lg:w-[106px] xl:w-[133px] 2xl:w-[150px] 3xl:w-[180px]"
               compid="1:1697"
               comptype="Stack"
             >
               <Img
                 src="images/img_play.svg"
-                className="absolute lg:h-[33px] xl:h-[41px] 2xl:h-[46px] 3xl:h-[55px] inset-[0] justify-center m-[auto] w-[28%]"
+                className="absolute lg:h-[32px] xl:h-[41px] 2xl:h-[46px] 3xl:h-[55px] inset-[0] justify-center m-[auto] w-[28%]"
                 compid="I1:1699;13:8142"
                 comptype="Image"
                 alt="play One"
@@ -1119,23 +1188,29 @@ const DesktopThreePage = () => {
             compid="1:1701"
             comptype="Column"
           >
-            <Text
-              className="font-bold font-lato ml-[1px] text-gray_800 tracking-ls1 w-[auto]"
-              compid="1:1703"
-              variant="body1"
-              comptype="Text"
+            <Column
+              className="justify-start ml-[1px] w-[64%]"
+              compid="1:1702"
+              comptype="Column"
             >
-              Only @Rapidbox. Not seen anywhere else
-            </Text>
-            <Text
-              className="font-rubik lg:ml-[3px] xl:ml-[4px] 2xl:ml-[5px] 3xl:ml-[6px] lg:mt-[15px] xl:mt-[19px] 2xl:mt-[22px] 3xl:mt-[26px] text-black_900 uppercase w-[auto]"
-              compid="1:1704"
-              as="h1"
-              variant="h1"
-              comptype="Text"
-            >
-              Newest in the town
-            </Text>
+              <Text
+                className="font-bold font-lato text-gray_800 tracking-ls1 w-[auto]"
+                compid="1:1703"
+                variant="body1"
+                comptype="Text"
+              >
+                Only @Rapidbox. Not seen anywhere else
+              </Text>
+              <Text
+                className="font-rubik ml-[4px] lg:mt-[15px] xl:mt-[19px] 2xl:mt-[22px] 3xl:mt-[26px] text-black_900 uppercase w-[auto]"
+                compid="1:1704"
+                as="h1"
+                variant="h1"
+                comptype="Text"
+              >
+                Newest in the town
+              </Text>
+            </Column>
             <Row
               className="items-center justify-between lg:mt-[22px] xl:mt-[28px] 2xl:mt-[32px] 3xl:mt-[38px] rounded-radius24 w-[100%]"
               compid="1:1705"
@@ -1170,43 +1245,53 @@ const DesktopThreePage = () => {
             comptype="Column"
           >
             <Column
-              className="items-center justify-start lg:mb-[14px] xl:mb-[18px] 2xl:mb-[21px] 3xl:mb-[25px] xl:pt-[10px] 2xl:pt-[12px] 3xl:pt-[14px] lg:pt-[8px] rounded-radius8 w-[49%]"
-              compid="1:1711"
+              className="items-center justify-start 2xl:mb-[11px] 3xl:mb-[13px] lg:mb-[7px] xl:mb-[9px] xl:pt-[10px] 2xl:pt-[12px] 3xl:pt-[14px] lg:pt-[8px] rounded-radius8 w-[49%]"
+              compid="496"
               comptype="Column"
             >
-              <Text
-                className="font-black text-black_900 w-[auto]"
-                compid="1:1714"
-                as="h2"
-                variant="h2"
-                comptype="Text"
+              <Column
+                className="items-center justify-start w-[71%]"
+                compid="1:1712"
+                comptype="Column"
               >
-                Stay in Touch
-              </Text>
-              <Text
-                className="font-bold lg:mt-[15px] xl:mt-[19px] 2xl:mt-[22px] 3xl:mt-[26px] text-gray_800 tracking-ls1 w-[auto]"
-                compid="1:1713"
-                variant="body1"
-                comptype="Text"
-              >
-                Only @Rapidbox. Not seen anywhere else
-              </Text>
+                <Text
+                  className="font-black text-black_900 w-[auto]"
+                  compid="1:1714"
+                  as="h2"
+                  variant="h2"
+                  comptype="Text"
+                >
+                  Stay in Touch
+                </Text>
+                <Text
+                  className="font-bold lg:mt-[15px] xl:mt-[19px] 2xl:mt-[22px] 3xl:mt-[26px] text-gray_800 tracking-ls1 w-[auto]"
+                  compid="1:1713"
+                  variant="body1"
+                  comptype="Text"
+                >
+                  Only @Rapidbox. Not seen anywhere else
+                </Text>
+              </Column>
               <Row
-                className="items-center justify-between lg:mt-[16px] xl:mt-[20px] 2xl:mt-[23px] 3xl:mt-[27px] rounded-radius8 w-[100%]"
-                compid="1:1715"
+                className="items-center justify-between lg:mt-[23px] xl:mt-[29px] 2xl:mt-[33px] 3xl:mt-[39px] w-[100%]"
+                compid="495"
                 comptype="Row"
               >
                 <Input
-                  className="font-bold lg:text-[17px] xl:text-[21px] 2xl:text-[24px] 3xl:text-[28px] text-gray_500 tracking-ls1 w-[100%]"
-                  wrapClassName="2xl:h-[51px] 2xl:ml-[32px] 3xl:h-[61px] 3xl:ml-[38px] flex lg:h-[36px] lg:ml-[22px] w-[65%] xl:h-[45px] xl:ml-[28px]"
-                  compid="1:1716"
+                  className="font-bold p-[0] lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] placeholder:text-gray_500 text-gray_500 tracking-ls1 w-[100%]"
+                  wrapClassName="w-[65%]"
+                  compid="125:2335"
+                  type="email"
                   comptype="EditText"
-                  name="EnterEmail"
-                  placeholder=""
+                  name="Group240"
+                  placeholder="Enter Email"
+                  shape="RoundedBorder8"
+                  size="md"
+                  variant="OutlineGray400"
                 ></Input>
                 <Button
                   className="font-bold lg:text-[11px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[19px] text-center tracking-ls1 w-[31%]"
-                  compid="17"
+                  compid="125:2334"
                   comptype="Button"
                   shape="RoundedBorder8"
                   size="lg"

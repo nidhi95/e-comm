@@ -5,6 +5,7 @@ const shapes = {
   RoundedBorder8: "rounded-radius8",
   CircleBorder35: "rounded-radius35",
   RoundedBorder12: "rounded-radius12",
+  icbRoundedBorder6: "rounded-radius6",
   icbCircleBorder16: "rounded-radius16",
 };
 const variants = {
@@ -16,9 +17,9 @@ const variants = {
   OutlineBlack900:
     "bg-gray_101 border-black_900 border-bw15 border-solid text-black_900",
   FillGray500: "bg-gray_500 text-white_A700",
-  OutlineGray4001_2:
-    "bg-white_A700 border border-gray_400 border-solid text-white_A700",
   FillYellowA400: "bg-yellow_A400 text-gray_800",
+  OutlineGray4001_2:
+    "bg-gray_900 border border-gray_400 border-solid text-white_A700",
   icbFillLightgreen800: "bg-light_green_800",
 };
 const sizes = {
@@ -61,6 +62,7 @@ Button.propTypes = {
     "RoundedBorder8",
     "CircleBorder35",
     "RoundedBorder12",
+    "icbRoundedBorder6",
     "icbCircleBorder16",
   ]),
   variant: PropTypes.oneOf([
@@ -70,8 +72,8 @@ Button.propTypes = {
     "FillGray900",
     "OutlineBlack900",
     "FillGray500",
-    "OutlineGray4001_2",
     "FillYellowA400",
+    "OutlineGray4001_2",
     "icbFillLightgreen800",
   ]),
   size: PropTypes.oneOf(["sm", "md", "lg", "xl", "2xl", "smIcn"]),
