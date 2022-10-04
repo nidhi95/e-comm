@@ -5,6 +5,7 @@ const shapes = {
   RoundedBorder8: "rounded-radius8",
   CircleBorder35: "rounded-radius35",
   RoundedBorder12: "rounded-radius12",
+  icbRoundedBorder6: "rounded-radius6",
   icbCircleBorder16: "rounded-radius16",
 };
 const variants = {
@@ -16,17 +17,17 @@ const variants = {
   OutlineBlack900:
     "bg-gray_101 border-black_900 border-bw15 border-solid text-black_900",
   FillGray500: "bg-gray_500 text-white_A700",
-  OutlineGray4001_2:
-    "bg-white_A700 border border-gray_400 border-solid text-white_A700",
   FillYellowA400: "bg-yellow_A400 text-gray_800",
+  OutlineGray4001_2:
+    "bg-gray_900 border border-gray_400 border-solid text-white_A700",
   icbFillLightgreen800: "bg-light_green_800",
 };
 const sizes = {
-  sm: "lg:p-[5px] xl:p-[6px] p-[7px] 3xl:p-[8px]",
-  md: "xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[9px]",
-  lg: "lg:p-[13px] xl:p-[15px] p-[17px] 3xl:p-[20px]",
-  xl: "lg:p-[15px] xl:p-[17px] p-[20px] 3xl:p-[24px]",
-  "2xl": "lg:p-[17px] xl:p-[20px] p-[23px] 3xl:p-[27px]",
+  sm: "lg:p-[4px] xl:p-[6px] p-[7px] 3xl:p-[8px]",
+  md: "xl:p-[10px] p-[12px] 3xl:p-[14px] lg:p-[8px]",
+  lg: "lg:p-[12px] xl:p-[15px] p-[17px] 3xl:p-[20px]",
+  xl: "lg:p-[14px] xl:p-[17px] p-[20px] 3xl:p-[24px]",
+  "2xl": "lg:p-[16px] xl:p-[20px] p-[23px] 3xl:p-[27px]",
   smIcn: "lg:p-[4px] xl:p-[5px] p-[6px] 3xl:p-[7px]",
 };
 
@@ -61,6 +62,7 @@ Button.propTypes = {
     "RoundedBorder8",
     "CircleBorder35",
     "RoundedBorder12",
+    "icbRoundedBorder6",
     "icbCircleBorder16",
   ]),
   variant: PropTypes.oneOf([
@@ -70,8 +72,8 @@ Button.propTypes = {
     "FillGray900",
     "OutlineBlack900",
     "FillGray500",
-    "OutlineGray4001_2",
     "FillYellowA400",
+    "OutlineGray4001_2",
     "icbFillLightgreen800",
   ]),
   size: PropTypes.oneOf(["sm", "md", "lg", "xl", "2xl", "smIcn"]),

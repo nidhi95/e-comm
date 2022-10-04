@@ -6,7 +6,7 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    screens: { lg: "1120px", xl: "1281px", "2xl": "1441px", "3xl": "1729px" },
+    screens: { lg: "1024px", xl: "1281px", "2xl": "1441px", "3xl": "1729px" },
     extend: {
       colors: {
         red_800: "#cd2626",
@@ -44,10 +44,8 @@ module.exports = {
         light_green_900: "#3e4804",
         black_900: "#000000",
         yellow_700: "#fabf35",
-        black_901: "#000201",
         gray_903: "#2a2a16",
         gray_904: "#261e27",
-        deep_orange_A400: "#ff1616",
         yellow_100: "#fffdcc",
         black_900_bf: "#000000bf",
         gray_301: "#dfe0e0",
@@ -67,8 +65,8 @@ module.exports = {
         bluegray_700: "#394376",
         bluegray_500: "#637282",
         bluegray_101: "#d9d9d9",
-        indigo_902: "#102693",
         indigo_900: "#091a7a",
+        indigo_901: "#102693",
         bluegray_901: "#133240",
       },
       borderRadius: {
